@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Our Featured Portfolio &amp; Case Studies | Strat IQ Digital</title>
+
+<link href="https://cdn.prod.website-files.com/699ed6f18aceafc086e38a82/css/altrum-template.webflow.shared.d3f0c1233.css" rel="stylesheet" type="text/css" crossorigin="anonymous"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+
+<style>
+/* ── FORCE INLINE VISIBILITY FOR DEVERAL WEBFLOW DEPENDENCIES ── */
+.navigation-text-main, .fixed-menu, .line-absolute, .button-small-name, .blur-div, .button-big-line-overlay, .button-big-arrow, .social-tooltip, .slot-live-overlay {
+  visibility: visible !important;
+}
+.w-webflow-badge { display: none !important; }
+
+/* ── ISOLATED SCOPE: PREVENTS WORDPRESS/WEBFLOW FROM OVERRIDING ── */
+.portfolio-page-wrapper {
+  --bg-main: #0d0d0d;
+  --bg-card: #111111;
+  --border-color: rgba(255, 255, 255, 0.09);
+  --text-primary: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.52);
+  --text-dimmed: rgba(255, 255, 255, 0.28);
+  
+  background: var(--bg-main) !important;
+  color: var(--text-primary) !important;
+  font-family: 'Inter', sans-serif !important;
+  padding: 0 0 60px 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.portfolio-page-wrapper *, 
+.portfolio-page-wrapper *::before, 
+.portfolio-page-wrapper *::after {
+  box-sizing: border-box !important;
+}
+
+/* ── HERO BANNER (Edge-to-Edge) ── */
+.custom-hero-banner {
+  width: 100% !important;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+  margin: 0 0 40px 0 !important;
+  padding: 0 !important;
+}
+.custom-hero-banner img {
+  width: 100% !important;
+  height: 80vh !important;       /* CHANGED: Increased from 65vh to 80vh for maximum screen presence */
+  min-height: 450px !important;  /* CHANGED: Made the minimum baseline taller */
+  max-height: 900px !important;  /* CHANGED: Pushed max ceiling to 900px so it won't cap on big displays */
+  object-fit: cover !important;  
+  object-position: center !important; /* TIP: Change 'center' to 'top' if the top of the image gets cut off */
+  display: block !important;
+}
+
+/* ── LAYOUT CONTAINER ── */
+.portfolio-container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+}
+
+/* Header Styles */
+.portfolio-header-area {
+  border-bottom: 1px solid var(--border-color) !important;
+  padding-bottom: 20px !important;
+  margin-bottom: 40px !important;
+}
+.portfolio-tag {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: .16em !important;
+  text-transform: uppercase !important;
+  color: var(--text-muted) !important;
+  margin-bottom: 10px !important;
+}
+.portfolio-main-title {
+  font-size: clamp(32px, 5vw, 56px) !important;
+  font-weight: 800 !important;
+  letter-spacing: -.03em !important;
+  line-height: 1.1 !important;
+  color: var(--text-primary) !important;
+  margin: 0 !important;
+}
+
+/* ── THE GRID: FORCED 2 COLUMNS, 2 ROWS ── */
+.portfolio-grid-system {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 32px !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ── ENTIRE CARD IS A CLICKABLE ANCHOR ── */
+.clickable-portfolio-card {
+  display: flex !important;
+  flex-direction: column !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  width: 100% !important;
+  cursor: pointer !important;
+}
+
+.card-image-box {
+  width: 100% !important;
+  aspect-ratio: 16 / 10 !important;
+  overflow: hidden !important;
+  border: 1px solid var(--border-color) !important;
+  background: var(--bg-card) !important;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease !important;
+}
+
+.card-image-box img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* Hover effects tied to the overall card */
+.clickable-portfolio-card:hover .card-image-box {
+  transform: translateY(-4px) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+.clickable-portfolio-card:hover .card-image-box img {
+  transform: scale(1.04) !important;
+}
+
+/* Bottom Heading Details */
+.card-details-area {
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 10px !important;
+  margin-top: 16px !important;
+}
+.card-meta-year {
+  font-size: 11px !important;
+  color: var(--text-dimmed) !important;
+  font-weight: 500 !important;
+}
+.card-project-title {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+  margin: 0 !important;
+}
+
+/* ── RESPONSIVE DESIGN (ALL SCREENS) ── */
+@media (max-width: 768px) {
+  .portfolio-grid-system {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+  .custom-hero-banner img {
+    height: 55vh !important;     /* CHANGED: Increased from 45vh to 55vh for better mobile aspect ratio */
+    min-height: 350px !important;
+  }
+  .portfolio-container {
+    padding: 0 16px !important;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="portfolio-page-wrapper">
+
+  <div class="custom-hero-banner">
+    <img src="https://rscommunications.net/wp-content/uploads/2026/06/blog-test.jpeg" alt="Hero Banner" />
+  </div>
+
+  <div class="portfolio-container">
+    
+    <div class="portfolio-header-area">
+      <div class="portfolio-tag">Highlighted Work</div>
+      <h1 class="portfolio-main-title">©Featured Works</h1>
+    </div>
+
+    <div class="portfolio-grid-system">
+      
+      <a href="/project/forma-digital" class="clickable-portfolio-card">
+        <div class="card-image-box">
+          <img loading="lazy" src="https://rscommunications.net/wp-content/uploads/2026/06/Project-1-scaled.jpg" alt="Pentagon Games" />
+        </div>
+        <div class="card-details-area">
+          <div class="card-meta-year">©26</div>
+          <h2 class="card-project-title">Pentagon Games</h2>
+        </div>
+      </a>
+
+      <a href="/project/nero-vision" class="clickable-portfolio-card">
+        <div class="card-image-box">
+          <img loading="lazy" src="https://rscommunications.net/wp-content/uploads/2026/06/Project-2-scaled.jpg" alt="Raysz" />
+        </div>
+        <div class="card-details-area">
+          <div class="card-meta-year">©25</div>
+          <h2 class="card-project-title">Raysz</h2>
+        </div>
+      </a>
+
+      <a href="/project-cleverman" class="clickable-portfolio-card">
+        <div class="card-image-box">
+          <img loading="lazy" src="https://rscommunications.net/wp-content/uploads/2026/06/Project-4-scaled.jpg" alt="CleverMan" />
+        </div>
+        <div class="card-details-area">
+          <div class="card-meta-year">©24</div>
+          <h2 class="card-project-title">CleverMan</h2>
+        </div>
+      </a>
+
+      <a href="/project/bold-moves" class="clickable-portfolio-card">
+        <div class="card-image-box">
+          <img loading="lazy" src="https://rscommunications.net/wp-content/uploads/2026/06/Project-3-1-scaled.jpg" alt="Harrier Hardware" />
+        </div>
+        <div class="card-details-area">
+          <div class="card-meta-year">©24</div>
+          <h2 class="card-project-title">Harrier Hardware</h2>
+        </div>
+      </a>
+
+    </div></div></div></body>
+</html>

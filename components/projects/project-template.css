@@ -1,0 +1,348 @@
+/* ══════════════════════════════════════════════════════════════════════
+   Shared case-study detail template (ProjectTemplate.js)
+   Scoped under .project-template. Same palette as /projects: near-black
+   #070707, white text, pink accent #ffd6e8, Inter body, .funnel-bold
+   headings.
+   ══════════════════════════════════════════════════════════════════════ */
+
+.project-template {
+  background-color: #070707;
+  color: #fff;
+}
+
+/* ── Hero ─────────────────────────────────────────────────────────────── */
+.pt-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.pt-hero img {
+  display: block;
+  width: 100%;
+  height: 68vh;
+  min-height: 420px;
+  max-height: 820px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pt-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0) 35%, rgba(7, 7, 7, 0.95) 100%);
+  pointer-events: none;
+}
+
+.pt-hero-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 0 2% 48px;
+}
+
+.pt-eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #ffd6e8;
+  margin-bottom: 14px;
+}
+
+.pt-title {
+  font-size: clamp(2.4rem, 5.5vw, 5rem);
+  line-height: 1.03;
+  letter-spacing: -0.02em;
+  margin: 0 0 18px;
+  color: #fff;
+}
+
+.pt-subtitle {
+  font-size: clamp(1.05rem, 1.6vw, 1.35rem);
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 700px;
+  margin: 0;
+}
+
+/* ── Container ────────────────────────────────────────────────────────── */
+.pt-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+/* ── Meta block ───────────────────────────────────────────────────────── */
+.pt-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding: 56px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pt-meta-item-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 10px;
+}
+
+.pt-meta-item-value {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.pt-service-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pt-service-chip {
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 214, 232, 0.3);
+  border-radius: 999px;
+  color: #ffd6e8;
+  white-space: nowrap;
+}
+
+/* ── Gallery ──────────────────────────────────────────────────────────── */
+.pt-gallery {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pt-gallery-full img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.pt-gallery-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.pt-gallery-row img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* ── Body sections (Challenge / Approach / Design·Results·Conversion) ──── */
+.pt-section {
+  padding: 64px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pt-section-inner {
+  max-width: 780px;
+}
+
+.pt-section-heading {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  line-height: 1.15;
+  margin: 6px 0 24px;
+  color: #fff;
+}
+
+.pt-section-paragraph {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 16px;
+}
+
+.pt-bullet-list {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pt-bullet-list li {
+  position: relative;
+  padding-left: 26px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.pt-bullet-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 10px;
+  height: 2px;
+  background: #ffd6e8;
+}
+
+.pt-closing {
+  font-style: italic;
+  color: rgba(255, 214, 232, 0.9);
+  margin-top: 28px;
+  font-size: 1.05rem;
+}
+
+/* ── What Changed / What this means / What improved ──────────────────── */
+.pt-change-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 900px;
+}
+
+.pt-change-col-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.pt-change-col-label.is-before {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.pt-change-col-label.is-after {
+  color: #ffd6e8;
+}
+
+.pt-change-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pt-change-list li {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.85);
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pt-change-single {
+  max-width: 640px;
+}
+
+/* ── Other Works ──────────────────────────────────────────────────────── */
+.pt-other-works {
+  padding: 70px 0 110px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pt-other-works-heading {
+  font-size: clamp(1.8rem, 3.4vw, 2.8rem);
+  margin: 0 0 40px;
+}
+
+.pt-other-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.pt-other-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.pt-other-card-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #111;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+}
+
+.pt-other-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pt-other-card:hover .pt-other-card-image {
+  transform: translateY(-6px);
+  border-color: rgba(255, 214, 232, 0.35);
+}
+
+.pt-other-card:hover .pt-other-card-image img {
+  transform: scale(1.06);
+}
+
+.pt-other-card-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pt-other-card-year {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.pt-other-card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .pt-hero img {
+    height: 50vh;
+    min-height: 340px;
+  }
+
+  .pt-meta {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 40px 0;
+  }
+
+  .pt-gallery-row {
+    grid-template-columns: 1fr;
+  }
+
+  .pt-change-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .pt-other-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

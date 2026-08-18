@@ -1,0 +1,261 @@
+/* ══════════════════════════════════════════════════════════════════════
+   /contact page
+   Scoped under .contact-page so it never leaks into the ported Webflow
+   "Altrum" stylesheet or any other route. Palette matches the rest of the
+   site: near-black #070707, white text, pink accent #ffd6e8, Inter body,
+   .funnel-bold headings.
+   ══════════════════════════════════════════════════════════════════════ */
+
+.contact-page {
+  background-color: #070707;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* ── Hero ────────────────────────────────────────────────────────────── */
+.contact-hero {
+  padding-top: 160px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ffffff1a;
+}
+
+.contact-eyebrow {
+  color: #ffd6e8;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.contact-h2 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -1.3px;
+  margin: 0 0 16px;
+}
+
+.contact-tagline {
+  color: #ffffffb3;
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  font-weight: 500;
+  max-width: 40rem;
+  margin: 0;
+}
+
+/* ── Body layout ─────────────────────────────────────────────────────── */
+.contact-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  gap: 60px;
+  padding-top: 60px;
+  padding-bottom: 140px;
+  align-items: start;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-body {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.contact-form-wrap {
+  background-color: #33333380;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid #ffffff14;
+  border-radius: 12px;
+  padding: 36px;
+}
+
+@media screen and (max-width: 520px) {
+  .contact-form-wrap {
+    padding: 24px 18px;
+  }
+}
+
+/* ── Form ────────────────────────────────────────────────────────────── */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+@media screen and (max-width: 520px) {
+  .contact-form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-field {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ffffffb3;
+  margin-bottom: 8px;
+}
+
+.contact-input {
+  width: 100%;
+  color: #fff;
+  background-color: #444;
+  border: 1px solid #ffffff1a;
+  border-radius: 6px;
+  min-height: 54px;
+  padding: 14px 18px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-input::placeholder {
+  color: #ffffff96;
+}
+
+.contact-input:focus {
+  outline: none;
+  background-color: #121212;
+  border-color: #ffd6e8;
+  box-shadow: 0 0 0 3px #ffd6e833;
+}
+
+.contact-textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-field-error {
+  color: #ff9fb0;
+  font-size: 0.82rem;
+  margin-top: 6px;
+}
+
+/* ── Consent checkbox ────────────────────────────────────────────────── */
+.contact-consent {
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.contact-checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  color: #ffffffb3;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.contact-checkbox {
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  accent-color: #ffd6e8;
+  cursor: pointer;
+}
+
+/* ── Submit button ───────────────────────────────────────────────────── */
+.contact-submit {
+  align-self: flex-start;
+  color: #070707;
+  background-color: #ffd6e8;
+  border: none;
+  border-radius: 999px;
+  padding: 16px 34px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.contact-submit:hover {
+  opacity: 0.85;
+}
+
+.contact-submit:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* ── Status messages ─────────────────────────────────────────────────── */
+.contact-form-message {
+  border-radius: 8px;
+  padding: 24px 22px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.contact-form-message--success {
+  background-color: #212121;
+  color: #fff;
+  padding: 38px 30px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.contact-form-message--error {
+  background-color: #fa242a;
+  color: #fff;
+  margin-bottom: 22px;
+  border-radius: 6px;
+}
+
+.contact-form-message-detail {
+  opacity: 0.85;
+  font-weight: 400;
+}
+
+/* ── Direct contact sidebar ──────────────────────────────────────────── */
+.contact-direct {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 8px;
+}
+
+.contact-direct-title {
+  color: #ffffffb3;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+
+.contact-direct-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  border-bottom: 1px solid #ffffff33;
+  padding-bottom: 4px;
+  width: fit-content;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-direct-link:hover {
+  color: #ffd6e8;
+  border-color: #ffd6e8;
+}

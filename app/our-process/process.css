@@ -1,0 +1,470 @@
+/* ── /our-process — "IQ Process" page ───────────────────────────────────
+   Scoped, self-authored CSS (class prefix .iqp-*) for the Our Process page.
+   Not part of the Webflow export in globals.css -- this page's original
+   source used its own dark-theme editorial stylesheet. Recreated here from
+   a written structural spec; exact spacing/sizing is original judgement,
+   kept consistent with the rest of the site (dark sections, generous
+   whitespace, funnel-display bold headings). */
+
+.iqp-page {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.iqp-page * {
+  box-sizing: border-box;
+}
+
+.iqp-container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.iqp-section {
+  padding: 130px 0;
+  position: relative;
+}
+
+.iqp-section.iqp-tight-top {
+  padding-top: 90px;
+}
+
+/* Eyebrow / kicker text used throughout ------------------------------- */
+.iqp-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0 0 22px;
+}
+
+.iqp-eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Headings -------------------------------------------------------------*/
+.iqp-h1 {
+  font-size: clamp(2.6rem, 7vw, 5.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #fff;
+}
+
+.iqp-h2 {
+  font-size: clamp(2rem, 4.6vw, 3.4rem);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  margin: 0 0 22px;
+  color: #fff;
+}
+
+.iqp-body {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.68);
+  margin: 0 0 32px;
+  max-width: 46em;
+}
+
+/* Buttons ----------------------------------------------------------------*/
+.iqp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.95rem 1.7rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.01em;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.iqp-btn-filled {
+  background-color: #fff;
+  color: #0d0d0d;
+  border: 1px solid #fff;
+}
+
+.iqp-btn-filled:hover {
+  opacity: 0.8;
+}
+
+.iqp-btn-outline {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.iqp-btn-outline:hover {
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ── 1. Hero banner ──────────────────────────────────────────────────── */
+.iqp-hero {
+  position: relative;
+  height: 70vh;
+  min-height: 460px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.iqp-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.iqp-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(13, 13, 13, 0.35) 0%,
+    rgba(13, 13, 13, 0.35) 40%,
+    rgba(13, 13, 13, 0.95) 100%
+  );
+}
+
+.iqp-hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding-bottom: 64px;
+}
+
+.iqp-hero .iqp-eyebrow {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 18px;
+}
+
+/* ── 2. Intro + stat ticker ──────────────────────────────────────────── */
+.iqp-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+  margin-bottom: 90px;
+}
+
+.iqp-intro-right .iqp-btn {
+  margin-top: 6px;
+}
+
+.iqp-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 40px;
+}
+
+.iqp-stat {
+  padding-right: 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+  padding-left: 24px;
+}
+
+.iqp-stat:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.iqp-stat-num {
+  display: block;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  color: #fff;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.iqp-stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.02em;
+}
+
+/* ── 3. Architecture of ROI — 4-stage framework ──────────────────────── */
+.iqp-stages-header {
+  max-width: 640px;
+  margin-bottom: 90px;
+}
+
+.iqp-stage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.iqp-stage:last-of-type {
+  margin-bottom: 80px;
+}
+
+.iqp-stage-media {
+  order: 1;
+  border-radius: 14px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.iqp-stage-content {
+  order: 2;
+}
+
+.iqp-stage--reverse .iqp-stage-media {
+  order: 2;
+}
+
+.iqp-stage--reverse .iqp-stage-content {
+  order: 1;
+}
+
+.iqp-stage-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.iqp-stage-kicker {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 16px;
+}
+
+.iqp-stage-title {
+  font-size: clamp(1.7rem, 3.2vw, 2.4rem);
+  line-height: 1.15;
+  color: #fff;
+  margin: 0 0 20px;
+  letter-spacing: -0.01em;
+}
+
+.iqp-stage-body {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.68);
+  margin: 0 0 18px;
+}
+
+.iqp-stage-body:last-child {
+  margin-bottom: 0;
+}
+
+.iqp-inline-link {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.iqp-inline-link:hover {
+  opacity: 0.7;
+}
+
+.iqp-stage-link {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 3px;
+  margin: 0 0 18px;
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.iqp-stage-link:hover {
+  border-color: #fff;
+  opacity: 0.8;
+}
+
+.iqp-stages-cta {
+  display: flex;
+  justify-content: center;
+}
+
+/* ── 4. Strat IQ Guarantee ───────────────────────────────────────────── */
+.iqp-guarantee-header {
+  max-width: 640px;
+  margin-bottom: 70px;
+}
+
+.iqp-guarantee-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.iqp-guarantee-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 40px;
+  padding: 46px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  align-items: start;
+}
+
+.iqp-guarantee-marker {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.iqp-guarantee-icon {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.iqp-guarantee-num {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.iqp-guarantee-title {
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+
+.iqp-guarantee-body {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.68);
+  margin: 0;
+  max-width: 56em;
+}
+
+/* ── 5. Final CTA band ───────────────────────────────────────────────── */
+.iqp-final-cta {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.iqp-final-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 20px;
+}
+
+.iqp-final-cta .iqp-h2 {
+  margin-bottom: 44px;
+}
+
+.iqp-final-actions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+/* ── Scroll reveal ────────────────────────────────────────────────────── */
+.iqp-reveal {
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .iqp-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────── */
+@media screen and (max-width: 900px) {
+  .iqp-section {
+    padding: 90px 0;
+  }
+
+  .iqp-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+
+  .iqp-stats {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 32px;
+  }
+
+  .iqp-stat:nth-child(3) {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .iqp-stage {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-bottom: 70px;
+  }
+
+  .iqp-stage-media,
+  .iqp-stage--reverse .iqp-stage-media {
+    order: 1;
+  }
+
+  .iqp-stage-content,
+  .iqp-stage--reverse .iqp-stage-content {
+    order: 2;
+  }
+
+  .iqp-guarantee-item {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 32px 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .iqp-hero-content {
+    padding-bottom: 40px;
+  }
+
+  .iqp-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .iqp-final-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .iqp-final-actions .iqp-btn {
+    justify-content: center;
+  }
+}

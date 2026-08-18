@@ -1,0 +1,461 @@
+/* ══════════════════════════════════════════════════════════════════════
+   Shared template for the 11 individual /service-slug pages.
+   Scoped under .svc-page (class prefix .svc-*) — self-authored CSS, not
+   part of the ported Webflow "Altrum" stylesheet in globals.css. Palette
+   matches the rest of the site: near-black #070707, white text, pink
+   accent #ffd6e8, Inter body font, .funnel-bold headings.
+   ══════════════════════════════════════════════════════════════════════ */
+
+.svc-page {
+  background-color: #070707;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.svc-page * {
+  box-sizing: border-box;
+}
+
+.svc-container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.svc-section {
+  padding: 110px 0;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.svc-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffd6e8;
+  margin: 0 0 20px;
+}
+
+.svc-eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 1px;
+  background: #ffd6e8;
+}
+
+.svc-h2 {
+  font-size: clamp(2rem, 4.4vw, 3.2rem);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  margin: 0 0 50px;
+  max-width: 34em;
+  color: #fff;
+}
+
+/* ── Hero ─────────────────────────────────────────────────────────────── */
+.svc-hero {
+  position: relative;
+  padding: 260px 0 100px;
+  overflow: hidden;
+}
+
+.svc-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+  z-index: 0;
+}
+
+.svc-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0.55) 0%, rgba(7, 7, 7, 0.72) 45%, #070707 92%),
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 214, 232, 0.1), transparent 70%);
+}
+
+.svc-hero .svc-container {
+  position: relative;
+  z-index: 2;
+}
+
+.svc-hero-h1 {
+  font-size: clamp(2.6rem, 6.4vw, 5.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  margin: 0 0 28px;
+  max-width: 18em;
+  color: #fff;
+}
+
+.svc-hero-subhead {
+  font-size: 1.15rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.68);
+  max-width: 42em;
+  margin: 0 0 42px;
+}
+
+.svc-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 70px;
+}
+
+.svc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  padding: 0.95rem 1.6rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.svc-btn:hover {
+  opacity: 0.82;
+  transform: translateY(-1px);
+}
+
+.svc-btn-primary {
+  background-color: #fff;
+  color: #070707;
+}
+
+.svc-btn-secondary {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.svc-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 40px;
+}
+
+.svc-stat-value {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.svc-stat-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: -0.01em;
+}
+
+/* ── Card grid (Who It's For / Why Strat IQ) ────────────────────────── */
+.svc-who-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.svc-who-card {
+  position: relative;
+  background: #0d0d0d;
+  padding: 42px 38px;
+}
+
+.svc-why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.svc-why-card {
+  background: #0d0d0d;
+  padding: 42px 34px;
+}
+
+/* ── What's Included ─────────────────────────────────────────────────── */
+.svc-included-intro {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.62);
+  max-width: 44em;
+  margin: -20px 0 46px;
+}
+
+.svc-included-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.svc-included-card {
+  background: #0d0d0d;
+  padding: 42px 38px;
+}
+
+.svc-card-icon {
+  width: 40px;
+  height: 40px;
+  color: #ffd6e8;
+  margin-bottom: 22px;
+}
+
+.svc-card-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.svc-card-index {
+  position: absolute;
+  top: 38px;
+  right: 38px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+}
+
+.svc-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+
+.svc-card-body {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+/* ── Process ──────────────────────────────────────────────────────────── */
+.svc-process-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.svc-process-step {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 30px;
+  padding: 40px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.svc-process-step:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.svc-process-number {
+  font-size: 2.6rem;
+  color: rgba(255, 214, 232, 0.55);
+  line-height: 1;
+}
+
+.svc-process-content .svc-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+}
+
+.svc-process-content .svc-card-body {
+  max-width: 46em;
+  font-size: 1.02rem;
+}
+
+/* ── FAQ accordion ────────────────────────────────────────────────────── */
+.svc-faq-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.svc-faq-item {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.svc-faq-item:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.svc-faq-question {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px 1fr 24px;
+  align-items: center;
+  gap: 18px;
+  background: none;
+  border: 0;
+  padding: 26px 0;
+  cursor: pointer;
+  text-align: left;
+  color: #fff;
+  font-family: inherit;
+}
+
+.svc-faq-index {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.35);
+  font-weight: 600;
+}
+
+.svc-faq-q-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.svc-faq-item.is-open .svc-faq-q-text {
+  color: #ffd6e8;
+}
+
+.svc-faq-toggle {
+  font-size: 1.4rem;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+}
+
+.svc-faq-answer {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.svc-faq-a-text {
+  padding: 0 0 28px 58px;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.62);
+  max-width: 44em;
+  margin: 0;
+}
+
+.svc-inline-link {
+  color: #ffd6e8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ── Closing CTA band ─────────────────────────────────────────────────── */
+.svc-closing {
+  text-align: center;
+  background: radial-gradient(ellipse 70% 100% at 50% 100%, rgba(255, 214, 232, 0.07), transparent 70%);
+}
+
+.svc-closing-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.svc-closing .svc-eyebrow::before {
+  display: none;
+}
+
+.svc-closing-h2 {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  max-width: 18em;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.svc-closing-body {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 38em;
+  margin: 0 0 40px;
+}
+
+.svc-closing .svc-cta-row {
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .svc-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .svc-hero {
+    padding: 170px 0 70px;
+  }
+
+  .svc-included-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .svc-included-card {
+    padding: 34px 26px;
+  }
+
+  .svc-included-intro {
+    margin-top: 0;
+  }
+
+  .svc-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 20px;
+  }
+
+  .svc-who-grid,
+  .svc-why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .svc-who-card,
+  .svc-why-card {
+    padding: 34px 26px;
+  }
+
+  .svc-card-index {
+    top: 30px;
+    right: 26px;
+  }
+
+  .svc-process-step {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 30px 0;
+  }
+
+  .svc-faq-question {
+    grid-template-columns: 30px 1fr 20px;
+    gap: 12px;
+    padding: 20px 0;
+  }
+
+  .svc-faq-a-text {
+    padding-left: 42px;
+    padding-bottom: 22px;
+  }
+
+  .svc-section {
+    padding: 70px 0;
+  }
+}

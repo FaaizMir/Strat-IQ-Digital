@@ -1,0 +1,231 @@
+/* ══════════════════════════════════════════════════════════════════════
+   /services listing page
+   Scoped under .svcl-page (class prefix .svcl-*) — self-authored CSS, not
+   part of the ported Webflow "Altrum" stylesheet in globals.css. Palette
+   matches the rest of the site: near-black #070707, white text, pink
+   accent #ffd6e8, Inter body font, .funnel-bold headings.
+   ══════════════════════════════════════════════════════════════════════ */
+
+.svcl-page {
+  background-color: #070707;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.svcl-page * {
+  box-sizing: border-box;
+}
+
+.svcl-container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.svcl-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffd6e8;
+  margin: 0 0 36px;
+}
+
+/* ── Hero ─────────────────────────────────────────────────────────────── */
+.svcl-hero {
+  padding: 170px 0 80px;
+}
+
+.svcl-index-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 28px;
+  margin-bottom: 34px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  padding-top: 18px;
+}
+
+.svcl-index-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 6px 0;
+}
+
+.svcl-index-num {
+  color: rgba(255, 214, 232, 0.8);
+  font-weight: 600;
+}
+
+.svcl-h1 {
+  font-size: clamp(3.2rem, 9vw, 7.5rem);
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #fff;
+}
+
+/* ── Category blocks ──────────────────────────────────────────────────── */
+.svcl-list {
+  padding-bottom: 60px;
+}
+
+.svcl-category {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 30px;
+  padding: 54px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.svcl-category:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.svcl-category-index {
+  font-size: 1.5rem;
+  color: rgba(255, 214, 232, 0.6);
+}
+
+.svcl-category-title-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.svcl-category-title {
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  margin: 0 0 16px;
+  color: #fff;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease;
+  display: inline-block;
+}
+
+.svcl-category-title-link:hover .svcl-category-title {
+  color: #ffd6e8;
+}
+
+.svcl-category-desc {
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 46em;
+  margin: 0 0 26px;
+}
+
+.svcl-subitem-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.svcl-subitem-pill {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 30px;
+  padding: 8px 16px;
+  white-space: nowrap;
+}
+
+/* ── Testimonials ─────────────────────────────────────────────────────── */
+.svcl-testimonials {
+  padding: 54px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.svcl-testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.svcl-testimonial {
+  margin: 0;
+  background: #0d0d0d;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.svcl-testimonial-large {
+  grid-row: span 2;
+}
+
+.svcl-testimonial-quote {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #fff;
+  margin: 0 0 28px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.svcl-testimonial-large .svcl-testimonial-quote {
+  font-size: 1.45rem;
+}
+
+.svcl-testimonial-small .svcl-testimonial-quote {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.svcl-testimonial-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 18px;
+}
+
+.svcl-testimonial-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.svcl-testimonial-role {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 4px;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .svcl-testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .svcl-testimonial-large {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .svcl-hero {
+    padding: 130px 0 50px;
+  }
+
+  .svcl-index-list {
+    gap: 0 18px;
+  }
+
+  .svcl-category {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 38px 0;
+  }
+
+  .svcl-testimonial {
+    padding: 28px;
+  }
+}
