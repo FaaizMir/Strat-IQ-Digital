@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
-import { useGsapPlugins, ScrollTrigger } from "@/lib/gsap";
+import { getGsapWithPlugins, ScrollTrigger } from "@/lib/gsap";
 import { services } from "@/data/services";
 import useFadeUpReveal from "./useFadeUpReveal";
 
@@ -58,7 +58,7 @@ export default function Services() {
   useFadeUpReveal(containerRef, ".thumb-link-wrapper", { y: 28, stagger: 0.08 });
 
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
     if (!containerRef.current) return;
 
     // Mirrors the original mobile "reveal description on scroll" behaviour:

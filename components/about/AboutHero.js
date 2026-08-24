@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useGsapPlugins, SplitText } from "@/lib/gsap";
+import { getGsapWithPlugins, SplitText } from "@/lib/gsap";
 
 export default function AboutHero() {
   const headingRef = useRef(null);
 
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
     let split;
 
     const ctx = gsap.context(() => {

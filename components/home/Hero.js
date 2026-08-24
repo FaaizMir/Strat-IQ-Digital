@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
-import { useGsapPlugins, SplitText } from "@/lib/gsap";
+import { getGsapWithPlugins, SplitText } from "@/lib/gsap";
 import { services } from "@/data/services";
 
 const bySlug = (slug) => services.find((s) => s.slug === slug)?.href || "#";
@@ -21,7 +21,7 @@ export default function Hero() {
   const slideWrapRef = useRef(null);
 
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
     let split;
 
     const ctx = gsap.context(() => {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { useGsapPlugins, ScrollTrigger } from "@/lib/gsap";
+import { getGsapWithPlugins, ScrollTrigger } from "@/lib/gsap";
 
 /**
  * Reusable "fade up on scroll" reveal.
@@ -14,7 +14,7 @@ import { useGsapPlugins, ScrollTrigger } from "@/lib/gsap";
  */
 export default function useFadeUpReveal(containerRef, selector, opts = {}) {
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
     if (!containerRef.current) return;
 
     const ctx = gsap.context(() => {

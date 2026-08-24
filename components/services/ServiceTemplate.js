@@ -144,7 +144,7 @@ export default function ServiceTemplate({ content }) {
       {/* ── Who Is This Service For? ─────────────────────────────────── */}
       <section className="svc-section svc-who">
         <div className="svc-container">
-          <div className="svc-eyebrow">Who It's For</div>
+          <div className="svc-eyebrow">Who It&apos;s For</div>
           <h2 className="svc-h2 funnel-bold">Who Is This Service For?</h2>
 
           <div className="svc-who-grid">
@@ -166,7 +166,7 @@ export default function ServiceTemplate({ content }) {
       {content.whatsIncluded && (
         <section className="svc-section svc-included">
           <div className="svc-container">
-            <div className="svc-eyebrow">What's Included</div>
+            <div className="svc-eyebrow">What&apos;s Included</div>
             <h2 className="svc-h2 funnel-bold">{content.whatsIncludedHeading}</h2>
             {content.whatsIncludedIntro && (
               <p className="svc-included-intro">

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { useGsapPlugins } from "@/lib/gsap";
+import { getGsapWithPlugins } from "@/lib/gsap";
 import useFadeUpReveal from "./useFadeUpReveal";
 
 const carouselLogos = [
@@ -59,7 +59,7 @@ export default function Pricing() {
 
   // Infinite logo marquee (list is rendered twice back-to-back; loop -50%).
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
     if (!trackRef.current) return;
     const tween = gsap.to(trackRef.current, {
       xPercent: -50,
@@ -72,7 +72,7 @@ export default function Pricing() {
 
   // Accordion open/close height animation.
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
     contentRefs.current.forEach((el, i) => {
       if (!el) return;
       const target = i === openIndex ? el.scrollHeight : 0;

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useGsapPlugins, ScrollTrigger } from "@/lib/gsap";
+import { getGsapWithPlugins, ScrollTrigger } from "@/lib/gsap";
 
 const STORY_TEXT = [
   "We don't care about vanity metrics. We care about the \"what if.\" What if your brand actually lived up to its data?",
@@ -34,7 +34,7 @@ export default function PhilosophySection() {
   const mobileRef = useRef(null);
 
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
 
     const ctx = gsap.context(() => {
       const imgs = [1, 2, 3].map((n) => sectionRef.current.querySelector(`.image-animation._0${n}`));

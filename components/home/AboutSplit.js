@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useGsapPlugins, ScrollTrigger } from "@/lib/gsap";
+import { getGsapWithPlugins, ScrollTrigger } from "@/lib/gsap";
 
 const STORY_TEXT = [
   "Nouman Rao spent 15 years watching brands fall short, not from lack of product, but because of a lack of the right strategy. So he built Strat IQ Digital, an agency that leads with data, speaks in results, and treats your brand like its own. Strat IQ Digital was founded in 2026, with a global mindset and a very simple mission: help the right brands reach their full potential.",
@@ -34,7 +34,7 @@ export default function AboutSplit() {
   const mobileRef = useRef(null);
 
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
 
     const ctx = gsap.context(() => {
       const imgs = [1, 2, 3].map((n) => sectionRef.current.querySelector(`.image-animation._0${n}`));

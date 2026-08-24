@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { useGsapPlugins, ScrollTrigger } from "@/lib/gsap";
+import { getGsapWithPlugins, ScrollTrigger } from "@/lib/gsap";
 
 // Recreates the original page's IntersectionObserver-driven ".iqp-reveal"
 // fade-up-on-scroll pattern (with stagger delays via .d1/.d2/.d3) using
@@ -9,7 +9,7 @@ import { useGsapPlugins, ScrollTrigger } from "@/lib/gsap";
 // animation for every ".iqp-reveal" element already on the page.
 export default function ScrollReveal() {
   useEffect(() => {
-    const gsap = useGsapPlugins();
+    const gsap = getGsapWithPlugins();
     const els = gsap.utils.toArray(".iqp-reveal");
     const triggers = [];
 
