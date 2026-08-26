@@ -141,7 +141,8 @@ export default function Hero() {
                 <div className="team-photo">
                   <img
                     loading="lazy"
-                    src="/images/webflow/69a026dc6f23dbb1eca11356_team-2.png"
+                    // src="/images/webflow/69a026dc6f23dbb1eca11356_team-2.png"
+                    src="\images\webflow\Gemini_Generated_Image_a56hp0a56hp0a56h.jpg"
                     alt=""
                     className="img-team"
                   />
