@@ -1,0 +1,12 @@
+export { default as Hero } from "./Hero/Hero";
+export { default as LogoStrip } from "./LogoStrip/LogoStrip";
+export { default as ProvenResults } from "./ProvenResults/ProvenResults";
+export { default as BeforeAfter } from "./BeforeAfter/BeforeAfter";
+export { default as AgencyIntro } from "./AgencyIntro/AgencyIntro";
+export { default as Portfolio } from "./Portfolio/Portfolio";
+export { default as Services } from "./Services/Services";
+export { default as HowItWorks } from "./HowItWorks/HowItWorks";
+export { default as Testimonials } from "./Testimonials/Testimonials";
+export { default as FounderNote } from "./FounderNote/FounderNote";
+export { default as FAQ } from "./FAQ/FAQ";
+export { default as BookCallCTA } from "./BookCallCTA/BookCallCTA";

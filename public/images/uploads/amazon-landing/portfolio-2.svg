@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.03 0"/></filter></defs>
+<rect width="400" height="300" rx="14" fill="#141416"/>
+<rect width="400" height="300" rx="14" fill="url(#grain)"/>
+
+<rect x="30" y="30" width="340" height="240" rx="10" fill="#0b0b0c"/>
+<circle cx="200" cy="150" r="34" fill="#ff4b2b"/>
+<polygon points="190,134 190,166 216,150" fill="#0b0b0c"/>
+<rect x="50" y="248" width="220" height="10" rx="5" fill="#2a2a2d"/>
+
+</svg>

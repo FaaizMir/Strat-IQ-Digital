@@ -16,9 +16,10 @@ export default function Home() {
       <div className="main-content">
         <Hero />
         <TrustLogos />
-        <AboutSplit />
+        {/* <AboutSplit /> */}
       </div>
       <FeaturedWork />
+      <AboutSplit />
       <Services />
       <Testimonials />
       <VideoShowreel />

@@ -1,0 +1,82 @@
+/*
+  Design tokens for the Amazon Creatives & PPC page.
+  Matches the dark / red-orange identity of the existing Strat IQ Digital site
+  (near-black backgrounds, warm off-white text, one vivid accent, thin hairline
+  rules, numbered sequences only where content is actually a sequence).
+
+  Scoped under .amazonLanding so it never leaks into the rest of the app.
+*/
+
+.amazonLanding {
+  --al-bg: #0b0b0c;
+  --al-bg-elev: #141416;
+  --al-bg-elev-2: #1a1a1c;
+  --al-line: #262628;
+  --al-text: #f3f2ee;
+  --al-muted: #9a9a97;
+  --al-accent: #ff4b2b;
+  --al-accent-soft: rgba(255, 75, 43, 0.12);
+  --al-accent-dim: #7a2415;
+
+  --al-font-display: "Neue Haas Grotesk Display", "Helvetica Neue", Arial, sans-serif;
+  --al-font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  --al-container: 1180px;
+  --al-radius: 14px;
+  --al-radius-sm: 8px;
+
+  background: var(--al-bg);
+  color: var(--al-text);
+  font-family: var(--al-font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.amazonLanding * {
+  box-sizing: border-box;
+}
+
+.amazonLanding section {
+  padding: clamp(56px, 8vw, 128px) 0;
+}
+
+.amazonLanding .container {
+  max-width: var(--al-container);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.amazonLanding .eyebrow {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--al-muted);
+  margin-bottom: 16px;
+  letter-spacing: 0.01em;
+}
+
+.amazonLanding h2 {
+  font-family: var(--al-font-display);
+  font-weight: 500;
+  font-size: clamp(28px, 3.6vw, 44px);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  margin: 0 0 20px;
+  max-width: 680px;
+}
+
+.amazonLanding p {
+  color: var(--al-muted);
+  line-height: 1.6;
+  font-size: 16px;
+  max-width: 60ch;
+}
+
+.amazonLanding a {
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .amazonLanding * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

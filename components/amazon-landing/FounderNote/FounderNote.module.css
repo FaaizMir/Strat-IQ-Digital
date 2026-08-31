@@ -1,0 +1,48 @@
+.section {
+  border-bottom: 1px solid var(--al-line);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--al-radius);
+  border: 1px solid var(--al-line);
+  display: block;
+}
+
+.headline {
+  font-family: var(--al-font-display);
+  font-size: clamp(26px, 3.4vw, 38px);
+  font-weight: 500;
+  line-height: 1.18;
+  margin: 0 0 22px;
+  max-width: 20ch;
+}
+
+.paragraph {
+  margin-bottom: 18px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 12px;
+  border-bottom: 1px solid var(--al-accent);
+  color: var(--al-accent);
+  padding-bottom: 2px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

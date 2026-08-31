@@ -48,26 +48,61 @@ export default function FeaturedWork() {
           </div>
         </div>
       </div>
+
       <section className="section for-work">
-        <div>
+        {/* Centered wrapper box */}
+        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 20px" }}>
           <div className="collection-list-wrapper w-dyn-list">
-            <div role="list" className="w-dyn-items" ref={containerRef}>
+            <div 
+              role="list" 
+              className="w-dyn-items" 
+              ref={containerRef}
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(4, minmax(0, 1fr))",
+                gap: "20px",
+                justifyContent: "center",
+                alignItems: "start"
+              }}
+            >
               {projects.map((p) => (
-                <div role="listitem" className="work-wrapper w-dyn-item" key={p.href}>
+                <div role="listitem" className="work-wrapper w-dyn-item" key={p.href} style={{ width: "100%" }}>
                   <div className="work-card">
                     <Link href={p.href} className="work-card-link w-inline-block">
-                      <div className="main-image">
-                        <img loading="lazy" src={p.image} alt="" className="image-bacgkround" />
+                      <div 
+                        className="main-image" 
+                        style={{ 
+                          width: "100%", 
+                          aspectRatio: "3/2", 
+                          borderRadius: "12px", 
+                          overflow: "hidden", 
+                          position: "relative" 
+                        }}
+                      >
+                        <img 
+                          loading="lazy" 
+                          src={p.image} 
+                          alt={p.title} 
+                          className="image-bacgkround" 
+                          style={{ 
+                            width: "100%", 
+                            height: "100%", 
+                            objectFit: "cover", 
+                            display: "block" 
+                          }}
+                        />
                         <div className="overlay"></div>
                       </div>
                     </Link>
                   </div>
-                  <div className="text-info-bottom">
-                    <div className="text-flex">
+                  <div className="text-info-bottom" style={{ marginTop: "10px" }}>
+                    <div className="text-flex" style={{ display: "flex", gap: "4px", fontSize: "14px", opacity: 0.7 }}>
                       <div>©</div>
                       <div>{p.year}</div>
                     </div>
-                    <h2 className="work-title">{p.title}</h2>
+                    <h2 className="work-title" style={{ fontSize: "16px", marginTop: "4px", fontWeight: "600" }}>
+                      {p.title}
+                    </h2>
                   </div>
                   <div className="trigger"></div>
                 </div>

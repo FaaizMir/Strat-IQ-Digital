@@ -1,0 +1,18 @@
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <radialGradient id="fg" cx="0.75" cy="0.2" r="0.9">
+    <stop offset="0" stop-color="#ff4b2b" stop-opacity="0.25"/>
+    <stop offset="1" stop-color="#0b0b0c" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.03 0"/></filter>
+</defs>
+<rect width="700" height="560" fill="#141416"/>
+<rect width="700" height="560" fill="url(#fg)"/>
+<rect width="700" height="560" fill="url(#grain)"/>
+<circle cx="560" cy="120" r="120" fill="none" stroke="#2a2a2d" stroke-width="1"/>
+<circle cx="560" cy="120" r="80" fill="none" stroke="#ff4b2b" stroke-width="1.5" opacity="0.6"/>
+<line x1="60" y1="420" x2="640" y2="420" stroke="#2a2a2d"/>
+<polyline points="60,400 160,380 260,410 360,340 460,360 560,300 640,320" fill="none" stroke="#ff4b2b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="60" y="470" font-family="Georgia, serif" font-size="22" fill="#f3f2ee">Data over guesswork.</text>
+<text x="60" y="500" font-family="Georgia, serif" font-size="22" fill="#8f8f8c">Creative that compounds.</text>
+</svg>

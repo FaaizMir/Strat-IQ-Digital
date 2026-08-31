@@ -1,0 +1,39 @@
+.section {
+  border-bottom: 1px solid var(--al-line);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 44px;
+}
+
+.tile {
+  border-radius: var(--al-radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--al-line);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.tile:hover .image {
+  transform: scale(1.02);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

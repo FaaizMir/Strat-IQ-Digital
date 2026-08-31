@@ -1,0 +1,24 @@
+<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#141416"/>
+    <stop offset="1" stop-color="#0b0b0c"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ff4b2b" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#ff4b2b" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.03 0"/></filter>
+</defs>
+<rect width="620" height="620" rx="28" fill="url(#hg)"/>
+<rect width="620" height="620" rx="28" fill="url(#grain)"/>
+<circle cx="520" cy="90" r="180" fill="url(#glow)"/>
+<rect x="40" y="60" width="200" height="14" rx="7" fill="#2a2a2d"/>
+<rect x="40" y="86" width="130" height="10" rx="5" fill="#2a2a2d"/>
+<g><rect x="40" y="432.0" width="34" height="88.0" rx="4" fill="#3a3a3d"/><rect x="88" y="383.6" width="34" height="136.39999999999998" rx="4" fill="#3a3a3d"/><rect x="136" y="410.0" width="34" height="110.0" rx="4" fill="#3a3a3d"/><rect x="184" y="348.4" width="34" height="171.60000000000002" rx="4" fill="#3a3a3d"/><rect x="232" y="370.4" width="34" height="149.60000000000002" rx="4" fill="#3a3a3d"/><rect x="280" y="317.6" width="34" height="202.39999999999998" rx="4" fill="#3a3a3d"/><rect x="328" y="335.2" width="34" height="184.8" rx="4" fill="#3a3a3d"/><rect x="376" y="278.0" width="34" height="242.0" rx="4" fill="#ff4b2b"/></g>
+<polyline points="57,414.0 105,365.6 153,392.0 201,330.4 249,352.4 297,299.6 345,317.2 393,260.0" fill="none" stroke="#ff4b2b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+<circle cx="393" cy="260.0" r="6" fill="#ff4b2b"/>
+<rect x="40" y="548" width="540" height="1" fill="#2a2a2d"/>
+<text x="40" y="580" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8f8f8c">Session growth</text>
+<text x="480" y="580" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#ff4b2b" text-anchor="end">+114%</text>
+</svg>

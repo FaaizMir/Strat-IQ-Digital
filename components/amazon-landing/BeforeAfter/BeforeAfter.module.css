@@ -1,0 +1,34 @@
+.section {
+  border-bottom: 1px solid var(--al-line);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 44px;
+}
+
+.item {
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--al-radius-sm);
+  border: 1px solid var(--al-line);
+  display: block;
+}
+
+.caption {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--al-muted);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
