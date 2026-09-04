@@ -24,7 +24,7 @@ export default function WhyUs() {
                 analytical lens to every pixel and every penny.
               </p>
               <div className="divider-s"></div>
-              <Link href="/services" className="button-arrow w-inline-block">
+              <Link href="/service" className="button-arrow w-inline-block">
                 <img
                   width="9"
                   loading="lazy"
@@ -51,7 +51,7 @@ export default function WhyUs() {
                   </div>
                   <div className="smaller-text">
                     Explore our{" "}
-                    <Link href="/conversion-optimization-services">conversion optimization services</Link>
+                    <Link href="/service/conversion-optimization-services">conversion optimization services</Link>
                   </div>
                 </div>
               </div>
@@ -66,8 +66,8 @@ export default function WhyUs() {
                     </p>
                   </div>
                   <div className="smaller-text">
-                    Explore <Link href="/google-ads-management-services">Google Ads</Link> ·{" "}
-                    <Link href="/amazon-ppc-management-services">Amazon PPC</Link>
+                    Explore <Link href="/service/google-ads-management-services">Google Ads</Link> ·{" "}
+                    <Link href="/service/amazon-ppc-management-services">Amazon PPC</Link>
                   </div>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function WhyUs() {
                     </p>
                   </div>
                   <div className="smaller-text">
-                    Explore our <Link href="/system-integration-services">system integration services</Link>
+                    Explore our <Link href="/service/system-integration-services">system integration services</Link>
                   </div>
                 </div>
               </div>

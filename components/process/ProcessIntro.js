@@ -28,7 +28,7 @@ export default function ProcessIntro() {
               shortest path between your brand&apos;s current state and its
               peak potential.
             </p>
-            <Link href="/services" className="iqp-btn iqp-btn-outline">
+            <Link href="/service" className="iqp-btn iqp-btn-outline">
               See All Services →
             </Link>
           </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { mainNavLinks } from "@/data/services";
 
 const footerLinks = [
-  { href: "/services", label: "Services" },
+  { href: "/service", label: "Services" },
   ...mainNavLinks,
 ];
 

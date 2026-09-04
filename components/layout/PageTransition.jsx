@@ -1,58 +1,30 @@
 "use client";
 
-import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import IntroLoader from "./IntroLoader";
 
-
 export default function PageTransition({ children }) {
+  const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    // Check if the intro loader has already been shown in this session
+    const hasLoaded = sessionStorage.getItem("hasLoadedIntro");
 
-    const pathname = usePathname();
+    if (!hasLoaded) {
+      setLoading(true);
+    }
+  }, []);
 
+  const handleFinishLoading = () => {
+    // Save to sessionStorage so it won't show again on route change or reload
+    sessionStorage.setItem("hasLoadedIntro", "true");
+    setLoading(false);
+  };
 
-    const [loading, setLoading] = useState(false);
-
-
-
-    useEffect(() => {
-
-
-        setLoading(true);
-
-
-
-    }, [pathname]);
-
-
-
-
-
-    return (
-
-        <>
-
-
-            {
-                loading && (
-
-                    <IntroLoader
-                        finishLoading={() => setLoading(false)}
-                    />
-
-                )
-
-            }
-
-
-
-            {children}
-
-
-        </>
-
-
-    );
-
-
+  return (
+    <>
+      {loading && <IntroLoader finishLoading={handleFinishLoading} />}
+      {children}
+    </>
+  );
 }

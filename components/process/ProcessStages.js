@@ -61,7 +61,7 @@ export default function ProcessStages() {
               — we engineer for transactions.
             </p>
             <Link
-              href="/conversion-optimization-services"
+              href="/service/conversion-optimization-services"
               className="iqp-stage-link"
             >
               See Conversion Optimization →
@@ -88,7 +88,7 @@ export default function ProcessStages() {
               highest-performing channels.
             </p>
             <Link
-              href="/creative-strategy-services"
+              href="/service/creative-strategy-services"
               className="iqp-stage-link"
             >
               See Creative Strategy →
@@ -118,7 +118,7 @@ export default function ProcessStages() {
               market shifts in real-time, refining the logic until your
               growth becomes{" "}
               <Link
-                href="/conversion-optimization-services"
+                href="/service/conversion-optimization-services"
                 className="iqp-inline-link"
               >
                 an automated, scalable machine

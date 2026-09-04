@@ -54,7 +54,7 @@ priority
 
 <div className="nav-services-wrapper">
 
-<Link href="/services" className="button-link w-inline-block">
+<Link href="/service" className="button-link w-inline-block">
 
 <div className="button-flex">
 

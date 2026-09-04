@@ -17,7 +17,7 @@ export default function ProcessCTA() {
           <Link href="/contact" className="iqp-btn iqp-btn-filled">
             Let&apos;s Talk →
           </Link>
-          <Link href="/services" className="iqp-btn iqp-btn-outline">
+          <Link href="/service" className="iqp-btn iqp-btn-outline">
             All Services
           </Link>
         </div>

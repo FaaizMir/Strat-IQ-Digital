@@ -82,9 +82,9 @@ export const servicesContent = {
         title: `Enhanced Visual Conversion Strategy`,
         body: [
           `We don't just drive traffic — we make sure it converts. Our team creates and optimizes high-impact listing images, hero shots, lifestyle graphics, and infographics, working hand-in-hand with our `,
-          { text: "creative strategy services", href: "/creative-strategy-services" },
+          { text: "creative strategy services", href: "/service/creative-strategy-services" },
           ` and `,
-          { text: "conversion optimization", href: "/conversion-optimization-services" },
+          { text: "conversion optimization", href: "/service/conversion-optimization-services" },
           ` approach.`,
         ],
       },
@@ -204,7 +204,7 @@ export const servicesContent = {
         title: `Advanced Targeting & Tracking`,
         body: [
           `To get real results you need to know who's clicking. We set up advanced tracking — Meta Pixel and Conversions API — so we can see exactly which ads are making you money. This integrates directly with our `,
-          { text: "conversion optimization", href: "/conversion-optimization-services" },
+          { text: "conversion optimization", href: "/service/conversion-optimization-services" },
           ` services for a complete picture of your funnel.`,
         ],
       },
@@ -212,7 +212,7 @@ export const servicesContent = {
         title: `Creative Strategy & Content`,
         body: [
           `Good ads need to look good. Our full `,
-          { text: "creative strategy", href: "/creative-strategy-services" },
+          { text: "creative strategy", href: "/service/creative-strategy-services" },
           ` services cover everything from Reels to high-converting static images — creative that gets people to stop scrolling and start shopping.`,
         ],
       },
@@ -297,7 +297,7 @@ export const servicesContent = {
     heroHeadline: `Google Ads & PPC Management`,
     heroSubhead: [
       `Google is the first place people go when they're ready to buy. Most businesses waste that opportunity on broad keywords that generate clicks and zero sales. At Strat IQ Digital, we bridge the gap between search and sale — using 15 years of performance data, and our own `,
-      { text: "conversion optimization", href: "/conversion-optimization-services" },
+      { text: "conversion optimization", href: "/service/conversion-optimization-services" },
       ` process, to make sure every click turns into revenue.`,
     ],
     stats: STATS,
@@ -336,7 +336,7 @@ export const servicesContent = {
         title: `Performance Max & Display Advertising`,
         body: [
           `Modern search needs modern tools. As a `,
-          { text: "performance-driven", href: "/conversion-optimization-services" },
+          { text: "performance-driven", href: "/service/conversion-optimization-services" },
           ` team, we use Google's AI-driven campaigns to find customers across every Google platform, plus visual display ads that build brand awareness and stay top-of-mind for your target audience.`,
         ],
       },
@@ -425,7 +425,7 @@ export const servicesContent = {
     heroHeadline: `Shopify Design & Development`,
     heroSubhead: [
       `Building a store is easy. Building one that actually sells is hard. Every second your site takes to load, you're losing money to your competitors — and that's `,
-      { text: "marketing budget", href: "/full-service-ecommerce-marketing" },
+      { text: "marketing budget", href: "/service/full-service-ecommerce-marketing" },
       ` being wasted. At Strat IQ Digital, we use 15 years of e-commerce experience to find exactly what's stopping your store from converting — then we fix it.`,
     ],
     stats: STATS,
@@ -580,7 +580,7 @@ export const servicesContent = {
         title: `Technical & Organic SEO`,
         body: [
           `A great story is useless if Google can't find it. We handle the complex technical side, from `,
-          { text: "site speed", href: "/conversion-optimization-services" },
+          { text: "site speed", href: "/service/conversion-optimization-services" },
           ` — which is also a conversion factor — to sitemaps and schema markup, building a clean, fast, healthy site that search engines love to rank.`,
         ],
       },
@@ -675,11 +675,11 @@ export const servicesContent = {
     heroHeadline: `Creative Strategy Services`,
     heroSubhead: [
       `In 2026, beauty alone isn't enough. If your visuals don't have a strategy behind them, they're just noise — pretty assets with low click-through rates and no revenue to show for it. At Strat IQ Digital, we combine art with logic, bridging the gap between "looking good" and performing well in your `,
-      { text: "sales funnel", href: "/conversion-optimization-services" },
+      { text: "sales funnel", href: "/service/conversion-optimization-services" },
       `. This applies to every `,
-      { text: "Meta ads", href: "/meta-instagram-ads-services" },
+      { text: "Meta ads", href: "/service/meta-instagram-ads-services" },
       ` and `,
-      { text: "Google Ads", href: "/google-ads-management-services" },
+      { text: "Google Ads", href: "/service/google-ads-management-services" },
       ` creative we produce.`,
     ],
     stats: STATS,
@@ -714,9 +714,9 @@ export const servicesContent = {
         title: `Ad Creative & Social Production`,
         body: [
           `We produce the assets that power your growth — high-energy videos and scroll-stopping images built for modern platforms, used across your `,
-          { text: "Meta advertising", href: "/meta-instagram-ads-services" },
+          { text: "Meta advertising", href: "/service/meta-instagram-ads-services" },
           ` and `,
-          { text: "Google display campaigns", href: "/google-ads-management-services" },
+          { text: "Google display campaigns", href: "/service/google-ads-management-services" },
           `.`,
         ],
       },
@@ -724,7 +724,7 @@ export const servicesContent = {
         title: `Content Marketing & SEO Strategy`,
         body: [
           `Content should be useful and findable. We create everything from long-form guides to blog content, with `,
-          { text: "SEO strategy", href: "/Seo-content-strategy-services" },
+          { text: "SEO strategy", href: "/service/Seo-content-strategy-services" },
           ` logic built in — so your content doesn't just look great, it also helps you rank higher on organic search.`,
         ],
       },
@@ -732,7 +732,7 @@ export const servicesContent = {
         title: `Brand Identity & Storytelling`,
         body: [
           `We help you find your voice. Our `,
-          { text: "branding & design", href: "/branding-and-design-services" },
+          { text: "branding & design", href: "/service/branding-and-design-services" },
           ` framework tells your customers who you are, what you stand for, and why they should choose you over anyone else.`,
         ],
       },
@@ -819,7 +819,7 @@ export const servicesContent = {
     heroHeadline: `Conversion Optimization & Funnels`,
     heroSubhead: [
       `If you're spending thousands on `,
-      { text: "ads", href: "/google-ads-management-services" },
+      { text: "ads", href: "/service/google-ads-management-services" },
       ` but sales aren't growing, you don't have a traffic problem — you have a conversion problem. Most websites are leaky buckets. At Strat IQ Digital, we stop the leaks. We use 15 years of data to find exactly where visitors drop off, and we fix it so the traffic you already have turns into the revenue you deserve.`,
     ],
     stats: STATS,
@@ -858,7 +858,7 @@ export const servicesContent = {
         title: `CRM & Sales Automation`,
         body: [
           `Efficiency is key to conversion. We provide `,
-          { text: "CRM integration", href: "/system-integration-services" },
+          { text: "CRM integration", href: "/service/system-integration-services" },
           ` so leads are tracked and nurtured automatically — workflows that follow up on abandoned carts or newsletter signups, so no opportunity is missed.`,
         ],
       },
@@ -866,9 +866,9 @@ export const servicesContent = {
         title: `Landing Page Engineering`,
         body: [
           `Your `,
-          { text: "ads", href: "/meta-instagram-ads-services" },
+          { text: "ads", href: "/service/meta-instagram-ads-services" },
           ` deserve a destination that sells. We design and build high-converting `,
-          { text: "landing pages", href: "/ui-ux-design-services" },
+          { text: "landing pages", href: "/service/ui-ux-design-services" },
           ` that match your ad messaging perfectly — fast, mobile-friendly, and highly persuasive.`,
         ],
       },
@@ -953,7 +953,7 @@ export const servicesContent = {
     heroHeadline: `Branding & Design Services`,
     heroSubhead: [
       `Even a huge `,
-      { text: "ad budget", href: "/google-ads-management-services" },
+      { text: "ad budget", href: "/service/google-ads-management-services" },
       ` can't save a brand that looks unprofessional. In a crowded market, your visual identity is your first and last chance to build trust. At Strat IQ Digital, we don't just make things look good — we build visual authority from the ground up, using 15 years of market data to create identities that make your brand look like it already won.`,
     ],
     stats: STATS,
@@ -988,7 +988,7 @@ export const servicesContent = {
         title: `Digital & Ad Creative Design`,
         body: [
           `Your ads are often the first thing a customer sees. We design ads and `,
-          { text: "creative strategy", href: "/creative-strategy-services" },
+          { text: "creative strategy", href: "/service/creative-strategy-services" },
           ` — social banners and video assets that aren't just beautiful, they're engineered to get clicks and sales.`,
         ],
       },
@@ -1000,7 +1000,7 @@ export const servicesContent = {
         title: `Website Design & Branding`,
         body: [
           `Your website is your brand's home. We make sure your online presence is fast, modern, and aligned with your overall identity — with `,
-          { text: "user experience", href: "/ui-ux-design-services" },
+          { text: "user experience", href: "/service/ui-ux-design-services" },
           ` as sharp as the visual design.`,
         ],
       },
@@ -1085,7 +1085,7 @@ export const servicesContent = {
     heroHeadline: `UI/UX Design Services`,
     heroSubhead: [
       `A website can look beautiful and still fail to make money. If visitors can't find what they need in three seconds, they leave — and you've just paid for an `,
-      { text: "ad", href: "/meta-instagram-ads-services" },
+      { text: "ad", href: "/service/meta-instagram-ads-services" },
       ` to send someone to a dead end. At Strat IQ Digital, we engineer interfaces that guide users toward the checkout button, using 15 years of data on exactly how customers actually behave.`,
     ],
     stats: STATS,
@@ -1120,7 +1120,7 @@ export const servicesContent = {
         title: `Ecommerce User Experience Design`,
         body: [
           `Selling online requires specific logic. As a `,
-          { text: "Shopify development", href: "/shopify-development-services" },
+          { text: "Shopify development", href: "/service/shopify-development-services" },
           ` and UX partner, we know how to optimize product pages, carts, and checkouts so the path to purchase is short, fast, and satisfying for every customer.`,
         ],
       },
@@ -1132,7 +1132,7 @@ export const servicesContent = {
         title: `Interaction Design & Usability Testing`,
         body: [
           `Digital design should be interactive. We combine `,
-          { text: "conversion optimization", href: "/conversion-optimization-services" },
+          { text: "conversion optimization", href: "/service/conversion-optimization-services" },
           ` with interaction design to make your site feel alive and responsive, then watch real people use it to make sure the final product is truly user-friendly.`,
         ],
       },
@@ -1217,9 +1217,9 @@ export const servicesContent = {
     heroHeadline: `System Integration Services`,
     heroSubhead: [
       `Most businesses don't have a lack of tools — they have a lack of communication between them. When your `,
-      { text: "ads", href: "/google-ads-management-services" },
+      { text: "ads", href: "/service/google-ads-management-services" },
       `, your CRM, and your `,
-      { text: "ecommerce store", href: "/shopify-development-services" },
+      { text: "ecommerce store", href: "/service/shopify-development-services" },
       ` don't talk to each other, you lose data, waste hours on manual work, and miss sales that should have been automatic. At Strat IQ Digital, we build the digital glue that holds your operation together.`,
     ],
     stats: STATS,
@@ -1250,7 +1250,7 @@ export const servicesContent = {
         title: `CRM & Marketing Automation`,
         body: [
           `Your CRM should be the heart of your business. We make sure every lead from your `,
-          { text: "ads", href: "/google-ads-management-services" },
+          { text: "ads", href: "/service/google-ads-management-services" },
           ` is instantly tracked, tagged, and followed up with — and that your email and SMS tools work perfectly with your sales data.`,
         ],
       },
@@ -1262,7 +1262,7 @@ export const servicesContent = {
         title: `Ecommerce & Platform Integration`,
         body: [
           `Your store shouldn't be an island. We connect your `,
-          { text: "Shopify store", href: "/shopify-development-services" },
+          { text: "Shopify store", href: "/service/shopify-development-services" },
           ` to your accounting, shipping, and inventory tools, so when a sale happens, every other part of your business knows about it instantly.`,
         ],
       },
@@ -1270,7 +1270,7 @@ export const servicesContent = {
         title: `Business Process Automation`,
         body: [
           `We look at your entire operation to find efficiency opportunities, reducing human error and speeding up fulfillment. This is also critical for `,
-          { text: "conversion optimization", href: "/conversion-optimization-services" },
+          { text: "conversion optimization", href: "/service/conversion-optimization-services" },
           `, since automated follow-ups keep potential buyers engaged.`,
         ],
       },
@@ -1355,11 +1355,11 @@ export const servicesContent = {
     heroHeadline: `End-to-End Performance Marketing`,
     heroSubhead: [
       `Most brands hire one person for `,
-      { text: "SEO", href: "/Seo-content-strategy-services" },
+      { text: "SEO", href: "/service/Seo-content-strategy-services" },
       `, another for `,
-      { text: "ads", href: "/google-ads-management-services" },
+      { text: "ads", href: "/service/google-ads-management-services" },
       `, and a third for `,
-      { text: "design", href: "/branding-and-design-services" },
+      { text: "design", href: "/service/branding-and-design-services" },
       ` — then wonder why nothing connects. Fragmented teams produce fragmented results. At Strat IQ Digital, we are the unified engine your brand has been missing.`,
     ],
     stats: STATS,
@@ -1390,7 +1390,7 @@ export const servicesContent = {
         title: `Performance Marketing & Revenue Growth`,
         body: [
           `We drive the numbers that matter. We manage your `,
-          { text: "paid media", href: "/google-ads-management-services" },
+          { text: "paid media", href: "/service/google-ads-management-services" },
           ` across all major platforms, building a framework focused on finding the most profitable customers for your brand and keeping them coming back.`,
         ],
       },
@@ -1398,9 +1398,9 @@ export const servicesContent = {
         title: `eCommerce Growth & Strategy`,
         body: [
           `Selling online is a complex puzzle. We optimize your `,
-          { text: "Shopify store", href: "/shopify-development-services" },
+          { text: "Shopify store", href: "/service/shopify-development-services" },
           `, your pricing strategy, and your product positioning — covering everything from `,
-          { text: "conversion rate optimization", href: "/conversion-optimization-services" },
+          { text: "conversion rate optimization", href: "/service/conversion-optimization-services" },
           ` to high-end creative production.`,
         ],
       },
@@ -1408,7 +1408,7 @@ export const servicesContent = {
         title: `360 Degree Digital Strategy`,
         body: [
           `We look at your brand from every angle, making sure your `,
-          { text: "SEO and Content", href: "/Seo-content-strategy-services" },
+          { text: "SEO and Content", href: "/service/Seo-content-strategy-services" },
           ` and Paid Ads work in total harmony — every dollar spent on ads also helps your organic rankings, creating a flywheel effect for your growth.`,
         ],
       },
@@ -1416,9 +1416,9 @@ export const servicesContent = {
         title: `Full Service Ecommerce Support`,
         body: [
           `From technical site maintenance to `,
-          { text: "email marketing flows", href: "/system-integration-services" },
+          { text: "email marketing flows", href: "/service/system-integration-services" },
           ` and `,
-          { text: "brand design", href: "/branding-and-design-services" },
+          { text: "brand design", href: "/service/branding-and-design-services" },
           `, we cover the entire spectrum — so your digital storefront is always open, fast, and ready to sell.`,
         ],
       },
