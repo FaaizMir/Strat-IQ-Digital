@@ -2733,6 +2733,11 @@ blockquote {
   position: fixed;
   inset: 0% 0% 0% auto;
   transform: translate(100%);
+  transition: transform 0.4s ease;
+}
+
+.fixed-menu.open-active {
+  transform: translate(0);
 }
 
 .navbar-wrapper {
@@ -7333,6 +7338,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100% !important;
     background: #111;
     overflow-y: auto !important;
     -webkit-overflow-scrolling: touch;
@@ -7345,10 +7351,17 @@ img {
     display: block !important;
   }
 
+  /* Desktop-only decorative reveal accent -- has no animation wired up and
+     just steals width from the mobile menu content, so hide it below 767px. */
+  .navbar-skew-fixed {
+    display: none !important;
+  }
+
   .navigation-content {
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-start !important;
+    width: 100% !important;
   }
 }
 
