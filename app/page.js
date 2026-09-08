@@ -20,7 +20,7 @@ export default function Home() {
         {/* <AboutSplit /> */}
       </div>
       <ServicesSection />
-      <FeaturedWork />
+      {/* <FeaturedWork /> */}
       <AboutSplit />
       <Services />
       <Testimonials />

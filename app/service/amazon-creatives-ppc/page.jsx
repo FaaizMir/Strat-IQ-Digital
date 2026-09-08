@@ -12,7 +12,7 @@ import {
   FounderNote,
   FAQ,
   BookCallCTA,
-} from "../../components/amazon-landing";
+} from "@/components/amazon-landing";
 
 export const metadata = {
   title: "Amazon Creatives & PPC Management | Strat IQ Digital",

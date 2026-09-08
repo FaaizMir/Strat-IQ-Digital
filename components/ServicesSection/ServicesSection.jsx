@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { services } from "../../data/services";
+import { projectServices } from "@/data/services";
 import styles from "./ServicesSection.module.css";
 
 export default function ServicesSection() {
@@ -19,7 +19,7 @@ export default function ServicesSection() {
         </div>
 
         <div className={styles.grid}>
-          {services.map((service, i) => (
+          {projectServices.map((service, i) => (
             <Link
               key={service.slug}
               href={service.href}
