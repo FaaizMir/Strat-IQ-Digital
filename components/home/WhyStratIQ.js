@@ -67,7 +67,7 @@ export default function WhyStratIQ() {
           <div className="divider-xl"></div>
           <div className="grid-request">
             <div className="max-left">
-              <h2 className="h1 for-h2">©Why Strat IQ?</h2>
+              <h2 className="h1 for-h2"> Why Strat IQ?</h2>
               <div className="divider-s"></div>
               <div>
                 <div className="card-text rl-2">

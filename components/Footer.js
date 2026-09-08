@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
             <div className="margin-30">
               <div className="grid-title make-4">
-                <h2 className="h4 full-section">©Let &apos;s Talk</h2>
+                <h2 className="h4 full-section"> Let &apos;s Talk</h2>
                 <div className="div-block-2">
                   <Link href="/contact" className="contact-team w-inline-block">
                     <div className="team-photo">
@@ -104,10 +104,10 @@ export default function Footer() {
               </h2>
               <div className="divider-xxl"></div>
               <div className="small-vt-flex">
-                <a href="mailto:info@stratiq.digital.com" className="button-arrow w-inline-block">
+                <a href="mailto:info@stratiqdigital.com" className="button-arrow w-inline-block">
                   <Image width={9} height={9} loading="lazy" alt="" src="/images/webflow/699f89c49271389efbdafdbc_arrows.png" className="arrow-gray" />
                   <div className="button-title-flex">
-                    <div className="button-small-name">info@stratiq.digital.com</div>
+                    <div className="button-small-name">info@stratiqdigital.com</div>
                   </div>
                 </a>
                 <div className="bottom-grid">
@@ -118,7 +118,7 @@ export default function Footer() {
                     </div>
                   </a>
                   <div className="copywrith-dark">
-                    <div>© 2026 Strat IQ Digital</div>
+                    <div>  2026 Strat IQ Digital</div>
                   </div>
                 </div>
               </div>

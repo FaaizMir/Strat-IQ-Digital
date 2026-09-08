@@ -44,7 +44,7 @@ export default function FeaturedWork() {
             <div id="w-node-_08b43d3a-6666-a02f-4ee8-75d59bf7dc43-86e38a65" className="flex-small-title"></div>
           </div>
           <div className="margin-30">
-            <h2 className="h1 full-section">©Featured Works</h2>
+            <h2 className="h1 full-section"> Featured Works</h2>
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@ export default function FeaturedWork() {
                   </div>
                   <div className="text-info-bottom" style={{ marginTop: "10px" }}>
                     <div className="text-flex" style={{ display: "flex", gap: "4px", fontSize: "14px", opacity: 0.7 }}>
-                      <div>©</div>
+                      <div> </div>
                       <div>{p.year}</div>
                     </div>
                     <h2 className="work-title" style={{ fontSize: "16px", marginTop: "4px", fontWeight: "600" }}>

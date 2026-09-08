@@ -42,7 +42,7 @@ export default function Testimonials() {
           </div>
         </div>
         <div className="margin-30">
-          <h2 className="h1 full-section">©Testimonials</h2>
+          <h2 className="h1 full-section"> Testimonials</h2>
         </div>
         <div className="divider-xl"></div>
         <div className="testimonials-grid" ref={containerRef}>

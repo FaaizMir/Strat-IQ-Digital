@@ -314,7 +314,7 @@ className="button-big-arrow"
 
 <div className="copywrith-dark">
 
-<div>© 2026 Strat IQ Digital</div>
+<div>  2026 Strat IQ Digital</div>
 
 </div>
 

@@ -104,7 +104,7 @@ export default function Pricing() {
             <div className="margin-30">
               <div className="grid-title">
                 <h2 className="full-section">
-                  ©Pick your package<span className="small-one">(02)</span>
+                   Pick your package<span className="small-one">(02)</span>
                 </h2>
               </div>
             </div>
@@ -248,7 +248,7 @@ export default function Pricing() {
           <div className="faq-grid">
             <div>
               <div className="max-left">
-                <h2 className="h1 for-h2 third">©Answers to Everything</h2>
+                <h2 className="h1 for-h2 third"> Answers to Everything</h2>
                 <div className="divider-s"></div>
                 <div className="card-text rl-2">Get know us more</div>
                 <div className="divider-m"></div>

@@ -2866,7 +2866,7 @@ blockquote {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   justify-content: space-between;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   display: grid;
 }
 
@@ -3376,7 +3376,7 @@ blockquote {
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
 }

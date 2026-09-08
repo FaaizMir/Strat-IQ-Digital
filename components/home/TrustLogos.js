@@ -31,63 +31,14 @@ export default function TrustLogos() {
           </div>
           <div className="divider-m"></div>
           <div className="logo-grid">
-            <div className="logo-content">
-              <div className="logo-wrapper-card">
-                <div className="testimonials-card hide-mobile">
-                  <div className="testimonials-top">
-                    <div className="top-text small-tessti">
-                      &quot;Strat IQ Digital transformed our vision into a refined digital system that feels both
-                      strategic and effortless. Their attention to detail and clarity in execution made the entire
-                      process seamless.&quot;
-                    </div>
-                  </div>
-                  <div className="testimonials-bottom">
-                    <div className="div-block">
-                      <img
-                        src="/images/webflow/69a80ee31936a30bcd054873_Person-with-Red-Sunglasses.webp"
-                        loading="lazy"
-                        width="40"
-                        alt=""
-                        className="portrait"
-                      />
-                      <div className="small-flex">
-                        <div>Emma Larsen</div>
-                        <div className="smaller-text">Creative Director, Acme</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <img
-                  src="/images/webflow/699ed6f18aceafc086e38d86_logo-2.webp"
-                  loading="lazy"
-                  width="115"
-                  alt=""
-                  className="logo-image"
-                />
-                <div className="absolute-bottom">
-                  <div className="clients-small-blog">Success Stories</div>
-                </div>
-              </div>
-            </div>
+          
             <div className="logo-content">
               <div className="logo-wrapper-card">
                 <img
-                  src="/images/webflow/699ed6f18aceafc086e38d89_logo-1.webp"
-                  loading="lazy"
-                  width="90"
-                  height="Auto"
-                  alt=""
-                  className="logo-image _01"
-                />
-              </div>
-            </div>
-            <div className="logo-content">
-              <div className="logo-wrapper-card">
-                <img
-                  src="/images/webflow/699ed6f18aceafc086e38d29_logo-4.webp"
+                  src="/images/uploads/advanage-white.png"
                   loading="lazy"
                   width="120"
-                  alt=""
+                  alt="advanage"
                   className="logo-image"
                 />
               </div>
@@ -95,10 +46,10 @@ export default function TrustLogos() {
             <div className="logo-content">
               <div className="logo-wrapper-card">
                 <img
-                  src="/images/webflow/699ed6f18aceafc086e38da9_logo-5.webp"
+                  src="/images/uploads/lanes-white.png"
                   loading="lazy"
                   width="80"
-                  alt=""
+                  alt="lanescarproducts"
                   className="logo-image _01"
                 />
               </div>
@@ -106,10 +57,10 @@ export default function TrustLogos() {
             <div className="logo-content">
               <div className="logo-wrapper-card">
                 <img
-                  src="/images/webflow/699ed6f18aceafc086e38d28_logo-3.webp"
+                  src="/images/uploads/walk-fragrances-white.png"
                   loading="lazy"
                   width="85"
-                  alt=""
+                  alt="walkfragrances"
                   className="logo-image _01"
                 />
               </div>
@@ -143,10 +94,10 @@ export default function TrustLogos() {
                   <div className="clients-small-blog">Success Stories</div>
                 </div>
                 <img
-                  src="/images/webflow/699ed6f18aceafc086e38db2_logo-10.webp"
+                  src="/images/uploads/perf-moto-white.png"
                   loading="lazy"
                   width="130"
-                  alt=""
+                  alt="perfmoto"
                   className="logo-image"
                 />
               </div>
@@ -178,10 +129,10 @@ export default function TrustLogos() {
                   </div>
                 </div>
                 <img
-                  src="/images/webflow/699ed6f18aceafc086e38db1_logo-8.webp"
+                  src="/images/uploads/stellar-chemical-white.png"
                   loading="lazy"
                   width="84"
-                  alt=""
+                  alt="stellarchemicalcorp"
                   className="logo-image _01"
                 />
                 <div className="absolute-bottom">
@@ -192,10 +143,10 @@ export default function TrustLogos() {
             <div className="logo-content">
               <div className="logo-wrapper-card">
                 <img
-                  src="/images/webflow/699ed6f18aceafc086e38daa_logo-3.webp"
+                  src="/images/uploads/woofleys-white.png"
                   loading="lazy"
                   width="110"
-                  alt=""
+                  alt="woofleys"
                   className="logo-image"
                 />
               </div>

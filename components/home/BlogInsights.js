@@ -69,7 +69,7 @@ export default function BlogInsights() {
           </div>
           <div className="margin-30">
             <div className="grid-title">
-              <h2 className="full-section">©Things worth reading</h2>
+              <h2 className="full-section"> Things worth reading</h2>
             </div>
           </div>
         </div>
