@@ -1,7 +1,7 @@
 import ProjectTemplate from "@/components/projects/ProjectTemplate";
 import { getProjectBySlug } from "@/data/projects";
 
-const project = getProjectBySlug("bold-moves");
+const project = getProjectBySlug("harrier-hardware");
 
 export const metadata = {
   title: project.metaTitle,

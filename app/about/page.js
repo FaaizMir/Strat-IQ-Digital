@@ -5,6 +5,7 @@ import PhilosophySection from "@/components/about/PhilosophySection";
 import WhyUs from "@/components/about/WhyUs";
 import TeamSection from "@/components/about/TeamSection";
 import ClientTestimonials from "@/components/about/ClientTestimonials";
+import TrustLogos from "@/components/home/TrustLogos";
 
 export const metadata = {
   title: "About — Strat IQ Digital",
@@ -21,7 +22,8 @@ export default function AboutPage() {
       <PhilosophySection />
       <WhyUs />
       <TeamSection />
-      <ClientTestimonials />
+      {/* <ClientTestimonials /> */}
+      <TrustLogos />
     </>
   );
 }

@@ -42,7 +42,7 @@ export default function Footer() {
                     <div className="team-photo">
                       <Image
                         loading="lazy"
-                        src="/images/webflow/69a80e66c49a31679ae575fe_Dramatic-Blue-Portrait.webp"
+                        src="/images/webflow/Gemini_Generated_Image_a56hp0a56hp0a56h.jpg"
                         alt=""
                         width={80}
                         height={80}

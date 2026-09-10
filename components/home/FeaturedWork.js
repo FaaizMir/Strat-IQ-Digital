@@ -5,10 +5,10 @@ import Link from "next/link";
 import useFadeUpReveal from "./useFadeUpReveal";
 
 const projects = [
-  { href: "/project/forma-digital", image: "/images/uploads/Project-1-scaled.jpg", year: "26", title: "Pentagon Games" },
-  { href: "/project/nero-vision", image: "/images/uploads/Project-2-scaled.jpg", year: "25", title: "Raysz" },
+  { href: "/project/pentagon-games", image: "/images/uploads/Project-1-scaled.jpg", year: "26", title: "Pentagon Games" },
+  { href: "/project/raysz", image: "/images/uploads/Project-2-scaled.jpg", year: "25", title: "Raysz" },
   { href: "/project-cleverman", image: "/images/uploads/Project-4-scaled.jpg", year: "24", title: "CleverMan" },
-  { href: "/project/bold-moves", image: "/images/uploads/harrier-hardware-scaled.jpg", year: "24", title: "Harrier Hardware" },
+  { href: "/project/harrier-hardware", image: "/images/uploads/harrier-hardware-scaled.jpg", year: "24", title: "Harrier Hardware" },
 ];
 
 export default function FeaturedWork() {
@@ -27,7 +27,7 @@ export default function FeaturedWork() {
               <div className="top-text">Highlighted Work</div>
             </div>
             <div id="w-node-ed75a45d-11d7-0be3-04ca-91c3e700e60c-86e38a65" className="hide">
-              <Link href="/projects" className="button-arrow w-inline-block">
+              <Link href="/casestudy" className="button-arrow w-inline-block">
                 <img
                   width="9"
                   loading="lazy"

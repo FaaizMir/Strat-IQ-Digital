@@ -1,7 +1,7 @@
 import ProjectTemplate from "@/components/projects/ProjectTemplate";
 import { getProjectBySlug } from "@/data/projects";
 
-const project = getProjectBySlug("forma-digital");
+const project = getProjectBySlug("pentagon-games");
 
 export const metadata = {
   title: project.metaTitle,

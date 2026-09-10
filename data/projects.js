@@ -17,8 +17,8 @@
 
 export const projects = [
   {
-    slug: "forma-digital",
-    route: "/project/forma-digital",
+    slug: "pentagon-games",
+    route: "/project/pentagon-games",
     metaTitle: "Pentagon Games Case Study | Web3 Website Design",
     title: "Pentagon Games",
     client: "Pentagon Games",
@@ -73,12 +73,12 @@ export const projects = [
       before: ["Disconnected information", "Overwhelming structure", "Weak visual hierarchy"],
       after: ["Clear ecosystem presentation", "Guided user journey", "Strong, consistent visual language"],
     },
-    otherWorks: ["nero-vision", "cleverman"],
+    otherWorks: ["raysz", "cleverman"],
   },
 
   {
-    slug: "nero-vision",
-    route: "/project/nero-vision",
+    slug: "raysz",
+    route: "/project/raysz",
     metaTitle: "Raysz Case Study | Athletic Wear Brand Identity",
     title: "Raysz",
     client: "Raysz",
@@ -141,12 +141,12 @@ export const projects = [
         "The foundation was built for long-term scalable growth",
       ],
     },
-    otherWorks: ["forma-digital", "bold-moves"],
+    otherWorks: ["pentagon-games", "harrier-hardware"],
   },
 
   {
-    slug: "bold-moves",
-    route: "/project/bold-moves",
+    slug: "harrier-hardware",
+    route: "/project/harrier-hardware",
     metaTitle: "Harrier Hardware Case Study | Web Design & Marketing",
     title: "Harrier Hardware",
     client: "Harrier Hardware",
@@ -201,7 +201,7 @@ export const projects = [
       before: ["Dated, cluttered design", "Weak brand presence", "Unclear product paths"],
       after: ["Bold, modern visual identity", "Clear product categorization", "Confident, consistent brand presence"],
     },
-    otherWorks: ["nero-vision", "cleverman"],
+    otherWorks: ["raysz", "cleverman"],
   },
 
   {
@@ -258,7 +258,7 @@ export const projects = [
         "Better alignment between design and user intent",
       ],
     },
-    otherWorks: ["forma-digital", "bold-moves"],
+    otherWorks: ["pentagon-games", "harrier-hardware"],
   },
 ];
 

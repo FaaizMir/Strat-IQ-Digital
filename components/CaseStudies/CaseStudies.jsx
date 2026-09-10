@@ -1,16 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import { projectServices } from "@/data/services";
-import styles from "./ServicesSection.module.css";
+import styles from "./CaseStudies.module.css";
 
-export default function ServicesSection() {
+export default function CaseStudies() {
   return (
     <section className={styles.section} aria-labelledby="services-heading">
       <div className={styles.container}>
         <div className={styles.header}>
           <span className={styles.eyebrow}>Capabilities</span>
           <h2 id="services-heading" className={styles.heading}>
-            Services
+            Case Studies
           </h2>
           <p className={styles.subheading}>
             Performance marketing and digital systems, built for brands that

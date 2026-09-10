@@ -9,7 +9,7 @@ import WhyStratIQ from "@/components/home/WhyStratIQ";
 import Pricing from "@/components/home/Pricing";
 import BlogInsights from "@/components/home/BlogInsights";
 // import IntroLoader from "@/components/home/IntroLoader";
-import ServicesSection from "@/components/ServicesSection/ServicesSection";
+import CaseStudies from "@/components/CaseStudies/CaseStudies";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <TrustLogos />
         {/* <AboutSplit /> */}
       </div>
-      <ServicesSection />
+      <CaseStudies />
       {/* <FeaturedWork /> */}
       <AboutSplit />
       <Services />

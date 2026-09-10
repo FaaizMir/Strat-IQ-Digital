@@ -1,7 +1,7 @@
 import ProjectTemplate from "@/components/projects/ProjectTemplate";
 import { getProjectBySlug } from "@/data/projects";
 
-const project = getProjectBySlug("nero-vision");
+const project = getProjectBySlug("raysz");
 
 export const metadata = {
   title: project.metaTitle,

@@ -290,7 +290,7 @@ className="button-big-arrow"
 
 <div className="social-flex">
 
-<a href="https://instragram.com/" className="social-icon w-inline-block" target="_blank" rel="noopener noreferrer">
+<a href="https://www.instagram.com/stratiqdigital/" className="social-icon w-inline-block" target="_blank" rel="noopener noreferrer">
 
 <Image width={20} height={20} alt="" src="/images/webflow/69a04f1ac43e5c7beedc0f7e_insta.webp" className="social-image" />
 
@@ -302,7 +302,7 @@ className="button-big-arrow"
 
 </a>
 
-<a href="https://linkedin.com/" className="social-icon w-inline-block" target="_blank" rel="noopener noreferrer">
+<a href="https://www.linkedin.com/company/stratiqdigitalintelligence/posts/" className="social-icon w-inline-block" target="_blank" rel="noopener noreferrer">
 
 <Image width={20} height={20} alt="" src="/images/webflow/69a04f1a7e0ba6af281734f3_li.webp" className="social-image" />
 
