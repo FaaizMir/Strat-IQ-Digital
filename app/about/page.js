@@ -21,7 +21,7 @@ export default function AboutPage() {
       <StatsRow />
       <PhilosophySection />
       <WhyUs />
-      <TeamSection />
+      {/* <TeamSection /> */}
       {/* <ClientTestimonials /> */}
       <TrustLogos />
     </>

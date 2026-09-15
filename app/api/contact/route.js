@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { supabase } from "@/lib/supabaseClient";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -41,16 +42,25 @@ export async function POST(request) {
     );
   }
 
-  // Log the submission for now. This is where a real email/CRM integration
-  // (e.g. Resend, SendGrid, HubSpot) would send a notification and/or store the lead.
-  console.log("[contact form submission]", {
-    firstName,
-    lastName,
-    email,
-    message,
-    consent,
-    receivedAt: new Date().toISOString(),
-  });
+  const { data, error } = await supabase
+    .from("contact_submissions")
+    .insert([
+      {
+        first_name: firstName,
+        last_name: lastName,
+        email: email,
+        message: message,
+        consent: consent,
+      },
+    ]);
+
+  if (error) {
+    console.error("[supabase error]", error);
+    return NextResponse.json(
+      { success: false, error: "Failed to store submission.", details: error.message },
+      { status: 500 }
+    );
+  }
 
   return NextResponse.json({ success: true }, { status: 200 });
 }
