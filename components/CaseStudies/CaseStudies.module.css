@@ -120,7 +120,7 @@
 .imageWrap {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
 }
 
@@ -176,15 +176,18 @@
   .section {
     padding: 80px 20px;
   }
+
   .grid {
     grid-template-columns: 1fr;
   }
+
   .cardBody {
     padding: 24px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .card,
   .arrow,
   .cardTitle,

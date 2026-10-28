@@ -190,13 +190,13 @@ export default function Hero() {
             </div>
             <div id="w-node-feec6f1e-4bb1-d7b9-5064-61aa27e727e9-86e38a65">
               <div className="main-text-flex">
-                <div className="subhead opacity">Performance Marketing Agency for Leaders</div>
-                <div>See You At the Top Of The Market</div>
+                <div className="subhead opacity" style={{ marginTop: "10px" }}>Performance Marketing Agency for Leaders</div>
+                {/* <div>See You At the Top Of The Market</div> */}
 
                 <div className="slide-wrapper" ref={slideWrapRef}>
                   <div className="subhead slide _01">Smarter Ads</div>
                   <div className="subhead slide _02">Better Funnels</div>
-                  <div className="subhead slide _03">Stronger Creative</div>
+                  {/* <div className="subhead slide _03">Stronger Creative</div> */}
                   <div className="subhead slide _04">Real Growth</div>
                 </div>
                 <div className="divider-s"></div>

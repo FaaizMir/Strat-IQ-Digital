@@ -148,7 +148,7 @@ export const projectServices = [
     label: "Amazon PPC",
     description:
       "We manage, optimize, and grow your Amazon advertising for maximum return.",
-    image: "/images/uploads/Service-Amazon-PPC.jpg",
+    image: "/images/uploads/Amazon PPC.webp",
     projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
   },
   {
@@ -166,7 +166,7 @@ export const projectServices = [
     label: "Google Ads",
     description:
       "We build and manage Google Ads campaigns engineered for measurable growth.",
-    image: "/images/uploads/blog-test.jpeg",
+    image: "/images/uploads/Google Ads.webp",
     projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
   },
   {
@@ -184,7 +184,7 @@ export const projectServices = [
     label: "SEO & Content",
     description:
       "We build organic visibility that compounds over time on Google and on Amazon.",
-    image: "/images/uploads/Seo-Content.jpg",
+    image: "/images/uploads/SEO & Content.webp",
     projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
   },
   {
@@ -196,51 +196,51 @@ export const projectServices = [
     image: "/images/uploads/Creative-Strategy.jpg",
     projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
   },
-  {
-    slug: "conversion-optimization-services",
-    href: "/casestudy/conversion-optimization-services",
-    label: "Conversion Optimisation",
-    description:
-      "We refine every step of the funnel to turn more visitors into paying customers.",
-    image: "/images/uploads/Iterative-Optimazation-Process.jpg",
-  },
-  {
-    slug: "branding-and-design-services",
-    href: "/casestudy/branding-and-design-services",
-    label: "Branding & Creative Design",
-    description:
-      "We design logos, visuals, and ad creatives that keep your brand consistent and help your marketing look and perform better.",
-    image: "/images/uploads/Branding-and-Creative-Design.jpg",
-  },
-  {
-    slug: "ui-ux-design-services",
-    href: "/casestudy/ui-ux-design-services",
-    label: "UI/UX Design Services",
-    description:
-      "We craft interfaces and journeys that are as intuitive as they are on-brand.",
-    image: "/images/uploads/Website-Development.jpg",
-  },
-  {
-    slug: "system-integration-services",
-    href: "/casestudy/system-integration-services",
-    label: "System Integration Services",
-    description:
-      "We connect your tools, data, and platforms into one high-performance system.",
-    image: "/images/uploads/Services-Banner-1-scaled.jpg",
-  },
-  {
-    slug: "full-service-ecommerce-marketing",
-    href: "/casestudy/full-service-ecommerce-marketing",
-    label: "End-to-End Digital Services",
-    description:
-      "A single team handling strategy, creative, and execution across every channel — no fragmented vendors.",
-    image: "/images/uploads/Services-Banner-scaled.jpg",
-  },
+  // {
+  //   slug: "conversion-optimization-services",
+  //   href: "/casestudy/conversion-optimization-services",
+  //   label: "Conversion Optimisation",
+  //   description:
+  //     "We refine every step of the funnel to turn more visitors into paying customers.",
+  //   image: "/images/uploads/Iterative-Optimazation-Process.jpg",
+  // },
+  // {
+  //   slug: "branding-and-design-services",
+  //   href: "/casestudy/branding-and-design-services",
+  //   label: "Branding & Creative Design",
+  //   description:
+  //     "We design logos, visuals, and ad creatives that keep your brand consistent and help your marketing look and perform better.",
+  //   image: "/images/uploads/Branding-and-Creative-Design.jpg",
+  // },
+  // {
+  //   slug: "ui-ux-design-services",
+  //   href: "/casestudy/ui-ux-design-services",
+  //   label: "UI/UX Design Services",
+  //   description:
+  //     "We craft interfaces and journeys that are as intuitive as they are on-brand.",
+  //   image: "/images/uploads/Website-Development.jpg",
+  // },
+  // {
+  //   slug: "system-integration-services",
+  //   href: "/casestudy/system-integration-services",
+  //   label: "System Integration Services",
+  //   description:
+  //     "We connect your tools, data, and platforms into one high-performance system.",
+  //   image: "/images/uploads/Services-Banner-1-scaled.jpg",
+  // },
+  // {
+  //   slug: "full-service-ecommerce-marketing",
+  //   href: "/casestudy/full-service-ecommerce-marketing",
+  //   label: "End-to-End Digital Services",
+  //   description:
+  //     "A single team handling strategy, creative, and execution across every channel — no fragmented vendors.",
+  //   image: "/images/uploads/Services-Banner-scaled.jpg",
+  // },
 ];
 
 export const mainNavLinks = [
   { href: "/our-process", label: "Process" },
-  { href: "/casestudy", label: "CaseStudies" },
+  // { href: "/casestudy", label: "CaseStudies" },
   { href: "/blog", label: "Blog" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
