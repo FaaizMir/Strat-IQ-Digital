@@ -170,7 +170,7 @@ export default function ProjectTemplate({ project }) {
         <BodySection section={project.design} />
         <ChangeSection section={project.change} />
 
-        <div className="pt-other-works" ref={otherRef}>
+        {/* <div className="pt-other-works" ref={otherRef}>
           <h2 className="pt-other-works-heading funnel-bold">Other Works</h2>
           <div className="pt-other-grid">
             {otherWorks.map((p) => (
@@ -185,7 +185,7 @@ export default function ProjectTemplate({ project }) {
               </Link>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

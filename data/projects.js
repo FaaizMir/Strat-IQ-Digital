@@ -36,7 +36,7 @@ export const projects = [
       { src: "/images/uploads/Project-1-4th-Image.jpg", full: false },
     ],
     challenge: {
-      label: "The Challenge",
+      label: "Project Overview",
       heading: "Web3 is complex.",
       paragraphs: [
         "AI, AR, blockchain, tokens — all powerful, but hard to explain. Most platforms either overwhelm users or oversimplify the product.",
@@ -45,7 +45,7 @@ export const projects = [
       bullets: ["Feel futuristic", "Still make sense instantly"],
     },
     approach: {
-      label: "The Approach",
+      label: "The Challenges",
       heading: "We focused on clarity through design.",
       paragraphs: [
         "Instead of explaining everything, we designed an interface that lets users feel it. Everything built to guide, not confuse.",
@@ -58,7 +58,7 @@ export const projects = [
       ],
     },
     design: {
-      label: "The Design",
+      label: "Wins",
       heading: "The Design",
       bullets: [
         "Dark-mode interface with high contrast",
@@ -69,7 +69,7 @@ export const projects = [
       closing: "The goal was simple: Make complexity feel intuitive.",
     },
     change: {
-      label: "What Changed",
+      label: "Strategies",
       before: ["Disconnected information", "Overwhelming structure", "Weak visual hierarchy"],
       after: ["Clear ecosystem presentation", "Guided user journey", "Strong, consistent visual language"],
     },
