@@ -15,12 +15,12 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function ProjectDetailPage({ params }) {
-  const { project } = await params;
+  const { casestudy, project } = await params;
   const projectData = getProjectBySlug(project);
 
   if (!projectData) {
     notFound();
   }
 
-  return <ProjectTemplate project={projectData} />;
+  return <ProjectTemplate project={projectData} casestudy={casestudy} />;
 }

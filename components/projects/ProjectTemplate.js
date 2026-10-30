@@ -105,21 +105,29 @@ function ChangeSection({ section }) {
   );
 }
 
-export default function ProjectTemplate({ project }) {
+export default function ProjectTemplate({ project, casestudy }) {
   const galleryRef = useRef(null);
   const otherRef = useRef(null);
   useFadeUpReveal(galleryRef, ".pt-reveal", { stagger: 0.1 });
   useFadeUpReveal(otherRef, ".pt-other-card", { stagger: 0.12 });
 
-  const rows = buildGalleryRows(project.gallery);
-  const otherWorks = project.otherWorks.map((slug) => getProjectBySlug(slug)).filter(Boolean);
+  const rows = buildGalleryRows(project.gallery || []);
+  const otherWorks = (project.otherWorks || []).map((slug) => getProjectBySlug(slug)).filter(Boolean);
 
   return (
     <div className="project-template">
       <div className="pt-hero">
         <img src={project.heroImage} alt={project.title} />
         <div className="pt-hero-caption pt-container">
-          <div className="pt-eyebrow">Case Study</div>
+          <div className="pt-eyebrow">
+            {casestudy ? (
+              <Link href={`/casestudy/${casestudy}`} style={{ color: "inherit", textDecoration: "none" }}>
+                Case Studies
+              </Link>
+            ) : (
+              "Case Study"
+            )}
+          </div>
           <h1 className="pt-title funnel-bold">{project.title}</h1>
           <p className="pt-subtitle">{project.subtitle}</p>
         </div>
@@ -138,7 +146,7 @@ export default function ProjectTemplate({ project }) {
           <div>
             <div className="pt-meta-item-label">Services</div>
             <div className="pt-service-chips">
-              {project.services.map((s) => (
+              {project.services?.map((s) => (
                 <span key={s} className="pt-service-chip">
                   {s}
                 </span>
@@ -170,22 +178,29 @@ export default function ProjectTemplate({ project }) {
         <BodySection section={project.design} />
         <ChangeSection section={project.change} />
 
-        {/* <div className="pt-other-works" ref={otherRef}>
-          <h2 className="pt-other-works-heading funnel-bold">Other Works</h2>
-          <div className="pt-other-grid">
-            {otherWorks.map((p) => (
-              <Link key={p.slug} href={p.route} className="pt-other-card">
-                <div className="pt-other-card-image">
-                  <img src={p.cardImage} alt={p.title} loading="lazy" />
-                </div>
-                <div className="pt-other-card-meta">
-                  <div className="pt-other-card-year">{p.year}</div>
-                  <h3 className="pt-other-card-title">{p.title}</h3>
-                </div>
-              </Link>
-            ))}
+        {otherWorks.length > 0 && (
+          <div className="pt-other-works" ref={otherRef}>
+            <h2 className="pt-other-works-heading funnel-bold">Other Works</h2>
+            <div className="pt-other-grid">
+              {otherWorks.map((p) => {
+                const targetHref = casestudy
+                  ? `/casestudy/${casestudy}/${p.slug}`
+                  : (p.route || `/casestudy`);
+                return (
+                  <Link key={p.slug} href={targetHref} className="pt-other-card">
+                    <div className="pt-other-card-image">
+                      <img src={p.cardImage} alt={p.title} loading="lazy" />
+                    </div>
+                    <div className="pt-other-card-meta">
+                      <div className="pt-other-card-year">{p.year}</div>
+                      <h3 className="pt-other-card-title">{p.title}</h3>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
-        </div> */}
+        )}
       </div>
     </div>
   );

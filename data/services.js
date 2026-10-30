@@ -158,7 +158,12 @@ export const projectServices = [
     description:
       "We run Meta campaigns that find your customer before they find your competitor.",
     image: "/images/uploads/Meta-Ads.jpg",
-    projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
+    projects: [
+      "meta-test-project-1",
+      "meta-test-project-2",
+      "meta-test-project-3",
+      "meta-test-project-4",
+    ],
   },
   {
     slug: "google-ads-management-services",
@@ -167,7 +172,12 @@ export const projectServices = [
     description:
       "We build and manage Google Ads campaigns engineered for measurable growth.",
     image: "/images/uploads/Google Ads.webp",
-    projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
+    projects: [
+      "lanes-car-products",
+      "advanage-the-wonder-cleaner",
+      "stellar-chemical-corp",
+      "perf-moto",
+    ],
   },
   {
     slug: "shopify-development-services",
@@ -176,7 +186,12 @@ export const projectServices = [
     description:
       "A store that converts is better. We build Shopify experiences designed around your customer's journey.",
     image: "/images/uploads/hopify-Development.jpg",
-    projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
+    projects: [
+      "shopify-test-project-1",
+      "shopify-test-project-2",
+      "shopify-test-project-3",
+      "shopify-test-project-4",
+    ],
   },
   {
     slug: "seo-content-strategy-services",
@@ -185,7 +200,12 @@ export const projectServices = [
     description:
       "We build organic visibility that compounds over time on Google and on Amazon.",
     image: "/images/uploads/SEO & Content.webp",
-    projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
+    projects: [
+      "seo-test-project-1",
+      "seo-test-project-2",
+      "seo-test-project-3",
+      "seo-test-project-4",
+    ],
   },
   {
     slug: "creative-strategy-services",
@@ -194,7 +214,12 @@ export const projectServices = [
     description:
       "Great ads start with great creative. We develop content, copy, and visuals that stop the scroll and start the sale.",
     image: "/images/uploads/Creative-Strategy.jpg",
-    projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
+    projects: [
+      "creative-test-project-1",
+      "creative-test-project-2",
+      "creative-test-project-3",
+      "creative-test-project-4",
+    ],
   },
   // {
   //   slug: "conversion-optimization-services",
@@ -203,6 +228,12 @@ export const projectServices = [
   //   description:
   //     "We refine every step of the funnel to turn more visitors into paying customers.",
   //   image: "/images/uploads/Iterative-Optimazation-Process.jpg",
+  //   projects: [
+  //     "conversion-test-project-1",
+  //     "conversion-test-project-2",
+  //     "conversion-test-project-3",
+  //     "conversion-test-project-4",
+  //   ],
   // },
   // {
   //   slug: "branding-and-design-services",
@@ -211,6 +242,12 @@ export const projectServices = [
   //   description:
   //     "We design logos, visuals, and ad creatives that keep your brand consistent and help your marketing look and perform better.",
   //   image: "/images/uploads/Branding-and-Creative-Design.jpg",
+  //   projects: [
+  //     "branding-test-project-1",
+  //     "branding-test-project-2",
+  //     "branding-test-project-3",
+  //     "branding-test-project-4",
+  //   ],
   // },
   // {
   //   slug: "ui-ux-design-services",
@@ -219,6 +256,12 @@ export const projectServices = [
   //   description:
   //     "We craft interfaces and journeys that are as intuitive as they are on-brand.",
   //   image: "/images/uploads/Website-Development.jpg",
+  //   projects: [
+  //     "uiux-test-project-1",
+  //     "uiux-test-project-2",
+  //     "uiux-test-project-3",
+  //     "uiux-test-project-4",
+  //   ],
   // },
   // {
   //   slug: "system-integration-services",
@@ -227,6 +270,12 @@ export const projectServices = [
   //   description:
   //     "We connect your tools, data, and platforms into one high-performance system.",
   //   image: "/images/uploads/Services-Banner-1-scaled.jpg",
+  //   projects: [
+  //     "integration-test-project-1",
+  //     "integration-test-project-2",
+  //     "integration-test-project-3",
+  //     "integration-test-project-4",
+  //   ],
   // },
   // {
   //   slug: "full-service-ecommerce-marketing",
@@ -235,6 +284,12 @@ export const projectServices = [
   //   description:
   //     "A single team handling strategy, creative, and execution across every channel — no fragmented vendors.",
   //   image: "/images/uploads/Services-Banner-scaled.jpg",
+  //   projects: [
+  //     "ecommerce-test-project-1",
+  //     "ecommerce-test-project-2",
+  //     "ecommerce-test-project-3",
+  //     "ecommerce-test-project-4",
+  //   ],
   // },
 ];
 

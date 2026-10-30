@@ -24,15 +24,18 @@ export default async function CaseStudyPage({ params }) {
     notFound();
   }
 
-  const items = (service.projects || []).map((slug) => {
-    const p = getProjectBySlug(slug);
-    return {
-      href: `/casestudy/${casestudy}/${slug}`,
-      image: p.cardImage,
-      year: p.year,
-      title: p.title,
-    };
-  });
+  const items = (service.projects || [])
+    .map((slug) => {
+      const p = getProjectBySlug(slug);
+      if (!p) return null;
+      return {
+        href: `/casestudy/${casestudy}/${slug}`,
+        image: p.cardImage,
+        year: p.year,
+        title: p.title,
+      };
+    })
+    .filter(Boolean);
 
   return (
     <div className="projects-page">
