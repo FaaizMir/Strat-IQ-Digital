@@ -789,422 +789,635 @@ export const projects = [
   // 4. SHOPIFY DEVELOPMENT (Test Data)
   // =========================================================================
   {
-    slug: "shopify-test-project-1",
-    route: "/casestudy/shopify-development-services/shopify-test-project-1",
-    metaTitle: "[Test Data] Custom Shopify Plus Architecture | Case Study",
-    title: "[Test Data] Headless Shopify 2.0 Redesign",
-    client: "[Test Data] Contemporary Fashion Brand",
-    category: "Shopify Development",
-    services: ["[Test Data] Liquid Theme Engineering", "[Test Data] Performance Optimization", "[Test Data] Checkout Customization"],
-    subtitle: "[Test Data] High-performance Shopify storefront built for speed, storytelling, and high checkout completion.",
-    year: "25",
-    cardImage: "/images/uploads/Project-1-scaled.jpg",
-    heroImage: "/images/uploads/Project-1-1st-Image-1.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-1-1st-Image-1.jpg", full: true },
-      { src: "/images/uploads/Project-1-2nd-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-1-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-1-4th-Image.jpg", full: false },
+    "slug": "advanage-shopify-migration",
+    "route": "/casestudy/shopify-development-services/advanage-shopify-migration",
+    "metaTitle": "Advanage | Shopify Migration & UX/UI Redesign Case Study",
+    "title": "Migrating a Cleaning Brand Trusted Since 1980 from Miva Merchant to Shopify",
+    "client": "Advanage",
+    "category": "Ecommerce (Home & Industrial Cleaning)",
+    "services": [
+      "Shopify Migration",
+      "UX/UI Improvements",
+      "Conversion Optimization"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] Bloated off-the-shelf theme caused 6-second load times and severe drop-offs on mobile devices."],
-      bullets: [
-        "[Test Data] 22 App scripts causing severe render blocking",
-        "[Test Data] Mobile checkout bounce rate above 70%",
-        "[Test Data] Inflexible marketing team content editing workflows",
+    "subtitle": "A proven product on an outdated platform. Rebuilding a legacy Miva Merchant store into a high-converting, modern Shopify experience.",
+    "year": "26",
+    "cardImage": "/images/uploads/advanage-shopify-card.jpg",
+    "heroImage": "/images/uploads/advanage-shopify-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/advanage-shopify-1.jpg", "full": true },
+      { "src": "/images/uploads/advanage-shopify-2.jpg", "full": true },
+      { "src": "/images/uploads/advanage-shopify-3.jpg", "full": false },
+      { "src": "/images/uploads/advanage-shopify-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "paragraphs": [
+        "Customers found it, but the store made them work to buy it. Moving a 40+ year brand off a legacy platform required rebuilding a complex catalog without losing data, SEO rankings, or brand identity."
       ],
+      "bullets": [
+        "Migrating catalog, URLs, and customer data seamlessly from Miva Merchant to Shopify",
+        "Rebuilding a complex size, scent, and bundle structure inside Shopify's variant model",
+        "Mapping Miva's legacy structure into clean, logical Shopify collections",
+        "Modernizing design while preserving established brand equity and trust"
+      ]
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Custom modular architecture developed from scratch utilizing Shopify 2.0 sections and vanilla CSS."],
-      bullets: [
-        "[Test Data] Zero third-party jQuery or heavyweight plugins",
-        "[Test Data] Instant slide-out cart with intelligent cross-sells",
-        "[Test Data] Dynamic metafields for complete content control",
+    "approach": {
+      "label": "The Approach",
+      "paragraphs": [
+        "The goal was simple: make it easier to find the right product and buy it. We executed a full Shopify build designed around customer purchasing behavior."
       ],
+      "bullets": [
+        "Full migration to Shopify with structured navigation across Quarts, Gallons, Drums, Specials, and Accessories",
+        "Designed a mega menu with seamless scent and size switching on product pages without page reloads",
+        "Created consistent product detail pages featuring use-case titles, reviews, and trust badges",
+        "Engineered starter kits, value bundles, and promotional banners to accelerate first-time purchases",
+        "Integrated trust sections highlighting 45+ years of history, 40M+ customers, and eco-friendly formulas along with built-in FAQs, loyalty programs, and shipping thresholds"
+      ]
     },
-    design: {
-      label: "[Test Data] Performance Gains",
-      bullets: [
-        "[Test Data] Page load time cut from 5.8s to 1.1s",
-        "[Test Data] Mobile conversion rate increased by 44%",
-        "[Test Data] 100/100 Lighthouse performance score",
+    "design": {
+      "label": "Key Wins",
+      "bullets": [
+        "Seamless migration of historical customer data, legacy catalog, and URL structures",
+        "Streamlined variant switching for scents and sizes without reloading pages",
+        "Created a frictionless customer journey from landing page to checkout",
+        "Empowered the internal marketing team to manage and scale promotions without developer bottlenecks"
+      ]
+    },
+    "change": {
+      "label": "Transformation",
+      "before": [
+        "Rigid Miva Merchant storefront",
+        "Hard-to-navigate sizes, scents, and bundles",
+        "A store that made buyers work"
       ],
+      "after": [
+        "A Shopify store the team can manage and scale without developer bottlenecks",
+        "Clear discovery from menu to product page",
+        "A clear path from landing page to checkout"
+      ]
     },
-    change: {
-      label: "[Test Data] Architecture Shift",
-      before: ["[Test Data] Fragile app-dependent storefront with painful latency"],
-      after: ["[Test Data] Lightning-fast bespoke code powering enterprise growth"],
-    },
-    otherWorks: ["shopify-test-project-2", "shopify-test-project-3"],
+    "otherWorks": [
+      "lanes-car-products",
+      "perf-moto"
+    ]
   },
 
   {
-    slug: "shopify-test-project-2",
-    route: "/casestudy/shopify-development-services/shopify-test-project-2",
-    metaTitle: "[Test Data] Shopify Subscription & Bundle Flow | Case Study",
-    title: "[Test Data] Custom Bundle & Subscription Builder",
-    client: "[Test Data] Specialty Beverage Brand",
-    category: "Shopify Development",
-    services: ["[Test Data] Custom React App for Shopify", "[Test Data] Recharge Integration", "[Test Data] Bundle Logic"],
-    subtitle: "[Test Data] Interactive build-a-box experience maximizing average order value and recurring subscription orders.",
-    year: "25",
-    cardImage: "/images/uploads/Project-2-scaled.jpg",
-    heroImage: "/images/uploads/Project-2-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-2-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-2-2nd-Image-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-2-4th-Image.jpg", full: false },
-      { src: "/images/uploads/01c1c4236835079.68f41039d5926.gif", full: false },
+    "slug": "woofleys-shopify-store",
+    "route": "/casestudy/shopify-development-services/woofleys-shopify-store",
+    "metaTitle": "Woofley’s | Brand-Led Shopify Store & UX Design Case Study",
+    "title": "Building a Dog Chew Brand’s First Website Around Its Story, Not Just Its Catalog",
+    "client": "Woofley’s",
+    "category": "Ecommerce (Pet / Natural Dog Chews)",
+    "services": [
+      "Shopify Development",
+      "Brand-Led UX/UI Design",
+      "Conversion Optimization",
+      "Creative Direction"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] Customers found purchasing multi-pack flavor selections confusing and clunky on the default product page."],
-      bullets: [
-        "[Test Data] High customer service tickets from mixed orders",
-        "[Test Data] Low adoption of recurring subscription discounts",
-        "[Test Data] Inability to track inventory across bundle components",
+    "subtitle": "A great product with nowhere to live. Building a brand-first Shopify storefront with guided shopping experiences for natural dog chew buyers.",
+    "year": "26",
+    "cardImage": "/images/uploads/woofleys-card.jpg",
+    "heroImage": "/images/uploads/woofleys-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/woofleys-1.jpg", "full": true },
+      { "src": "/images/uploads/woofleys-2.jpg", "full": true },
+      { "src": "/images/uploads/woofleys-3.jpg", "full": false },
+      { "src": "/images/uploads/woofleys-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "paragraphs": [
+        "Starting from zero in a sea of product grids. There was no existing site, traffic, or brand assets to build on, and competitors all led with generic product-grid layouts."
       ],
+      "bullets": [
+        "Launching with no existing site, traffic, or brand assets",
+        "Standing out in a category dominated by uninspired product-grid stores",
+        "Making bully sticks, collagen, beef, and lamb chews easy to navigate and choose between",
+        "Balancing rich brand storytelling with an efficient, clear path to checkout"
+      ]
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Developed a gamified step-by-step bundle selector with visual flavor cards and one-click subscription toggle."],
-      bullets: [
-        "[Test Data] Live progress bar tracking free gift unlocking",
-        "[Test Data] Seamless sync with Recharge and Shopify Subscriptions API",
-        "[Test Data] Automated inventory deduction per chosen flavor",
+    "approach": {
+      "label": "The Approach",
+      "paragraphs": [
+        "The goal was simple: brand first, products second. We built a personality-driven storefront that engages customers from the first screen to checkout."
       ],
+      "bullets": [
+        "Designed a brand-first homepage centered around 'Simple Ingredients. Serious Chewing.' and core company values",
+        "Created a three-chapter visual story narrative paired with 'We Don’t Do Gimmicks' sections addressing ingredient safety and digestion",
+        "Developed an interactive 'Find Their Chew' selector categorizing by chewer type (from Little Nibbler to Power Chewer)",
+        "Implemented 'Shop by Chew' collections and a 'Chew 101' guide with toughness ratings for first-time buyers",
+        "Incorporated customer reviews near add-to-cart buttons, free-shipping progress indicators, FAQs, and satisfaction guarantees"
+      ]
     },
-    design: {
-      label: "[Test Data] Business Impact",
-      bullets: [
-        "[Test Data] Average Order Value increased by $28.50",
-        "[Test Data] 58% of new buyers opted into recurring subscription",
-        "[Test Data] 35% Reduction in order configuration tickets",
+    "design": {
+      "label": "Key Wins",
+      "bullets": [
+        "Established a complete digital brand identity and direct-to-consumer storefront from scratch",
+        "Simplified chew selection with guided chewer-type navigation and Chew 101 ratings",
+        "Differentiated the brand in a crowded market through custom visual assets and storytelling",
+        "Reduced purchase hesitation with strategic trust signals, FAQs, and clear shipping thresholds"
+      ]
+    },
+    "change": {
+      "label": "Transformation",
+      "before": [
+        "No website or online presence",
+        "A wide chew range with no guidance",
+        "Nothing to separate it from other sellers"
       ],
+      "after": [
+        "A brand-led Shopify store",
+        "Shopping by chewer type and chew guide",
+        "A distinct identity in a crowded category"
+      ]
     },
-    change: {
-      label: "[Test Data] Conversion Experience",
-      before: ["[Test Data] Static single-product dropdowns with friction"],
-      after: ["[Test Data] Highly engaging interactive bundle experience"],
-    },
-    otherWorks: ["shopify-test-project-1", "shopify-test-project-4"],
+    "otherWorks": [
+      "advanage-shopify-migration",
+      "lanes-car-products"
+    ]
   },
 
   {
-    slug: "shopify-test-project-3",
-    route: "/casestudy/shopify-development-services/shopify-test-project-3",
-    metaTitle: "[Test Data] Shopify Multi-Currency Global Store | Case Study",
-    title: "[Test Data] Global Multi-Store & Localization",
-    client: "[Test Data] Outdoor Gear Manufacturer",
-    category: "Shopify Development",
-    services: ["[Test Data] Shopify Markets Setup", "[Test Data] Geolocation Redirects", "[Test Data] Multi-Language Themes"],
-    subtitle: "[Test Data] Unifying 6 regional international domains into a single streamlined Shopify Markets instance.",
-    year: "25",
-    cardImage: "/images/uploads/Project-3-1-scaled.jpg",
-    heroImage: "/images/uploads/Project-3-1-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-3-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-3-2nd-Image-1-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-3-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-3-4th-Image.jpg", full: false },
+    "slug": "stellar-chemical-shopify-redesign",
+    "route": "/casestudy/shopify-development-services/stellar-chemical-shopify-redesign",
+    "metaTitle": "Stellar Chemical Corp. | Shopify UI/UX Redesign & Catalog Case Study",
+    "title": "Redesigning a Complex Chemical Catalog for B2B & Retail Buyers",
+    "client": "Stellar Chemical Corp.",
+    "category": "Ecommerce (Chemicals, Food Ingredients, Lab & Industrial Supplies)",
+    "services": [
+      "UI/UX Design",
+      "Shopify Development",
+      "Conversion Optimization"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] Managing 6 separate Shopify stores created inventory nightmares and multiplied maintenance costs."],
-      bullets: [
-        "[Test Data] Quadrupled developer maintenance overhead",
-        "[Test Data] Fragmented customer databases across regions",
-        "[Test Data] Inconsistent brand visual updates",
+    "subtitle": "Chemical buyers know what they need. Streamlining a vast B2B/B2C ingredient and chemical catalog so customers can find specs and check out with confidence.",
+    "year": "26",
+    "cardImage": "/images/uploads/stellar-chemical-redesign-card.jpg",
+    "heroImage": "/images/uploads/stellar-chemical-redesign-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/stellar-chemical-redesign-1.jpg", "full": true },
+      { "src": "/images/uploads/stellar-chemical-redesign-2.jpg", "full": true },
+      { "src": "/images/uploads/stellar-chemical-redesign-3.jpg", "full": false },
+      { "src": "/images/uploads/stellar-chemical-redesign-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "paragraphs": [
+        "Visitors could explore the catalog but struggled to find the right grade, size, and quantity quickly. With buyers ranging from home users to industrial purchasers, one storefront had to serve everyone clearly."
       ],
+      "bullets": [
+        "Organizing an extensive technical catalog without overwhelming prospective buyers",
+        "Handling multi-category crossover products like propylene glycol and castor oil effectively",
+        "Serving both individual retail customers and commercial bulk purchasers on a single platform",
+        "Keeping long, technical product titles scannable, clear, and trustworthy"
+      ]
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Migrated into a unified Shopify Markets architecture with automatic currency, tax, and inventory routing."],
-      bullets: [
-        "[Test Data] Single codebase serving US, UK, EU, and AU shoppers",
-        "[Test Data] Native IP detection with smooth regional modal selector",
-        "[Test Data] Centralized ERP inventory sync",
+    "approach": {
+      "label": "The Approach",
+      "paragraphs": [
+        "The goal was simple: less searching, more buying. We redesigned the user experience around how chemical buyers navigate and evaluate technical specifications."
       ],
+      "bullets": [
+        "Reorganized catalog navigation by buyer industry: food, industrial, pharma, oils, pet, and reagents",
+        "Designed a high-converting homepage featuring key offers like free shipping thresholds ($75+) and featured bulk products",
+        "Standardized product grid cards to showcase grade, purity level, and starting price at a glance",
+        "Created technical product pages highlighting container sizes, volume pricing, and key specs upfront",
+        "Built dedicated bulk ordering pathways for tote and high-volume industrial purchases",
+        "Developed a mobile-friendly, cohesive design system applied uniformly across collection pages, product pages, and checkout"
+      ]
     },
-    design: {
-      label: "[Test Data] Results",
-      bullets: [
-        "[Test Data] 65% Reduction in monthly technical maintenance costs",
-        "[Test Data] International conversion rate increased by 27%",
-        "[Test Data] Flawless real-time stock sync across 4 global fulfillment centers",
+    "design": {
+      "label": "Key Wins",
+      "bullets": [
+        "Transformed navigation into intent-based buyer categories",
+        "Improved product card scannability with immediate grade and purity visibility",
+        "Established efficient purchasing routes for both small-pack retail and tote-level bulk buyers",
+        "Streamlined UX/UI consistency across mobile and desktop devices"
+      ]
+    },
+    "change": {
+      "label": "Transformation",
+      "before": [
+        "Products scattered across many categories",
+        "Grade and purity buried in long titles",
+        "One path for every buyer"
       ],
+      "after": [
+        "Navigation organized by buyer need",
+        "Key specs visible on every card and page",
+        "Clear routes for retail and bulk orders"
+      ]
     },
-    change: {
-      label: "[Test Data] Infrastructure",
-      before: ["[Test Data] Fractured regional stores requiring repetitive updates"],
-      after: ["[Test Data] Unified single-store global commerce platform"],
-    },
-    otherWorks: ["shopify-test-project-1", "shopify-test-project-2"],
+    "otherWorks": [
+      "advanage-shopify-migration",
+      "woofleys-shopify-store"
+    ]
   },
 
   {
-    slug: "shopify-test-project-4",
-    route: "/casestudy/shopify-development-services/shopify-test-project-4",
-    metaTitle: "[Test Data] B2B Wholesale Portal on Shopify | Case Study",
-    title: "[Test Data] Shopify B2B Wholesale Portal",
-    client: "[Test Data] Premium Kitchenware Brand",
-    category: "Shopify Development",
-    services: ["[Test Data] Shopify Plus B2B", "[Test Data] Tiered Price Lists", "[Test Data] Net Payment Terms Integration"],
-    subtitle: "[Test Data] Transitioning high-volume wholesale retailers to a self-serve digital ordering experience.",
-    year: "25",
-    cardImage: "/images/uploads/Project-4-scaled.jpg",
-    heroImage: "/images/uploads/Project-4-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-4-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-4-2nd-Image-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-4-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-4-4th-Image.jpg", full: false },
+    "slug": "lanes-car-products-shopify-migration",
+    "route": "/casestudy/shopify-development-services/lanes-car-products-shopify-migration",
+    "metaTitle": "Lane’s Car Products | BigCommerce to Shopify Migration Case Study",
+    "title": "Migrating a Large Auto Care Catalog from BigCommerce to Shopify",
+    "client": "Lane’s Car Products",
+    "category": "Ecommerce (Automotive Detailing & Car Care)",
+    "services": [
+      "BigCommerce to Shopify Migration",
+      "UI/UX Design",
+      "Conversion Optimization"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] Wholesale orders were handled manually through PDF price sheets, phone calls, and manual invoice generation."],
-      bullets: [
-        "[Test Data] 3-Day turnaround to process wholesale reorders",
-        "[Test Data] Frequent pricing and volume tier discrepancies",
-        "[Test Data] Inability for accounts to view real-time stock levels",
+    "subtitle": "The catalog outgrew the platform. Rebuilding a massive automotive detailing store to serve both retail car owners and professional detailers.",
+    "year": "26",
+    "cardImage": "/images/uploads/lanes-shopify-migration-card.jpg",
+    "heroImage": "/images/uploads/lanes-shopify-migration-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/lanes-shopify-migration-1.jpg", "full": true },
+      { "src": "/images/uploads/lanes-shopify-migration-2.jpg", "full": true },
+      { "src": "/images/uploads/lanes-shopify-migration-3.jpg", "full": false },
+      { "src": "/images/uploads/lanes-shopify-migration-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "paragraphs": [
+        "Thousands of listings. Two very different buyers. Moving a large vehicle-specific catalog meant rebuilding its whole structure without losing data, while creating a storefront that worked for both weekend car owners and dealership detailers."
       ],
+      "bullets": [
+        "Migrating a large vehicle-specific catalog without losing historical data",
+        "Rebuilding complex BigCommerce categories and product attributes inside Shopify",
+        "Keeping fitment-based shopping simple across thousands of custom listings",
+        "Serving both retail consumers and high-volume professional buyers on one storefront"
+      ]
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Implemented Shopify Plus native B2B functionality with assigned buyer accounts, customized catalogs, and quick-order pads."],
-      bullets: [
-        "[Test Data] Custom CSV order upload tool for bulk purchasers",
-        "[Test Data] Automatic Net-30 and Net-60 credit terms",
-        "[Test Data] Synchronized wholesale and DTC inventory in one admin",
+    "approach": {
+      "label": "The Approach",
+      "paragraphs": [
+        "The goal was simple: complex catalog, simple path. We executed a full platform migration focused on intuitive navigation and vehicle fitment matching."
       ],
+      "bullets": [
+        "Full migration of products, collections, and URLs with comprehensive 301 redirects mapped from BigCommerce to Shopify",
+        "Designed an intuitive mega menu covering interior care, scents, exterior washing, waxing/polishing, tools, and auto wheels",
+        "Integrated an 'Add your vehicle' fitment prompt and collection counts to easily navigate thousands of vehicle-specific listings",
+        "Engineered high-converting homepage sections featuring Best Sellers, Bundles, 'Top picks under $25,' deal countdowns, and sale badges",
+        "Enhanced product cards with Quick View, Wishlist, Product Compare, stock level indicators, and dynamic pricing displays",
+        "Surfaced trust bars, professional proof points, military discounts, financing, bulk purchasing, and dropshipping options"
+      ]
     },
-    design: {
-      label: "[Test Data] Operational Efficiency",
-      bullets: [
-        "[Test Data] 85% of wholesale accounts onboarded to self-checkout",
-        "[Test Data] Order processing time reduced from 3 days to instantaneous",
-        "[Test Data] Wholesale order volume grew by 42% in six months",
+    "design": {
+      "label": "Key Wins",
+      "bullets": [
+        "Seamless platform migration with zero loss of product data or URL equity",
+        "Streamlined fitment-based navigation across thousands of vehicle-specific SKUs",
+        "Unified shopping experience catering to both DIY car owners and professional detailers",
+        "Empowered internal team with an easily updates-and-scalable Shopify backend"
+      ]
+    },
+    "change": {
+      "label": "Transformation",
+      "before": [
+        "A catalog that outgrew BigCommerce",
+        "Hard to find the right product for your car",
+        "One experience for every buyer"
       ],
+      "after": [
+        "A Shopify store the team can update and grow without platform limits",
+        "Fitment-based shopping and clear navigation",
+        "Built for car owners and professionals alike"
+      ]
     },
-    change: {
-      label: "[Test Data] Operations",
-      before: ["[Test Data] Manual emails, paper spreadsheets, and invoice backlog"],
-      after: ["[Test Data] Modern frictionless self-serve B2B wholesale platform"],
-    },
-    otherWorks: ["shopify-test-project-1", "shopify-test-project-3"],
+    "otherWorks": [
+      "advanage-shopify-migration",
+      "stellar-chemical-shopify-redesign"
+    ]
   },
 
   // =========================================================================
   // 5. SEO & CONTENT (Test Data)
   // =========================================================================
   {
-    slug: "seo-test-project-1",
-    route: "/casestudy/seo-content-strategy-services/seo-test-project-1",
-    metaTitle: "[Test Data] Programmatic SEO & Authority Growth | Case Study",
-    title: "[Test Data] Organic Search Authority Growth",
-    client: "[Test Data] SaaS Analytics Company",
-    category: "SEO & Content",
-    services: ["[Test Data] Technical SEO", "[Test Data] Content Topic Clusters", "[Test Data] Authority Link Acquisition"],
-    subtitle: "[Test Data] Outranking entrenched competitors through structured content hubs and technical search architecture.",
-    year: "25",
-    cardImage: "/images/uploads/Project-1-scaled.jpg",
-    heroImage: "/images/uploads/Project-1-1st-Image-1.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-1-1st-Image-1.jpg", full: true },
-      { src: "/images/uploads/Project-1-2nd-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-1-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-1-4th-Image.jpg", full: false },
+    "slug": "max-berger-real-estate-seo",
+    "route": "/casestudy/seo-content-strategy-services/max-berger-real-estate-seo",
+    "metaTitle": "Max Berger Compass | Los Angeles Real Estate & AI Search SEO Case Study",
+    "title": "Making a Los Angeles Multifamily Broker the Go-To Resource on Google & AI Search",
+    "client": "Max Berger, Compass",
+    "category": "SEO (Real Estate / Multifamily)",
+    "services": [
+      "Technical SEO",
+      "Content Strategy",
+      "Location & Service Pages",
+      "Listing Pages",
+      "Link Building",
+      "Google Business Profile",
+      "AI Search Visibility",
+      "LinkedIn & Reddit"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] Stagnant organic traffic with key high-intent keyword rankings languishing on page 3 and 4 of Google."],
-      bullets: [
-        "[Test Data] Poor internal linking structure with orphaned pages",
-        "[Test Data] Thin, duplicate content across service pages",
-        "[Test Data] Slow Core Web Vitals dragging down domain quality score",
+    "subtitle": "Built to be found, and recommended. Positioning a top LA apartment broker at the top of Google Search, Google Maps, and AI tools like ChatGPT.",
+    "year": "26",
+    "cardImage": "/images/uploads/max-berger-seo-card.jpg",
+    "heroImage": "/images/uploads/max-berger-seo-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/max-berger-seo-1.jpg", "full": true },
+      { "src": "/images/uploads/max-berger-seo-2.jpg", "full": true },
+      { "src": "/images/uploads/max-berger-seo-3.jpg", "full": false },
+      { "src": "/images/uploads/max-berger-seo-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "paragraphs": [
+        "Strong rankings, weak results. Valuable core pages were hidden or buried, while competitors with fresher proof and more Google reviews dominated Map-packs and AI responses."
       ],
+      "bullets": [
+        "1031 exchange page was hidden from Google, RSO selling guide sat on page 5, and listings page was buried on page 4",
+        "Organic broker searches lost clicks to Google Maps local packs sitting above website results",
+        "Generic page titles and meta descriptions failed to draw search clicks",
+        "Competitors held 5x more Google reviews and newer closing data cited by AI models",
+        "Less than 1% of web form submissions were valid owner inquiries, with technical plugin errors causing site downtime"
+      ]
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Engineered a comprehensive topical authority map built around deep technical pillar pages and supporting clusters."],
-      bullets: [
-        "[Test Data] Programmatic schema markup injection",
-        "[Test Data] Clean site crawl hierarchy resolving 404s and redirect loops",
-        "[Test Data] Data-driven original research studies earning tier-1 backlinks",
+    "approach": {
+      "label": "The Approach",
+      "paragraphs": [
+        "The goal was simple: become the resource owners trust, and AI will recommend you. We built a comprehensive broker authority engine across search, maps, and AI platforms."
       ],
+      "bullets": [
+        "Resolved indexing blocks on core service pages and built strategic internal links to elevate ranking positions",
+        "Rewrote meta titles and descriptions around key buyer and seller search intent to maximize click-through rate",
+        "Optimized Google Business Profile and executed review acquisition campaigns to expand map presence",
+        "Created structured neighborhood guides, closed-deal posts, and updated market data for AI models to index and cite",
+        "Fixed website technical glitches, form submission routing, and plugin stability"
+      ]
     },
-    design: {
-      label: "[Test Data] Results",
-      bullets: [
-        "[Test Data] +285% Increase in organic search impressions",
-        "[Test Data] 46 Keywords moved into Google Top 3 positions",
-        "[Test Data] Organic demo bookings grew by 160%",
+    "design": {
+      "label": "Results & Impact",
+      "bullets": [
+        "#1 ranking on Google for 6 core keywords, including 'multifamily agent los angeles' and 'best multifamily broker los angeles'",
+        "+44% Increase in search click-through rate and +39% growth in organic search sessions",
+        "Recommended by ChatGPT in 100% of tested LA neighborhood queries and included in 100% of captured Google AI Overviews",
+        "+141% Increase in Google Business Profile views and +115% increase in direction requests with 100% 5-star reviews (+22% new reviews)",
+        "Cap rates guide impressions grew 150x, with the RSO guide climbing into Google's top 10"
+      ]
+    },
+    "change": {
+      "label": "Transformation",
+      "before": [
+        "Key pages hidden or buried in search",
+        "Rankings that didn’t earn clicks",
+        "Competitors winning AI with fresher proof"
       ],
+      "after": [
+        "Indexed pages climbing to page 1, backed by internal links and backlinks",
+        "Titles and descriptions built around searchers’ answers",
+        "Neighborhood pages, closed-deal posts, and ongoing content AI can cite"
+      ]
     },
-    change: {
-      label: "[Test Data] Organic Presence",
-      before: ["[Test Data] Buried on search result pages with minimal discovery"],
-      after: ["[Test Data] Dominating the top of search for industry-defining search terms"],
-    },
-    otherWorks: ["seo-test-project-2", "seo-test-project-3"],
+    "otherWorks": [
+      "lanes-car-products",
+      "advanage-shopify-migration"
+    ]
   },
 
   {
-    slug: "seo-test-project-2",
-    route: "/casestudy/seo-content-strategy-services/seo-test-project-2",
-    metaTitle: "[Test Data] Ecommerce SEO & Category Strategy | Case Study",
-    title: "[Test Data] Ecommerce Category SEO Overhaul",
-    client: "[Test Data] Home Decor Retailer",
-    category: "SEO & Content",
-    services: ["[Test Data] Category Page Optimization", "[Test Data] Faceted Navigation SEO", "[Test Data] Product Schema"],
-    subtitle: "[Test Data] Unlocking thousands of long-tail buying queries with optimized collection architectures.",
-    year: "25",
-    cardImage: "/images/uploads/Project-2-scaled.jpg",
-    heroImage: "/images/uploads/Project-2-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-2-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-2-2nd-Image-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-2-4th-Image.jpg", full: false },
-      { src: "/images/uploads/01c1c4236835079.68f41039d5926.gif", full: false },
+    "slug": "perf-moto-seo",
+    "route": "/casestudy/seo-content-strategy-services/perf-moto-seo",
+    "metaTitle": "Perf-Moto | Ecommerce SEO & Content Strategy Case Study",
+    "title": "Turning a Massive Powersports Catalog into an Organic Search Sales Engine",
+    "client": "Perf-Moto",
+    "category": "SEO (Ecommerce / Powersports)",
+    "services": [
+      "Technical SEO",
+      "Structured Data",
+      "Content Strategy",
+      "Custom Blog Template",
+      "Internal Linking",
+      "Search Analytics Setup"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] Faceted filters generated millions of duplicate indexable URLs, cannibalizing domain crawl budget."],
-      bullets: [
-        "[Test Data] Severe keyword cannibalization between collections",
-        "[Test Data] Google indexing empty filter states",
-        "[Test Data] Low non-branded product discovery",
+    "subtitle": "Turning a massive powersports catalog with no organic foundation into a site that ranks, earns clicks, and sells.",
+    "year": "26",
+    "cardImage": "/images/uploads/perf-moto-seo-card.jpg",
+    "heroImage": "/images/uploads/perf-moto-seo-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/perf-moto-seo-1.jpg", "full": true },
+      { "src": "/images/uploads/perf-moto-seo-2.jpg", "full": true },
+      { "src": "/images/uploads/perf-moto-seo-3.jpg", "full": false },
+      { "src": "/images/uploads/perf-moto-seo-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "paragraphs": [
+        "Blocked, unmeasured, and buried in duplicates. Search and AI crawlers were locked out, nothing was being measured, and the catalog looked identical to hundreds of competing resellers."
       ],
+      "bullets": [
+        "robots.txt blocked Bing and every AI crawler, including GPTBot, ClaudeBot, and PerplexityBot",
+        "No Search Console, GA4, or Tag Manager active, with an invalid sitemap submitted to Google",
+        "Duplicated manufacturer copy across 150,000 products, with only 24% of top-brand products carrying real GTINs",
+        "No blog content, and high-intent category pages earning impressions with minimal clicks",
+        "BigCommerce native blog limitations restricting custom fields, sidebars, FAQs, or summary features",
+        "Duplicate product URLs splitting ranking signals and diluting click-through rates"
+      ]
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Implemented smart canonicalization rules and built high-value static landing pages for popular search attributes."],
-      bullets: [
-        "[Test Data] Structured data for in-stock status and ratings",
-        "[Test Data] Automated breadcrumb taxonomy",
-        "[Test Data] SEO-optimized collection descriptions with contextual FAQs",
+    "approach": {
+      "label": "The Approach",
+      "paragraphs": [
+        "The goal was simple: focus on what sells, then make it easy to find. We unblocked search crawlers, established proper analytics, and built high-intent content hubs around core revenue drivers."
       ],
+      "bullets": [
+        "Removed crawler blocks and implemented GA4, Google Tag Manager, and a validated sitemap structure",
+        "Prioritized technical SEO and structured data optimization for the top 14% of products driving 80% of sales",
+        "Implemented schema markup for rich result eligibility (merchant listings, ratings, availability)",
+        "Built a custom BigCommerce blog framework with sidebars, custom fields, and product embeds for buyer-intent comparison guides",
+        "Consolidated duplicate product URLs to focus search authority and clean up crawl efficiency"
+      ]
     },
-    design: {
-      label: "[Test Data] Impact",
-      bullets: [
-        "[Test Data] Non-brand organic revenue doubled year-over-year",
-        "[Test Data] Crawl efficiency improved by 80%",
-        "[Test Data] 120,000 New monthly organic organic shoppers",
+    "design": {
+      "label": "Results & Impact",
+      "bullets": [
+        "65% of the top 1,000 tracked queries ranked on page 1, with 18% in the top 3 positions",
+        "Rich results drove 56% of all organic clicks, with merchant listings averaging position 1.3 at double the site's average CTR",
+        "Overall organic click-through rate increased by +41%",
+        "Brand search keywords achieved a 55–62% click-through rate",
+        "Buyer guide content expanded organically, achieving top 4 rankings for major brand comparison keywords"
+      ]
+    },
+    "change": {
+      "label": "Transformation",
+      "before": [
+        "Crawlers blocked and no tracking in place",
+        "150,000 generic products treated the same",
+        "No content and no path from search to product"
       ],
+      "after": [
+        "Full crawler access, a clean sitemap, and Search Console, GA4, and GTM live",
+        "SEO focused on the 14% of products driving 80% of sales",
+        "Buyer-intent guides on a custom template that links straight to products"
+      ]
     },
-    change: {
-      label: "[Test Data] Search Index",
-      before: ["[Test Data] Bloated index filled with duplicate parameterized URLs"],
-      after: ["[Test Data] Pristine, focused collection index capturing qualified buyers"],
-    },
-    otherWorks: ["seo-test-project-1", "seo-test-project-4"],
+    "otherWorks": [
+      "max-berger-real-estate-seo",
+      "lanes-car-products"
+    ]
   },
 
   {
-    slug: "seo-test-project-3",
-    route: "/casestudy/seo-content-strategy-services/seo-test-project-3",
-    metaTitle: "[Test Data] Editorial Content Engine & Thought Leadership | Case Study",
-    title: "[Test Data] Editorial Content Hub & Distribution",
-    client: "[Test Data] FinTech Advisory",
-    category: "SEO & Content",
-    services: ["[Test Data] Editorial Strategy", "[Test Data] Journalist PR Outreach", "[Test Data] Content syndication"],
-    subtitle: "[Test Data] Transforming dry financial topics into compelling, shareable content that ranks and converts.",
-    year: "25",
-    cardImage: "/images/uploads/Project-3-1-scaled.jpg",
-    heroImage: "/images/uploads/Project-3-1-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-3-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-3-2nd-Image-1-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-3-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-3-4th-Image.jpg", full: false },
+    "slug": "advanage-seo-migration",
+    "route": "/casestudy/seo-content-strategy-services/advanage-seo-migration",
+    "metaTitle": "ADVANAGE | Ecommerce SEO & Platform Migration Case Study",
+    "title": "Taking a Decades-Old Cleaning Brand Through a Full Migration & Scaling Organic Search",
+    "client": "Advanage Diversified Products, Inc.",
+    "category": "SEO (Ecommerce / Home & Industrial Cleaning)",
+    "services": [
+      "Migration SEO",
+      "Technical SEO",
+      "Keyword Research",
+      "Topical Mapping",
+      "Content Strategy",
+      "Performance Analysis"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] High-cost paid media was the only traffic driver, creating dependency and eroding margins."],
-      bullets: [
-        "[Test Data] Zero organic brand storytelling presence",
-        "[Test Data] High bounce rate on existing company blog",
-        "[Test Data] Weak domain authority metrics",
+    "subtitle": "A proven product with no search history on a fresh domain. Executing a seamless platform migration to Shopify while driving a 9.6x increase in organic clicks.",
+    "year": "26",
+    "cardImage": "/images/uploads/advanage-seo-card.jpg",
+    "heroImage": "/images/uploads/advanage-seo-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/advanage-seo-1.jpg", "full": true },
+      { "src": "/images/uploads/advanage-seo-2.jpg", "full": true },
+      { "src": "/images/uploads/advanage-seo-3.jpg", "full": false },
+      { "src": "/images/uploads/advanage-seo-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "paragraphs": [
+        "Two platforms, hundreds of URLs, one fresh start. Every legacy page had to find a new home without losing its value inside Shopify's fixed URL structure while capturing search traffic across common brand misspellings."
       ],
+      "bullets": [
+        "Migrating legacy storefront from Miva Merchant and blog from WordPress into Shopify's fixed URL architecture",
+        "Mapping hundreds of legacy URLs with an incomplete blog sitemap and mixed HTTP/HTTPS URLs",
+        "Blank or placeholder meta descriptions, misaligned commercial page titles, and thin category copy",
+        "Branded search intent fragmented across terms like 'Advantage', 'Vanish', and 'Wonder Cleaner'",
+        "Over-reliance on basic informational content with a lack of decision-stage buying guides or comparisons"
+      ]
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Established a journalistic research team publishing proprietary market indices and tactical consumer guides."],
-      bullets: [
-        "[Test Data] Interactive calculators embedded within guide pages",
-        "[Test Data] Direct quotes and citations placed in major publications",
-        "[Test Data] Evergreen search intent alignment",
+    "approach": {
+      "label": "The Approach",
+      "paragraphs": [
+        "The goal was simple: lose nothing in the move, then win the searches that sell. We managed 1:1 redirect mappings and optimized decision-stage search content."
       ],
+      "bullets": [
+        "Mapped every legacy URL 1:1 with permanent 301 redirects into Shopify to retain domain authority",
+        "Optimized meta descriptions, titles, and category copy to address both retail and commercial search intent",
+        "Captured branded misspellings (e.g., 'advantage wonder cleaner') through targeted page structures",
+        "Published decision-stage content, including head-to-head competitor comparisons, product reviews, and commercial buying guides",
+        "Structured product pages for rich snippet and merchant listing eligibility in search results"
+      ]
     },
-    design: {
-      label: "[Test Data] Results",
-      bullets: [
-        "[Test Data] Organic channel became the #1 source of pipeline leads",
-        "[Test Data] Domain authority increased by 22 points",
-        "[Test Data] 40,000+ Email newsletter subscribers acquired organically",
+    "design": {
+      "label": "Results & Impact",
+      "bullets": [
+        "9.6x Increase in organic clicks and 3.4x growth in organic search impressions",
+        "2.8x Increase in click-through rate with average ranking position jumping from 11.2 (Page 2) to 5.9 (Top 6)",
+        "56% of tracked search queries ranking in the top 10 positions and 24% in the top 3",
+        "Ranked position 1.9 for primary misspelled brand searches like 'advantage wonder cleaner'",
+        "SDS Sheets page converting trust-seeking shoppers at an 18% click-through rate"
+      ]
+    },
+    "change": {
+      "label": "Transformation",
+      "before": [
+        "Two platforms and hundreds of legacy URLs",
+        "Informational content that earned no sales",
+        "Branded searches scattered across misspellings"
       ],
+      "after": [
+        "Every URL mapped 1:1 with permanent redirects into Shopify",
+        "Reviews, comparisons, and buying guides built for decision-stage shoppers",
+        "Pages built around every way people search for the brand"
+      ]
     },
-    change: {
-      label: "[Test Data] Acquisition Balance",
-      before: ["[Test Data] 100% dependency on volatile paid media channels"],
-      after: ["[Test Data] Sustainable organic acquisition compounding every month"],
-    },
-    otherWorks: ["seo-test-project-1", "seo-test-project-2"],
+    "otherWorks": [
+      "perf-moto-seo",
+      "max-berger-real-estate-seo"
+    ]
   },
 
   {
-    slug: "seo-test-project-4",
-    route: "/casestudy/seo-content-strategy-services/seo-test-project-4",
-    metaTitle: "[Test Data] International Multi-Lingual SEO | Case Study",
-    title: "[Test Data] Global Hreflang & Regional Search",
-    client: "[Test Data] International Travel Brand",
-    category: "SEO & Content",
-    services: ["[Test Data] Hreflang Architecture", "[Test Data] Multi-Region Content", "[Test Data] Local Search Engines"],
-    subtitle: "[Test Data] Flawless international SEO deployment across 12 countries and 5 languages.",
-    year: "25",
-    cardImage: "/images/uploads/Project-4-scaled.jpg",
-    heroImage: "/images/uploads/Project-4-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-4-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-4-2nd-Image-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-4-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-4-4th-Image.jpg", full: false },
+    "slug": "lanes-car-products-seo-migration",
+    "route": "/casestudy/seo-content-strategy-services/lanes-car-products-seo-migration",
+    "metaTitle": "Lane’s Car Products | Ecommerce SEO & Platform Migration Case Study",
+    "title": "Protecting Search Visibility Through a Full Platform Migration & Rebuilding Organic Growth",
+    "client": "Lane’s Car Products",
+    "category": "SEO (Ecommerce / Automotive Detailing & Car Care)",
+    "services": [
+      "Migration SEO",
+      "Indexing & Crawl Health",
+      "On-Page SEO",
+      "Keyword Research",
+      "Topical Mapping",
+      "Content Strategy",
+      "AI Search Readiness"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] European and Asian searchers were routinely shown US pricing and English landing pages."],
-      bullets: [
-        "[Test Data] Conflicting hreflang tags causing index de-ranking",
-        "[Test Data] Poor localized search visibility in Germany and France",
-        "[Test Data] Misaligned geo-targeting signals in Search Console",
+    "subtitle": "Years of rankings, one risky move. Protecting search authority through a 23,000+ SKU BigCommerce to Shopify migration and expanding organic revenue.",
+    "year": "26",
+    "cardImage": "/images/uploads/lanes-seo-card.jpg",
+    "heroImage": "/images/uploads/lanes-seo-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/lanes-seo-1.jpg", "full": true },
+      { "src": "/images/uploads/lanes-seo-2.jpg", "full": true },
+      { "src": "/images/uploads/lanes-seo-3.jpg", "full": false },
+      { "src": "/images/uploads/lanes-seo-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "paragraphs": [
+        "Tens of thousands of URLs changing overnight. Moving a 23,000+ product catalog from BigCommerce to Shopify risked wiping out decades of search history while Google recrawled and reranked the new domain structure."
       ],
+      "bullets": [
+        "Over 67,000 legacy URLs changing simultaneously across a site with established ranking history",
+        "Erroneous noindex tags blocking key pages and outdated BigCommerce sitemaps still being crawled",
+        "115+ collection pages launched with placeholder titles and missing meta descriptions",
+        "Thin product descriptions and duplicate FAQ schema repeated site-wide",
+        "Content strategy misaligned with actual user search query data",
+        "Offline top-sellers generating 404 errors while major category pages sat buried on pages 2–5"
+      ]
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Restructured international folder architecture with self-referencing hreflang and localized XML sitemaps."],
-      bullets: [
-        "[Test Data] Native language content localization by subject experts",
-        "[Test Data] Regional schema and server CDN edge caching",
-        "[Test Data] Geo-specific backlink acquisition campaigns",
+    "approach": {
+      "label": "The Approach",
+      "paragraphs": [
+        "The goal was simple: protect what the site had earned, then grow from it. We implemented a precise technical migration protocol and overhauled high-intent content."
       ],
+      "bullets": [
+        "Mapped every legacy URL 1:1 to its closest Shopify equivalent using permanent 301 redirects",
+        "Resolved indexing blocks, removed outdated sitemaps, and resubmitted clean XML sitemaps in priority order",
+        "Optimized titles, descriptions, and on-page content for over 115 collection and category pages",
+        "Realigned topical mapping and content strategy using live Search Console and historical sales data",
+        "Implemented structured data schema to maximize rich snippet and merchant listing eligibility",
+        "Published targeted buyer guides (e.g., tire dressing guides) to capture non-branded search volume"
+      ]
     },
-    design: {
-      label: "[Test Data] Global Growth",
-      bullets: [
-        "[Test Data] 320% Increase in non-English organic sessions",
-        "[Test Data] Zero cross-region hreflang errors in Google Search Console",
-        "[Test Data] International revenue surpassed domestic revenue within 12 months",
+    "design": {
+      "label": "Results & Impact",
+      "bullets": [
+        "+63% Increase in organic clicks and +57% growth in search impressions post-launch",
+        "Average ranking position improved from 17.7 to 14.5 across the catalog",
+        "Product snippets drive 58% of all organic clicks, with merchant listings averaging position 2.1",
+        "Page 1 rankings for competitive terms like 'best tire shine' and #2 for model-specific steering wheel queries",
+        "Over 25% of Page 1 keywords now rank in Top 3 positions, with flagship products driving organic sales with zero ad spend"
+      ]
+    },
+    "change": {
+      "label": "Transformation",
+      "before": [
+        "Tens of thousands of old URLs at risk",
+        "Noindex tags and old sitemaps blocking discovery",
+        "A content plan that missed real demand"
       ],
+      "after": [
+        "Every old URL mapped 1:1 to its closest new page with a permanent redirect",
+        "Clean sitemap, noindex errors fixed, and key pages indexed in priority order",
+        "Topics re-ranked with Search Console and sales data, built around buyer intent"
+      ]
     },
-    change: {
-      label: "[Test Data] Global Footprint",
-      before: ["[Test Data] Disjointed regional presence with frequent crawler confusion"],
-      after: ["[Test Data] Flawlessly indexed multilingual powerhouse"],
-    },
-    otherWorks: ["seo-test-project-1", "seo-test-project-3"],
+    "otherWorks": [
+      "perf-moto-seo",
+      "advanage-seo-migration"
+    ]
   },
 
   // =========================================================================

@@ -187,10 +187,10 @@ export const projectServices = [
       "A store that converts is better. We build Shopify experiences designed around your customer's journey.",
     image: "/images/uploads/hopify-Development.jpg",
     projects: [
-      "shopify-test-project-1",
-      "shopify-test-project-2",
-      "shopify-test-project-3",
-      "shopify-test-project-4",
+      "advanage-shopify-migration",
+      "woofleys-shopify-store",
+      "stellar-chemical-shopify-redesign",
+      "lanes-car-products-shopify-migration",
     ],
   },
   {
@@ -201,10 +201,10 @@ export const projectServices = [
       "We build organic visibility that compounds over time on Google and on Amazon.",
     image: "/images/uploads/SEO & Content.webp",
     projects: [
-      "seo-test-project-1",
-      "seo-test-project-2",
-      "seo-test-project-3",
-      "seo-test-project-4",
+      "max-berger-real-estate-seo",
+      "perf-moto-seo",
+      "advanage-seo-migration",
+      "lanes-car-products-seo-migration",
     ],
   },
   {
