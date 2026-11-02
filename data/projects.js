@@ -254,229 +254,273 @@ export const projects = [
   // 2. META ADS (Test Data)
   // =========================================================================
   {
-    slug: "meta-test-project-1",
-    route: "/casestudy/meta-instagram-ads-services/meta-test-project-1",
-    metaTitle: "[Test Data] Meta Ads Scale Campaign | Case Study",
-    title: "[Test Data] Meta Growth Campaign 01",
-    client: "[Test Data] Apparel Brand Client",
-    category: "Meta Ads",
-    services: ["[Test Data] Paid Social Strategy", "[Test Data] Meta Ad Creatives", "[Test Data] Scale Funnel"],
-    subtitle: "[Test Data] Scaling profitable customer acquisition across Instagram and Facebook with high-velocity creative testing.",
-    year: "25",
-    cardImage: "/images/uploads/Project-1-scaled.jpg",
-    heroImage: "/images/uploads/Project-1-1st-Image-1.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-1-1st-Image-1.jpg", full: true },
-      { src: "/images/uploads/Project-1-2nd-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-1-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-1-4th-Image.jpg", full: false },
+    "slug": "us-medical-spa-meta-ads",
+    "route": "/casestudy/meta-instagram-ads-services/us-medical-spa-meta-ads",
+    "metaTitle": "U.S. Medical Spa | Meta Ads & Creative Testing Case Study",
+    "title": "Using Creative Testing to Find the Ad That Drove Most of the Leads",
+    "client": "U.S. Medical Spa (Confidential)",
+    "category": "Meta Ads",
+    "services": [
+      "Lead Generation",
+      "Creative Testing",
+      "Campaign Optimization"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      heading: "[Test Data] Rising CPAs and creative fatigue.",
-      paragraphs: [
-        "[Test Data] The brand had hit a plateau on Meta ad spend, experiencing rapid fatigue on hero creatives and declining ROAS.",
-        "[Test Data] Broad audiences were inefficient, and retargeting pools had exhausted their incremental lift.",
+    "subtitle": "Finding the ad that actually converts. Reallocating Meta Ads budget toward proven high-performing creatives for a U.S. medical spa.",
+    "year": "26",
+    "cardImage": "/images/uploads/us-medical-spa-card.jpg",
+    "heroImage": "/images/uploads/us-medical-spa-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/us-medical-spa-1.jpg", "full": true },
+      { "src": "/images/uploads/us-medical-spa-2.jpg", "full": true },
+      { "src": "/images/uploads/us-medical-spa-3.jpg", "full": false },
+      { "src": "/images/uploads/us-medical-spa-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "heading": "Not every ad pulls its weight.",
+      "paragraphs": [
+        "This U.S. medical spa used Meta lead ads to bring new clients through the door. Several ad creatives ran side by side, each with a different message and visual.",
+        "With four creatives running, performance varied widely, and one ad barely delivered at all. Without testing, the budget would have been spread evenly across ads that weren’t equally effective."
       ],
-      bullets: [
-        "[Test Data] Cost per acquisition increased by 45%",
-        "[Test Data] Creative production was too slow to sustain testing",
-        "[Test Data] High ad spend concentration in a single failing ad set",
+      "bullets": [
+        "Cost per lead varied by up to 30% between ad creatives",
+        "One creative produced just 1% of total leads generated",
+        "Lead quality and cost depended heavily on the specific message and visual used",
+        "Budget needed to flow toward proven performers rather than being split evenly"
       ],
-      closing: "[Test Data] The objective was to rebuild the account structure and reignite profitable scale.",
+      "closing": "The objective was to keep lead costs low while finding which creative clients actually responded to, so the budget could work harder."
     },
-    approach: {
-      label: "[Test Data] The Approach",
-      heading: "[Test Data] Structured creative diversification and automated bidding.",
-      paragraphs: [
-        "[Test Data] We implemented a weekly creative testing sprint targeting fresh problem-aware customer segments.",
-        "[Test Data] Combined Advantage+ campaigns with strict cost caps to protect blended efficiency.",
+    "approach": {
+      "label": "The Approach",
+      "heading": "Systematic ad testing and budget reallocation.",
+      "paragraphs": [
+        "We executed a creative testing playbook running side-by-side variations of copy and imagery to isolate top-performing assets.",
+        "Once clear conversion data emerged, spend was channeled directly into the winning messaging angles."
       ],
-      bullets: [
-        "[Test Data] 8 new creative concepts deployed weekly",
-        "[Test Data] UGC hooks combined with high-polish motion graphics",
-        "[Test Data] Dedicated landing pages for top product categories",
+      "bullets": [
+        "Ran four distinct creative variations side by side to measure performance",
+        "Tracked cost per lead and conversion efficiency per message angle",
+        "Cut waste on underperforming creatives that drove low volume or high CPL",
+        "Focused ad spend behind the top two performing creatives"
       ],
-      closing: "[Test Data] Systematized iteration produced steady winners week over week.",
+      "closing": "The goal was simple: test fast, then let the winners do the work."
     },
-    design: {
-      label: "[Test Data] Results",
-      heading: "[Test Data] Measurable ROAS and volume expansion.",
-      bullets: [
-        "[Test Data] 3.6x Blended ROAS across entire account",
-        "[Test Data] 34% Reduction in customer acquisition cost",
-        "[Test Data] 2.4x Increase in monthly tracked sales",
+    "design": {
+      "label": "Key Wins",
+      "heading": "Measurable lead cost reductions and volume concentration.",
+      "bullets": [
+        "$6.54 average cost per lead across all ad creatives",
+        "Identified one top ad creative that delivered 61% of total leads",
+        "Winning ad operated at a 23% lower cost per lead than the weakest ad",
+        "Top two creatives combined to produce 88% of total client leads"
       ],
-      closing: "[Test Data] Predictable acquisition engine operating at peak efficiency.",
+      "closing": "Built a highly efficient lead acquisition engine driven by validated audience data."
     },
-    change: {
-      label: "[Test Data] Performance Shift",
-      before: ["[Test Data] Ad fatigue within 7 days", "[Test Data] High blended CPA", "[Test Data] Unstable daily return"],
-      after: ["[Test Data] Consistent evergreen creative library", "[Test Data] 34% Lower CPA baseline", "[Test Data] Predictable, scalable revenue"],
+    "change": {
+      "label": "Performance Shift",
+      "before": [
+        "Untested creatives competing for budget",
+        "Lead costs varying by ad",
+        "Guesswork on what clients respond to"
+      ],
+      "after": [
+        "A clear winning creative identified",
+        "Lowest cost per lead on the top performer",
+        "Data showing which message converts"
+      ]
     },
-    otherWorks: ["meta-test-project-2", "meta-test-project-3"],
+    "otherWorks": [
+      "lanes-car-products",
+      "advanage-the-wonder-cleaner"
+    ]
   },
 
   {
-    slug: "meta-test-project-2",
-    route: "/casestudy/meta-instagram-ads-services/meta-test-project-2",
-    metaTitle: "[Test Data] Meta Ads Direct Response | Case Study",
-    title: "[Test Data] Meta Direct-to-Consumer Sprint",
-    client: "[Test Data] Wellness & Nutrition Co.",
-    category: "Meta Ads",
-    services: ["[Test Data] UGC Video Direction", "[Test Data] Campaign Structuring", "[Test Data] Retargeting Strategy"],
-    subtitle: "[Test Data] Unlocking rapid customer acquisition with native storytelling and dynamic catalog ads.",
-    year: "25",
-    cardImage: "/images/uploads/Project-2-scaled.jpg",
-    heroImage: "/images/uploads/Project-2-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-2-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-2-2nd-Image-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-2-4th-Image.jpg", full: false },
-      { src: "/images/uploads/01c1c4236835079.68f41039d5926.gif", full: false },
+    "slug": "us-lead-generation-meta-ads",
+    "route": "/casestudy/meta-instagram-ads-services/us-lead-generation-meta-ads",
+    "metaTitle": "U.S. Lead Generation Account | Meta Ads Case Study",
+    "title": "Cutting Cost Per Lead by 80% While Generating More Leads on a Fraction of the Budget",
+    "client": "U.S. Service Business (Confidential)",
+    "category": "Meta Ads",
+    "services": [
+      "Campaign Restructure",
+      "Audience Targeting",
+      "Lead Generation"
     ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] Generic product ads failed to differentiate the brand in an overcrowded wellness market."],
-      bullets: [
-        "[Test Data] Low click-through rate under 0.8%",
-        "[Test Data] Ineffective brand storytelling in paid channels",
-        "[Test Data] Customer skepticism regarding product ingredients",
+    "subtitle": "Paying too much for every lead. Rebuilding a Meta Ads campaign to drastically lower CPL while boosting total lead volume.",
+    "year": "26",
+    "cardImage": "/images/uploads/us-lead-gen-card.jpg",
+    "heroImage": "/images/uploads/us-lead-gen-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/us-lead-gen-1.jpg", "full": true },
+      { "src": "/images/uploads/us-lead-gen-2.jpg", "full": true },
+      { "src": "/images/uploads/us-lead-gen-3.jpg", "full": false },
+      { "src": "/images/uploads/us-lead-gen-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "The Challenges",
+      "heading": "High spend, low efficiency.",
+      "paragraphs": [
+        "This U.S. business relied on Meta Ads to generate leads, but its existing campaign was costing $22.94 for every lead. Spend was high and returns weren’t keeping up.",
+        "The original campaign was spending heavily but showing ads repeatedly to the same audience. Each lead cost far more than it should have, and adding budget would only have made it worse."
       ],
-      closing: "[Test Data] Direct response creative needed authentic proof points.",
-    },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: [
-        "[Test Data] We shifted from static product images to creator-led testimonials and third-party validation clips.",
-        "[Test Data] Streamlined conversion journeys directly to optimized bundles.",
+      "bullets": [
+        "Cost per lead sat at an unsustainable $22.94",
+        "Cost per 1,000 impressions (CPM) was high at ~$44",
+        "Excessive ad frequency with users seeing the same ad almost 4 times on average",
+        "Low acquisition efficiency with fewer than 8 leads generated per 1,000 people reached"
       ],
-      bullets: [
-        "[Test Data] Authentic unboxing and routine video ads",
-        "[Test Data] Direct comparison charts in Instagram Stories",
-        "[Test Data] Rapid post-click bundle checkouts",
+      "closing": "The goal was to rebuild the campaign so every dollar reached more of the right people and turned into more leads, not just impressions."
+    },
+    "approach": {
+      "label": "The Approach",
+      "heading": "Audience re-targeting and structural campaign rebuild.",
+      "paragraphs": [
+        "We restructured the account architecture to eliminate audience fatigue, manage impression frequency, and capture high-intent localized prospects.",
+        "By controlling frequency and refining targeting parameters, spend was reallocated toward net-new prospective customers."
       ],
-    },
-    design: {
-      label: "[Test Data] Key Wins",
-      bullets: [
-        "[Test Data] CTR increased from 0.8% to 2.3%",
-        "[Test Data] Conversion rate jumped by 62%",
-        "[Test Data] Record sales recorded during seasonal campaigns",
+      "bullets": [
+        "Rebuilt the campaign structure around an optimized daily spend budget",
+        "Refined geo-targeting parameters to reach a focused local audience efficiently",
+        "Controlled ad frequency cap to reduce repetition and expand audience reach",
+        "Optimized lead forms and ad delivery for conversion intent"
       ],
-      closing: "[Test Data] High emotional resonance generated immediate customer trust.",
+      "closing": "The goal was simple: spend less, reach the right people, get more leads."
     },
-    change: {
-      label: "[Test Data] Key Metrics",
-      before: ["[Test Data] Low user engagement", "[Test Data] Unprofitable first-order margins"],
-      after: ["[Test Data] High engagement UGC engine", "[Test Data] Profitable initial order basket size"],
+    "design": {
+      "label": "Key Wins",
+      "heading": "Significant cost reductions and volume expansion.",
+      "bullets": [
+        "Cost per lead dropped 80%, from $22.94 down to $4.48",
+        "12% more leads generated on 78% less total ad spend",
+        "Cost per 1,000 impressions (CPM) cut by 52%",
+        "Leads per 1,000 people reached increased by 56%",
+        "Ad frequency reduced from ~4 to 2.5, driving efficient reach among fresh audiences"
+      ],
+      "closing": "Transformed a high-cost acquisition setup into a highly profitable local lead engine."
     },
-    otherWorks: ["meta-test-project-1", "meta-test-project-4"],
+    "change": {
+      "label": "Key Metrics",
+      "before": [
+        "A broad campaign spending heavily",
+        "Ads repeating to the same audience",
+        "$22.94 per lead"
+      ],
+      "after": [
+        "A rebuilt campaign on a tight daily budget",
+        "A focused local audience reached efficiently",
+        "$4.48 per lead"
+      ]
+    },
+    "otherWorks": [
+      "us-medical-spa-meta-ads",
+      "lanes-car-products"
+    ]
   },
 
-  {
-    slug: "meta-test-project-3",
-    route: "/casestudy/meta-instagram-ads-services/meta-test-project-3",
-    metaTitle: "[Test Data] Meta Ads Retargeting & LTV | Case Study",
-    title: "[Test Data] Meta Retention & Retargeting Engine",
-    client: "[Test Data] Premium Footwear Brand",
-    category: "Meta Ads",
-    services: ["[Test Data] Audience Segmentation", "[Test Data] Dynamic Ads", "[Test Data] VIP Retention"],
-    subtitle: "[Test Data] Increasing customer lifetime value through hyper-segmented Meta audience journeys.",
-    year: "25",
-    cardImage: "/images/uploads/Project-3-1-scaled.jpg",
-    heroImage: "/images/uploads/Project-3-1-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-3-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-3-2nd-Image-1-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-3-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-3-4th-Image.jpg", full: false },
-    ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] High acquisition volume was not translating into repeatable repeat purchases."],
-      bullets: [
-        "[Test Data] 85% one-and-done buyers",
-        "[Test Data] Retargeting creative identical to prospecting ads",
-        "[Test Data] Underutilized customer data in Meta pixel",
-      ],
-    },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] We engineered multi-stage post-purchase ad funnels delivering timely cross-sell recommendations."],
-      bullets: [
-        "[Test Data] Product-specific care guide and accessory ads",
-        "[Test Data] VIP early access creative drops",
-        "[Test Data] LTV-optimized lookalike audiences",
-      ],
-    },
-    design: {
-      label: "[Test Data] Results",
-      bullets: [
-        "[Test Data] 45% Increase in 60-day repeat order rate",
-        "[Test Data] 4.8x ROAS specifically on retargeting sets",
-        "[Test Data] Substantial expansion of average customer value",
-      ],
-    },
-    change: {
-      label: "[Test Data] Long-Term Value",
-      before: ["[Test Data] Isolated acquisition without retention strategy"],
-      after: ["[Test Data] Fully integrated lifecycle ad journey producing recurring revenue"],
-    },
-    otherWorks: ["meta-test-project-1", "meta-test-project-2"],
-  },
+  // {
+  //   slug: "meta-test-project-3",
+  //   route: "/casestudy/meta-instagram-ads-services/meta-test-project-3",
+  //   metaTitle: "[Test Data] Meta Ads Retargeting & LTV | Case Study",
+  //   title: "[Test Data] Meta Retention & Retargeting Engine",
+  //   client: "[Test Data] Premium Footwear Brand",
+  //   category: "Meta Ads",
+  //   services: ["[Test Data] Audience Segmentation", "[Test Data] Dynamic Ads", "[Test Data] VIP Retention"],
+  //   subtitle: "[Test Data] Increasing customer lifetime value through hyper-segmented Meta audience journeys.",
+  //   year: "25",
+  //   cardImage: "/images/uploads/Project-3-1-scaled.jpg",
+  //   heroImage: "/images/uploads/Project-3-1-scaled.jpg",
+  //   gallery: [
+  //     { src: "/images/uploads/Project-3-1st-Image.jpg", full: true },
+  //     { src: "/images/uploads/Project-3-2nd-Image-1-scaled.jpg", full: true },
+  //     { src: "/images/uploads/Project-3-3rd-Image.jpg", full: false },
+  //     { src: "/images/uploads/Project-3-4th-Image.jpg", full: false },
+  //   ],
+  //   challenge: {
+  //     label: "[Test Data] The Challenge",
+  //     paragraphs: ["[Test Data] High acquisition volume was not translating into repeatable repeat purchases."],
+  //     bullets: [
+  //       "[Test Data] 85% one-and-done buyers",
+  //       "[Test Data] Retargeting creative identical to prospecting ads",
+  //       "[Test Data] Underutilized customer data in Meta pixel",
+  //     ],
+  //   },
+  //   approach: {
+  //     label: "[Test Data] The Approach",
+  //     paragraphs: ["[Test Data] We engineered multi-stage post-purchase ad funnels delivering timely cross-sell recommendations."],
+  //     bullets: [
+  //       "[Test Data] Product-specific care guide and accessory ads",
+  //       "[Test Data] VIP early access creative drops",
+  //       "[Test Data] LTV-optimized lookalike audiences",
+  //     ],
+  //   },
+  //   design: {
+  //     label: "[Test Data] Results",
+  //     bullets: [
+  //       "[Test Data] 45% Increase in 60-day repeat order rate",
+  //       "[Test Data] 4.8x ROAS specifically on retargeting sets",
+  //       "[Test Data] Substantial expansion of average customer value",
+  //     ],
+  //   },
+  //   change: {
+  //     label: "[Test Data] Long-Term Value",
+  //     before: ["[Test Data] Isolated acquisition without retention strategy"],
+  //     after: ["[Test Data] Fully integrated lifecycle ad journey producing recurring revenue"],
+  //   },
+  //   otherWorks: ["meta-test-project-1", "meta-test-project-2"],
+  // },
 
-  {
-    slug: "meta-test-project-4",
-    route: "/casestudy/meta-instagram-ads-services/meta-test-project-4",
-    metaTitle: "[Test Data] Meta Ads Global Expansion | Case Study",
-    title: "[Test Data] Meta International Expansion",
-    client: "[Test Data] Modern Electronics Studio",
-    category: "Meta Ads",
-    services: ["[Test Data] International Meta Ads", "[Test Data] Localization Strategy", "[Test Data] Creative Testing"],
-    subtitle: "[Test Data] Scaling consumer hardware into European and UK markets with localized Meta creative sets.",
-    year: "25",
-    cardImage: "/images/uploads/Project-4-scaled.jpg",
-    heroImage: "/images/uploads/Project-4-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-4-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-4-2nd-Image-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-4-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-4-4th-Image.jpg", full: false },
-    ],
-    challenge: {
-      label: "[Test Data] The Challenge",
-      paragraphs: ["[Test Data] Domestic success in North America was stalling when simply duplicating ads into overseas markets."],
-      bullets: [
-        "[Test Data] Lack of language and cultural nuance in visuals",
-        "[Test Data] Discrepancies in checkout behavior across territories",
-        "[Test Data] Poor currency and shipping clarity in ads",
-      ],
-    },
-    approach: {
-      label: "[Test Data] The Approach",
-      paragraphs: ["[Test Data] Built custom regional ad libraries featuring local creators, local pricing, and market-specific value propositions."],
-      bullets: [
-        "[Test Data] Multi-language voiceovers and on-screen text",
-        "[Test Data] Local payment badge integrations in carousels",
-        "[Test Data] Segmented country-specific testing clusters",
-      ],
-    },
-    design: {
-      label: "[Test Data] Results",
-      bullets: [
-        "[Test Data] Successfully opened 4 new international revenue streams",
-        "[Test Data] Account-wide spend grew by 210% at stable efficiency",
-        "[Test Data] International sales accounted for 38% of total brand revenue",
-      ],
-    },
-    change: {
-      label: "[Test Data] Market Reach",
-      before: ["[Test Data] 100% reliant on single domestic market"],
-      after: ["[Test Data] Diversified global customer acquisition pipeline"],
-    },
-    otherWorks: ["meta-test-project-1", "meta-test-project-3"],
-  },
+  // {
+  //   slug: "meta-test-project-4",
+  //   route: "/casestudy/meta-instagram-ads-services/meta-test-project-4",
+  //   metaTitle: "[Test Data] Meta Ads Global Expansion | Case Study",
+  //   title: "[Test Data] Meta International Expansion",
+  //   client: "[Test Data] Modern Electronics Studio",
+  //   category: "Meta Ads",
+  //   services: ["[Test Data] International Meta Ads", "[Test Data] Localization Strategy", "[Test Data] Creative Testing"],
+  //   subtitle: "[Test Data] Scaling consumer hardware into European and UK markets with localized Meta creative sets.",
+  //   year: "25",
+  //   cardImage: "/images/uploads/Project-4-scaled.jpg",
+  //   heroImage: "/images/uploads/Project-4-scaled.jpg",
+  //   gallery: [
+  //     { src: "/images/uploads/Project-4-1st-Image.jpg", full: true },
+  //     { src: "/images/uploads/Project-4-2nd-Image-scaled.jpg", full: true },
+  //     { src: "/images/uploads/Project-4-3rd-Image.jpg", full: false },
+  //     { src: "/images/uploads/Project-4-4th-Image.jpg", full: false },
+  //   ],
+  //   challenge: {
+  //     label: "[Test Data] The Challenge",
+  //     paragraphs: ["[Test Data] Domestic success in North America was stalling when simply duplicating ads into overseas markets."],
+  //     bullets: [
+  //       "[Test Data] Lack of language and cultural nuance in visuals",
+  //       "[Test Data] Discrepancies in checkout behavior across territories",
+  //       "[Test Data] Poor currency and shipping clarity in ads",
+  //     ],
+  //   },
+  //   approach: {
+  //     label: "[Test Data] The Approach",
+  //     paragraphs: ["[Test Data] Built custom regional ad libraries featuring local creators, local pricing, and market-specific value propositions."],
+  //     bullets: [
+  //       "[Test Data] Multi-language voiceovers and on-screen text",
+  //       "[Test Data] Local payment badge integrations in carousels",
+  //       "[Test Data] Segmented country-specific testing clusters",
+  //     ],
+  //   },
+  //   design: {
+  //     label: "[Test Data] Results",
+  //     bullets: [
+  //       "[Test Data] Successfully opened 4 new international revenue streams",
+  //       "[Test Data] Account-wide spend grew by 210% at stable efficiency",
+  //       "[Test Data] International sales accounted for 38% of total brand revenue",
+  //     ],
+  //   },
+  //   change: {
+  //     label: "[Test Data] Market Reach",
+  //     before: ["[Test Data] 100% reliant on single domestic market"],
+  //     after: ["[Test Data] Diversified global customer acquisition pipeline"],
+  //   },
+  //   otherWorks: ["meta-test-project-1", "meta-test-project-3"],
+  // },
 
   // =========================================================================
   // 3. GOOGLE ADS (Test Data)

@@ -159,10 +159,10 @@ export const projectServices = [
       "We run Meta campaigns that find your customer before they find your competitor.",
     image: "/images/uploads/Meta-Ads.jpg",
     projects: [
-      "meta-test-project-1",
-      "meta-test-project-2",
-      "meta-test-project-3",
-      "meta-test-project-4",
+      "us-medical-spa-meta-ads",
+      "us-lead-generation-meta-ads",
+      // "meta-test-project-3",
+      // "meta-test-project-4",
     ],
   },
   {
