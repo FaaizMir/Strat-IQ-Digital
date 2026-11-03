@@ -267,13 +267,14 @@ export const projects = [
     ],
     "subtitle": "Finding the ad that actually converts. Reallocating Meta Ads budget toward proven high-performing creatives for a U.S. medical spa.",
     "year": "26",
-    "cardImage": "/images/uploads/usa-medical-spa-1.jpg",
+    "cardImage": "/images/uploads/metaads/us-lead-generation-feature-image.jpg",
     // "heroImage": "/images/uploads/us-medical-spa-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/usa-medical-spa-1.jpg", "full": true },
-      { "src": "/images/uploads/usa-medical-spa-2.jpg", "full": true },
-      { "src": "/images/uploads/usa-medical-spa-3.jpg", "full": false },
-      // { "src": "/images/uploads/usa-lead-generation-4.jpg", "full": false }
+      { "src": "/images/uploads/metaads/us-lead-generation-feature-image.jpg", "full": true },
+
+      { "src": "/images/uploads/metaads/us-medical-spa-image-2.jpg", "full": true },
+      { "src": "/images/uploads/metaads/us-medical-spa-image-3.jpg", "full": false },
+      { "src": "/images/uploads/metaads/us-medical-spa-image-4.jpg", "full": false },
     ],
     "challenge": {
       "label": "The Challenges",
@@ -349,13 +350,13 @@ export const projects = [
     ],
     "subtitle": "Paying too much for every lead. Rebuilding a Meta Ads campaign to drastically lower CPL while boosting total lead volume.",
     "year": "26",
-    "cardImage": "/images/uploads/usa-lead-generation-1.jpg",
+    "cardImage": "/images/uploads/metaads/us-lead-generation-feature-image.jpg",
     // "heroImage": "/images/uploads/us-lead-gen-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/usa-lead-generation-1.jpg", "full": true },
-      { "src": "/images/uploads/usa-lead-generation-2.jpg", "full": true },
-      { "src": "/images/uploads/usa-lead-generation-3.jpg", "full": false },
-      // { "src": "/images/uploads/us-lead-gen-4.jpg", "full": false }
+      { "src": "/images/uploads/metaads/us-lead-generation-feature-image.jpg", "full": true },
+      { "src": "/images/uploads/metaads/us-lead-generation-image-2.jpg", "full": true },
+      { "src": "/images/uploads/metaads/us-lead-generation-image-3.jpg", "full": false },
+      { "src": "/images/uploads/metaads/us-medical-spa-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
