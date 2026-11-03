@@ -267,13 +267,13 @@ export const projects = [
     ],
     "subtitle": "Finding the ad that actually converts. Reallocating Meta Ads budget toward proven high-performing creatives for a U.S. medical spa.",
     "year": "26",
-    "cardImage": "/images/uploads/us-medical-spa-card.jpg",
-    "heroImage": "/images/uploads/us-medical-spa-hero.jpg",
+    "cardImage": "/images/uploads/usa-medical-spa-1.jpg",
+    // "heroImage": "/images/uploads/us-medical-spa-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/us-medical-spa-1.jpg", "full": true },
-      { "src": "/images/uploads/us-medical-spa-2.jpg", "full": true },
-      { "src": "/images/uploads/us-medical-spa-3.jpg", "full": false },
-      { "src": "/images/uploads/us-medical-spa-4.jpg", "full": false }
+      { "src": "/images/uploads/usa-medical-spa-1.jpg", "full": true },
+      { "src": "/images/uploads/usa-medical-spa-2.jpg", "full": true },
+      { "src": "/images/uploads/usa-medical-spa-3.jpg", "full": false },
+      // { "src": "/images/uploads/usa-lead-generation-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -349,13 +349,13 @@ export const projects = [
     ],
     "subtitle": "Paying too much for every lead. Rebuilding a Meta Ads campaign to drastically lower CPL while boosting total lead volume.",
     "year": "26",
-    "cardImage": "/images/uploads/us-lead-gen-card.jpg",
-    "heroImage": "/images/uploads/us-lead-gen-hero.jpg",
+    "cardImage": "/images/uploads/usa-lead-generation-1.jpg",
+    // "heroImage": "/images/uploads/us-lead-gen-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/us-lead-gen-1.jpg", "full": true },
-      { "src": "/images/uploads/us-lead-gen-2.jpg", "full": true },
-      { "src": "/images/uploads/us-lead-gen-3.jpg", "full": false },
-      { "src": "/images/uploads/us-lead-gen-4.jpg", "full": false }
+      { "src": "/images/uploads/usa-lead-generation-1.jpg", "full": true },
+      { "src": "/images/uploads/usa-lead-generation-2.jpg", "full": true },
+      { "src": "/images/uploads/usa-lead-generation-3.jpg", "full": false },
+      // { "src": "/images/uploads/us-lead-gen-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -539,13 +539,13 @@ export const projects = [
     ],
     "subtitle": "Big catalog. Bigger potential. How we restructured campaigns, optimized product feeds, and maximized ROAS for a 23,000+ SKU car care retailer.",
     "year": "26",
-    "cardImage": "/images/uploads/lanes-car-products-card.jpg",
-    "heroImage": "/images/uploads/lanes-car-products-hero.jpg",
+    "cardImage": "/images/uploads/googleAdsImages/lanes-car-feature-image.jpg",
+    // "heroImage": "/images/uploads/lanes-car-products-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/lanes-car-products-1.jpg", "full": true },
-      { "src": "/images/uploads/lanes-car-products-2.jpg", "full": true },
-      { "src": "/images/uploads/lanes-car-products-3.jpg", "full": false },
-      { "src": "/images/uploads/lanes-car-products-4.jpg", "full": false }
+      { "src": "/images/uploads/googleAdsImages/lanes-car-feature-image.jpg", "full": true },
+      { "src": "/images/uploads/googleAdsImages/lanes-car-image-2.jpg", "full": true },
+      { "src": "/images/uploads/googleAdsImages/lanes-car-image-3.jpg", "full": false },
+      { "src": "/images/uploads/googleAdsImages/lanes-car-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -617,13 +617,13 @@ export const projects = [
     ],
     "subtitle": "One product. Endless uses. Putting an ultra-concentrated cleaner in front of high-intent searchers to drive profitable ecommerce growth.",
     "year": "26",
-    "cardImage": "/images/uploads/advanage-cleaner-card.jpg",
-    "heroImage": "/images/uploads/advanage-cleaner-hero.jpg",
+    "cardImage": "/images/uploads/googleAdsImages/advange-feature-image.jpg",
+    // "heroImage": "/images/uploads/advanage-cleaner-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/advanage-cleaner-1.jpg", "full": true },
-      { "src": "/images/uploads/advanage-cleaner-2.jpg", "full": true },
-      { "src": "/images/uploads/advanage-cleaner-3.jpg", "full": false },
-      { "src": "/images/uploads/advanage-cleaner-4.jpg", "full": false }
+      { "src": "/images/uploads/googleAdsImages/advange-feature-image.jpg", "full": true },
+      { "src": "/images/uploads/googleAdsImages/advanage-image-2.jpg", "full": true },
+      { "src": "/images/uploads/googleAdsImages/advange-image-3.jpg", "full": false },
+      { "src": "/images/uploads/googleAdsImages/advanage-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -692,13 +692,13 @@ export const projects = [
     ],
     "subtitle": "Strong dashboard. Weak sales. Fixing conversion measurement and optimizing campaigns based on real purchase data for a specialty chemical retailer.",
     "year": "26",
-    "cardImage": "/images/uploads/stellar-chemical-card.jpg",
-    "heroImage": "/images/uploads/stellar-chemical-hero.jpg",
+    "cardImage": "/images/uploads/googleAdsImages/steallar-feature-image.jpg",
+    // "heroImage": "/images/uploads/stellar-chemical-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/stellar-chemical-1.jpg", "full": true },
-      { "src": "/images/uploads/stellar-chemical-2.jpg", "full": true },
-      { "src": "/images/uploads/stellar-chemical-3.jpg", "full": false },
-      { "src": "/images/uploads/stellar-chemical-4.jpg", "full": false }
+      { "src": "/images/uploads/googleAdsImages/steallar-feature-image.jpg", "full": true },
+      { "src": "/images/uploads/googleAdsImages/steallar-image-2.jpg", "full": true },
+      { "src": "/images/uploads/googleAdsImages/stellar-image-3.jpg", "full": false },
+      { "src": "/images/uploads/googleAdsImages/stellar-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -768,13 +768,13 @@ export const projects = [
     ],
     "subtitle": "380,000 products. Zero impressions. Resolving critical account blocks and optimizing feed data for high-intent powersports buyers.",
     "year": "26",
-    "cardImage": "/images/uploads/perf-moto-card.jpg",
-    "heroImage": "/images/uploads/perf-moto-hero.jpg",
+    "cardImage": "/images/uploads/googleAdsImages/perf-moto-feature-image.jpg",
+    // "heroImage": "/images/uploads/googleAdsImages/perf-moto-feature-image.jpg",
     "gallery": [
-      { "src": "/images/uploads/perf-moto-1.jpg", "full": true },
-      { "src": "/images/uploads/perf-moto-2.jpg", "full": true },
-      { "src": "/images/uploads/perf-moto-3.jpg", "full": false },
-      { "src": "/images/uploads/perf-moto-4.jpg", "full": false }
+      { "src": "/images/uploads/googleAdsImages/perf-moto-feature-image.jpg", "full": true },
+      { "src": "/images/uploads/googleAdsImages/perf-moto-image-2.jpg", "full": true },
+      { "src": "/images/uploads/googleAdsImages/perf-moto-image-3.jpg", "full": false },
+      { "src": "/images/uploads/googleAdsImages/perf-moto-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -846,13 +846,13 @@ export const projects = [
     ],
     "subtitle": "A proven product on an outdated platform. Rebuilding a legacy Miva Merchant store into a high-converting, modern Shopify experience.",
     "year": "26",
-    "cardImage": "/images/uploads/advanage-shopify-card.jpg",
-    "heroImage": "/images/uploads/advanage-shopify-hero.jpg",
+    "cardImage": "/images/uploads/1st .webp",
+    // "heroImage": "/images/uploads/advanage-shopify-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/advanage-shopify-1.jpg", "full": true },
-      { "src": "/images/uploads/advanage-shopify-2.jpg", "full": true },
-      { "src": "/images/uploads/advanage-shopify-3.jpg", "full": false },
-      { "src": "/images/uploads/advanage-shopify-4.jpg", "full": false }
+      { "src": "/images/uploads/1st .webp", "full": true },
+      { "src": "/images/uploads/2nd.webp", "full": true },
+      { "src": "/images/uploads/3rd.webp", "full": true },
+      { "src": "/images/uploads/4th.webp", "full": true }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -922,13 +922,14 @@ export const projects = [
     ],
     "subtitle": "A great product with nowhere to live. Building a brand-first Shopify storefront with guided shopping experiences for natural dog chew buyers.",
     "year": "26",
-    "cardImage": "/images/uploads/woofleys-card.jpg",
-    "heroImage": "/images/uploads/woofleys-hero.jpg",
+    "cardImage": "/images/uploads/woofley-1.webp",
+    // "heroImage": "/images/uploads/woofleys-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/woofleys-1.jpg", "full": true },
-      { "src": "/images/uploads/woofleys-2.jpg", "full": true },
-      { "src": "/images/uploads/woofleys-3.jpg", "full": false },
-      { "src": "/images/uploads/woofleys-4.jpg", "full": false }
+      { "src": "/images/uploads/woofley-1.webp", "full": true },
+      { "src": "/images/uploads/woofley-2.webp", "full": true },
+      { "src": "/images/uploads/woofley-3.webp", "full": false },
+      { "src": "/images/uploads/woofley-4.webp", "full": false },
+
     ],
     "challenge": {
       "label": "The Challenges",
@@ -997,13 +998,13 @@ export const projects = [
     ],
     "subtitle": "Chemical buyers know what they need. Streamlining a vast B2B/B2C ingredient and chemical catalog so customers can find specs and check out with confidence.",
     "year": "26",
-    "cardImage": "/images/uploads/stellar-chemical-redesign-card.jpg",
-    "heroImage": "/images/uploads/stellar-chemical-redesign-hero.jpg",
+    "cardImage": "/images/uploads/stellar-1.webp",
+    // "heroImage": "/images/uploads/stellar-chemical-redesign-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/stellar-chemical-redesign-1.jpg", "full": true },
-      { "src": "/images/uploads/stellar-chemical-redesign-2.jpg", "full": true },
-      { "src": "/images/uploads/stellar-chemical-redesign-3.jpg", "full": false },
-      { "src": "/images/uploads/stellar-chemical-redesign-4.jpg", "full": false }
+      { "src": "/images/uploads/stellar-1.webp", "full": true },
+      { "src": "/images/uploads/stellar-2.webp", "full": true },
+      { "src": "/images/uploads/stellar-3.webp", "full": false },
+      { "src": "/images/uploads/stellar-4.webp", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -1073,13 +1074,13 @@ export const projects = [
     ],
     "subtitle": "The catalog outgrew the platform. Rebuilding a massive automotive detailing store to serve both retail car owners and professional detailers.",
     "year": "26",
-    "cardImage": "/images/uploads/lanes-shopify-migration-card.jpg",
-    "heroImage": "/images/uploads/lanes-shopify-migration-hero.jpg",
+    "cardImage": "/images/uploads/lanes-4th-img.webp",
+    // "heroImage": "/images/uploads/lanes-shopify-migration-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/lanes-shopify-migration-1.jpg", "full": true },
-      { "src": "/images/uploads/lanes-shopify-migration-2.jpg", "full": true },
-      { "src": "/images/uploads/lanes-shopify-migration-3.jpg", "full": false },
-      { "src": "/images/uploads/lanes-shopify-migration-4.jpg", "full": false }
+      { "src": "/images/uploads/lanes-4th-img.webp", "full": true },
+      { "src": "/images/uploads/lanes-2nd-img.webp", "full": true },
+      { "src": "/images/uploads/lanes-3rd-img.webp", "full": false },
+      { "src": "/images/uploads/lanes-1st-img.webp", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
