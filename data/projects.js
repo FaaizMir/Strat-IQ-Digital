@@ -267,10 +267,10 @@ export const projects = [
     ],
     "subtitle": "Finding the ad that actually converts. Reallocating Meta Ads budget toward proven high-performing creatives for a U.S. medical spa.",
     "year": "26",
-    "cardImage": "/images/uploads/metaads/us-lead-generation-feature-image.jpg",
+    "cardImage": "/images/uploads/metaads/us-medical-spa-feature-image.jpg",
     // "heroImage": "/images/uploads/us-medical-spa-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/metaads/us-lead-generation-feature-image.jpg", "full": true },
+      { "src": "/images/uploads/metaads/us-medical-spa-feature-image.jpg", "full": true },
 
       { "src": "/images/uploads/metaads/us-medical-spa-image-2.jpg", "full": true },
       { "src": "/images/uploads/metaads/us-medical-spa-image-3.jpg", "full": false },
@@ -356,7 +356,7 @@ export const projects = [
       { "src": "/images/uploads/metaads/us-lead-generation-feature-image.jpg", "full": true },
       { "src": "/images/uploads/metaads/us-lead-generation-image-2.jpg", "full": true },
       { "src": "/images/uploads/metaads/us-lead-generation-image-3.jpg", "full": false },
-      { "src": "/images/uploads/metaads/us-medical-spa-image-4.jpg", "full": false }
+      { "src": "/images/uploads/metaads/us-lead-generation-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
