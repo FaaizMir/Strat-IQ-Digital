@@ -6,250 +6,617 @@ export const projects = [
   // 1. AMAZON PPC (Live / Real Projects)
   // =========================================================================
   {
-    slug: "pentagon-games",
-    route: "/casestudy/amazon-ppc-management-services/pentagon-games",
-    metaTitle: "Pentagon Games Case Study | Web3 Website Design",
-    title: "Pentagon Games",
-    client: "Pentagon Games",
-    category: "Website Design",
-    services: ["UI/UX Design", "Web Experience", "Creative Direction"],
-    subtitle:
-      "Designing a Web3 experience that feels as advanced as the technology behind it.",
-    year: "26",
-    cardImage: "/images/uploads/Project-1-scaled.jpg",
-    heroImage: "/images/uploads/Project-1-1st-Image-1.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-1-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-1-4th-Image.jpg", full: false },
-      { src: "/images/uploads/Project-1-1st-Image-1.jpg", full: true },
-      { src: "/images/uploads/Project-1-2nd-scaled.jpg", full: true },
+    "slug": "amazon-account-turnaround",
+    "route": "/casestudy/amazon-ppc-management-services/amazon-account-turnaround",
+    "metaTitle": "Amazon Account Turnaround | Amazon PPC Case Study",
+    "title": "Amazon Account Turnaround",
+    "client": "Amazon Brand (Confidential)",
+    "category": "Amazon PPC",
+    "services": [
+      "Listing SEO",
+      "Main Image Optimization",
+      "A/B Testing",
+      "Amazon PPC Management"
     ],
-    challenge: {
-      label: "Project Overview",
-      heading: "Web3 is complex.",
-      paragraphs: [
-        "AI, AR, blockchain, tokens — all powerful, but hard to explain. Most platforms either overwhelm users or oversimplify the product.",
-        "Pentagon Games needed a digital experience that could do both:",
+    "subtitle": "From 54% to 34% ACOS: turning a declining Amazon account around in five months.",
+    "year": "26",
+    "cardImage": "/images/uploads/amazon-turnaround-card.jpg",
+    "heroImage": "/images/uploads/amazon-turnaround-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/amazon-turnaround-1.jpg", "full": true },
+      { "src": "/images/uploads/amazon-turnaround-2.jpg", "full": true },
+      { "src": "/images/uploads/amazon-turnaround-3.jpg", "full": false },
+      { "src": "/images/uploads/amazon-turnaround-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "Project Overview",
+      "heading": "Every ad dollar was buying less.",
+      "paragraphs": [
+        "This established Amazon brand came to us in a clear and accelerating decline. In the three months before onboarding, total sales fell 31% while ad spend rose to its highest point of the quarter.",
+        "The client’s margins allowed an ACOS ceiling of 50%, but the real business KPI was TACOS, with a 20% target, which meant the account had to grow organically, not just through paid traffic. Rather than cutting bids and starving the account, we fixed the conversion problem at the listing level."
       ],
-      bullets: ["Feel futuristic", "Still make sense instantly"],
+      "bullets": []
     },
-    approach: {
-      label: "The Challenges",
-      heading: "We focused on clarity through design.",
-      paragraphs: [
-        "Instead of explaining everything, we designed an interface that lets users feel it. Everything built to guide, not confuse.",
+    "approach": {
+      "label": "The Challenges",
+      "heading": "Rising costs, falling sales.",
+      "paragraphs": [
+        "Efficiency had collapsed, and organic sales weren’t strong enough to carry the account. The ACOS ceiling had already been breached, and TACOS was moving further away from the target every month."
       ],
-      bullets: [
-        "Structured content flow",
-        "Visual hierarchy for complex systems",
-        "Clean navigation across multiple layers",
-        "Strong, immersive aesthetic",
+      "bullets": [
+        "Total sales down 31% in three months, while ad spend reached its quarterly high",
+        "ACOS climbed from 32.1% to 53.9%, breaching the client’s 50% ceiling",
+        "TACOS nearly doubled, from 14.6% to 27.0%, against a 20% target",
+        "Organic sales too weak to offset rising ad costs"
+      ]
+    },
+    "design": {
+      "label": "Wins",
+      "heading": "The Listing-First Turnaround",
+      "bullets": [
+        "ACOS dropped every month for five straight months, from 53.9% to 34.0%, a 20-point cut and 16 points under the client’s ceiling",
+        "TACOS fell below the 20% KPI in the fourth month and reached 19.0% in the fifth",
+        "ROAS improved 59%, from 1.85 to 2.94",
+        "Total sales up 27%, peaking at 38% above the pre-onboarding month, with organic sales up 25%",
+        "10.5% less ad spend than before onboarding, while ad sales grew 28.7%",
+        "$186K in ad spend avoided compared with pre-onboarding efficiency, and $139K kept under the client’s 50% ACOS allowance"
       ],
+      "closing": "The goal was simple: fix the listing, and the ads get cheaper."
     },
-    design: {
-      label: "Wins",
-      heading: "The Design",
-      bullets: [
-        "Dark-mode interface with high contrast",
-        "Futuristic visual direction aligned with Web3 space",
-        "Smooth transitions between sections",
-        "Clear separation between product, ecosystem, and token layers",
+    "change": {
+      "label": "Strategies",
+      "before": [
+        "Listings ranking for the wrong queries",
+        "Main images losing the click in search",
+        "Paid and organic traffic working separately"
       ],
-      closing: "The goal was simple: Make complexity feel intuitive.",
+      "after": [
+        "Titles, bullets, and backend terms rebuilt around high-converting keywords",
+        "Redesigned images, A/B tested in Manage Your Experiments",
+        "Advertised keywords matched to ranked keywords, so each reinforces the other"
+      ]
     },
-    change: {
-      label: "Strategies",
-      before: ["Disconnected information", "Overwhelming structure", "Weak visual hierarchy"],
-      after: ["Clear ecosystem presentation", "Guided user journey", "Strong, consistent visual language"],
-    },
-    otherWorks: ["raysz", "cleverman"],
+    "otherWorks": [
+      "amazon-scaling-account",
+      "amazon-off-season-account"
+    ]
   },
 
   {
-    slug: "raysz",
-    route: "/casestudy/amazon-ppc-management-services/raysz",
-    metaTitle: "Raysz Case Study | Athletic Wear Brand Identity",
-    title: "Raysz",
-    client: "Raysz",
-    category: "Branding",
-    services: [
-      "Branding & Creative Direction",
-      "Design Strategy",
-      "Visual Identity Development",
-      "Creative Systems",
+    "slug": "amazon-scaling-account",
+    "route": "/casestudy/amazon-ppc-management-services/amazon-scaling-account",
+    "metaTitle": "Amazon Scaling Account | Amazon PPC Case Study",
+    "title": "Amazon Scaling Account",
+    "client": "Amazon Brand (Confidential)",
+    "category": "Amazon PPC",
+    "services": [
+      "Listing SEO",
+      "Main Image Testing",
+      "Full Image Stack Design",
+      "Amazon PPC Management"
     ],
-    subtitle:
-      "Building a stronger athletic wear brand through strategic creative direction and modern brand positioning.",
-    year: "25",
-    cardImage: "/images/uploads/Project-2-scaled.jpg",
-    heroImage: "/images/uploads/Project-2-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-2-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-2-2nd-Image-scaled.jpg", full: true },
-      { src: "/images/uploads/01c1c4236835079.68f41039d5926.gif", full: false },
-      { src: "/images/uploads/Project-2-4th-Image.jpg", full: false },
+    "subtitle": "Scale with profitability: 32% more ad sales in two months, inside every margin target.",
+    "year": "26",
+    "cardImage": "/images/uploads/amazon-scaling-card.jpg",
+    "heroImage": "/images/uploads/amazon-scaling-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/amazon-scaling-1.jpg", "full": true },
+      { "src": "/images/uploads/amazon-scaling-2.jpg", "full": true },
+      { "src": "/images/uploads/amazon-scaling-3.jpg", "full": false },
+      { "src": "/images/uploads/amazon-scaling-4.jpg", "full": false }
     ],
-    challenge: {
-      label: "The Challenge",
-      paragraphs: ["The brand needed a stronger identity to compete in a crowded athletic wear market."],
-      bullets: [
-        "Inconsistent visual direction",
-        "Weak brand positioning",
-        "Lack of creative consistency",
-        "Need for a more premium customer perception",
+    "challenge": {
+      "label": "Project Overview",
+      "heading": "Growth without giving up margin.",
+      "paragraphs": [
+        "This $400K-per-month Amazon business had stopped growing, with daily revenue flat at about $13,200. The brief was clear: scale with profitability.",
+        "The client wanted more revenue, but every dollar of growth had to stay inside an ACOS target of 45% and a TACOS target of 15%, with a goal of $18,000 in daily sales. More budget alone would have pushed ACOS further out of range, so we fixed the listings first and let the ad spend work harder."
       ],
-      closing: "The goal was building a recognizable brand customers would remember.",
+      "bullets": []
     },
-    approach: {
-      label: "The Approach",
-      paragraphs: [
-        "We focused on building a clean, performance-driven brand identity designed for long-term growth and stronger customer connection.",
-        "Every section had one goal: Move the user closer to purchase",
+    "approach": {
+      "label": "The Challenges",
+      "heading": "Paying more to sell less.",
+      "paragraphs": [
+        "Advertising was getting more expensive without producing more sales. Conversion, not budget, was the real limit on scaling."
       ],
-      bullets: [
-        "Creative direction aligned with audience positioning",
-        "Modern athletic wear branding system",
-        "Consistent visual language across assets",
-        "Performance-focused design strategy",
-      ],
+      "bullets": [
+        "Ad spend rose 23% in a single month while ad sales fell slightly",
+        "ACOS jumped from 42.1% to 52.4%, well above the 45% ceiling",
+        "ROAS dropped to 1.91",
+        "Total sales and daily revenue had flatlined"
+      ]
     },
-    design: {
-      label: "Results",
-      bullets: [
-        "Unified design direction across touchpoints",
-        "Stronger visual recognition",
-        "Scalable branding system for future campaigns",
+    "design": {
+      "label": "Wins",
+      "heading": "The Profitable Scale Build",
+      "bullets": [
+        "ACOS came down two months in a row, landing at 43.6%, under the 45% target",
+        "TACOS stayed under the 15% ceiling every month, finishing at 13.2%",
+        "Ad sales grew 31.7% on just 9.5% more ad spend, and ROAS improved 20%",
+        "Total sales up 14%, orders up 18.5%, and units up 18%, reaching the highest month in the period",
+        "Organic sales grew 7.7% to their highest month, still driving about 70% of total revenue",
+        "$19.7K in ad spend saved compared with the onboarding month’s efficiency, with ad cost per order down 7.5%"
       ],
+      "closing": "The goal was simple: scale profitably by starting with the listing, not the budget."
     },
-    change: {
-      label: "What this means",
-      before: null,
-      after: [
-        "The brand became more recognizable",
-        "Creative assets felt more premium and consistent",
-        "The foundation was built for long-term scalable growth",
+    "change": {
+      "label": "STRATEGIES",
+      "before": [
+        "More budget buying fewer sales",
+        "Listings not built to convert paid clicks",
+        "Weak images on top-revenue products"
       ],
+      "after": [
+        "Ad sales up 31.7% on 9.5% more spend",
+        "SEO-rebuilt titles, bullets, and backend terms matched to advertised keywords",
+        "Tested main images and a full image stack rebuild on best-selling ASINs"
+      ]
     },
-    otherWorks: ["pentagon-games", "harrier-hardware"],
+    "otherWorks": [
+      "amazon-account-turnaround",
+      "amazon-off-season-account"
+    ]
   },
 
   {
-    slug: "harrier-hardware",
-    route: "/casestudy/amazon-ppc-management-services/harrier-hardware",
-    metaTitle: "Harrier Hardware Case Study | Web Design & Marketing",
-    title: "Harrier Hardware",
-    client: "Harrier Hardware",
-    category: "Web Design",
-    services: ["Web Design", "Marketing"],
-    subtitle: "Turning a dated hardware brand into a bold, modern presence built to convert.",
-    year: "24",
-    cardImage: "/images/uploads/Project-3-1-scaled.jpg",
-    heroImage: "/images/uploads/Project-3-1-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-3-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-3-2nd-Image-1-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-3-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-3-4th-Image.jpg", full: false },
+    "slug": "amazon-off-season-account",
+    "route": "/casestudy/amazon-ppc-management-services/amazon-off-season-account",
+    "metaTitle": "Amazon Off-Season Account | Amazon PPC Case Study",
+    "title": "Amazon Off-Season Account",
+    "client": "Amazon Brand (Confidential)",
+    "category": "Amazon PPC",
+    "services": [
+      "Listing SEO",
+      "Main Image Redesign",
+      "Secondary Image Revamp",
+      "Amazon PPC Management"
     ],
-    challenge: {
-      label: "The Challenge",
-      paragraphs: [
-        "Harrier Hardware had solid products but a website stuck in the past, one that undersold the brand and buried the catalog.",
+    "subtitle": "Same budget, better returns: cutting ACOS 27% in the off-season.",
+    "year": "26",
+    "cardImage": "/images/uploads/amazon-offseason-card.jpg",
+    "heroImage": "/images/uploads/amazon-offseason-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/amazon-offseason-1.jpg", "full": true },
+      { "src": "/images/uploads/amazon-offseason-2.jpg", "full": true },
+      { "src": "/images/uploads/amazon-offseason-3.jpg", "full": false },
+      { "src": "/images/uploads/amazon-offseason-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "Project Overview",
+      "heading": "No extra budget. No easy season.",
+      "paragraphs": [
+        "This Amazon brand sells a product that peaks in winter, and we took over the account at the start of its off-season. Sales were slipping and ACOS was rising.",
+        "The client set one firm condition: no increase in ad spend. With the budget locked at about $1,200 a month, every improvement had to come from efficiency, so we focused on making the listing convert every click the existing budget bought."
       ],
-      bullets: [
-        "Dated, cluttered site design",
-        "Weak brand presence online",
-        "Unclear product presentation",
-        "No consistent path from browsing to buying",
-      ],
+      "bullets": []
     },
-    approach: {
-      label: "The Approach",
-      paragraphs: [
-        "We rebuilt the site around confidence: bolder visuals, clearer structure, and marketing built to match.",
+    "approach": {
+      "label": "The Challenges",
+      "heading": "Slowing demand on a fixed budget.",
+      "paragraphs": [
+        "Seasonal demand was dropping, and the account couldn’t spend its way out of it. Any gains had to come from the listing itself."
       ],
-      bullets: [
-        "Modern web design aligned with brand tone",
-        "Simplified product categorization",
-        "Marketing strategy built around the new site",
-        "Consistent messaging across every touchpoint",
+      "bullets": [
+        "Total sales falling as the off-season began",
+        "ACOS rising from 16.7% to 19.4%",
+        "Ad spend locked at about $1,200 a month, with no room to add traffic",
+        "Organic sales dipping during the product’s slowest months"
+      ]
+    },
+    "design": {
+      "label": "Wins",
+      "heading": "The Off-Season Efficiency Play",
+      "bullets": [
+        "ACOS dropped two months in a row to 14.2%, a 27% reduction and lower than before onboarding",
+        "ROAS rose 37%, from 5.17 to 7.06, so each ad dollar returned $1.89 more in sales",
+        "Ad sales grew 12.5% while ad spend fell 18%, staying under budget every month",
+        "Ad cost per order down 24%, and 27.7% of ad spend saved compared with onboarding-month efficiency",
+        "TACOS stayed under the 7% target every month, finishing at 5.2%",
+        "Organic sales rebounded 16.6% in the second month, making up 63% of revenue, with orders up 22% month over month"
       ],
+      "closing": "The goal was simple: make every click count when the budget can’t grow."
     },
-    design: {
-      label: "The Design",
-      bullets: [
-        "Rugged, industrial-but-modern visual direction",
-        "Clear product categorization and navigation",
-        "Strong, confident typography",
-        "Consistent brand presence across every page",
+    "change": {
+      "label": "STRATEGIES",
+      "before": [
+        "A fixed budget buying less each month",
+        "Listing keywords not matched to ads",
+        "Images not answering buyer questions"
       ],
-      closing: "The goal was simple: make the brand feel as tough and capable as its tools.",
+      "after": [
+        "Ad sales up 12.5% on 18% less spend",
+        "Titles, bullets, and backend terms rebuilt around high-intent keywords",
+        "A redesigned main image and secondary images covering features, uses, and benefits"
+      ]
     },
-    change: {
-      label: "What Changed",
-      before: ["Dated, cluttered design", "Weak brand presence", "Unclear product paths"],
-      after: ["Bold, modern visual identity", "Clear product categorization", "Confident, consistent brand presence"],
-    },
-    otherWorks: ["raysz", "cleverman"],
+    "otherWorks": [
+      "amazon-account-turnaround",
+      "amazon-scaling-account"
+    ]
   },
 
   {
-    slug: "cleverman",
-    route: "/casestudy/amazon-ppc-management-services/cleverman",
-    metaTitle: "CleverMan Case Study | Ecommerce UX & Conversion Design",
-    title: "CleverMan",
-    client: "CleverMan",
-    category: "Ecommerce",
-    services: ["UI/UX Design", "Conversion Optimization", "Creative Direction"],
-    subtitle: "Rebuilding a friction-heavy ecommerce store around one goal: turning visitors into buyers.",
-    year: "24",
-    cardImage: "/images/uploads/Project-4-scaled.jpg",
-    heroImage: "/images/uploads/Project-4-scaled.jpg",
-    gallery: [
-      { src: "/images/uploads/Project-4-1st-Image.jpg", full: true },
-      { src: "/images/uploads/Project-4-2nd-Image-scaled.jpg", full: true },
-      { src: "/images/uploads/Project-4-3rd-Image.jpg", full: false },
-      { src: "/images/uploads/Project-4-4th-Image.jpg", full: false },
+    "slug": "amazon-competitive-niche-account",
+    "route": "/casestudy/amazon-ppc-management-services/amazon-competitive-niche-account",
+    "metaTitle": "Amazon Competitive Niche Account | Amazon PPC Case Study",
+    "title": "Amazon Competitive Niche Account",
+    "client": "Amazon Brand (Confidential)",
+    "category": "Amazon PPC",
+    "services": [
+      "Listing SEO",
+      "Main Image Redesign",
+      "Amazon PPC Management"
     ],
-    challenge: {
-      label: "The Challenge",
-      paragraphs: ["The brand had a strong product but the website wasn't helping it sell."],
-      bullets: ["Too much friction", "Weak product clarity", "Lack of creative consistency", "No clear buying flow"],
-      closing: "Visitors were landing but not converting.",
-    },
-    approach: {
-      label: "The Approach",
-      paragraphs: [
-        "We didn't redesign the site. We rebuilt the experience around conversion.",
-        "Every section had one goal: Move the user closer to purchase",
+    "subtitle": "From ready to quit Amazon to target ACOS in a hyper-competitive niche.",
+    "year": "26",
+    "cardImage": "/images/uploads/amazon-competitive-card.jpg",
+    "heroImage": "/images/uploads/amazon-competitive-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/amazon-competitive-1.jpg", "full": true },
+      { "src": "/images/uploads/amazon-competitive-2.jpg", "full": true },
+      { "src": "/images/uploads/amazon-competitive-3.jpg", "full": false },
+      { "src": "/images/uploads/amazon-competitive-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "Project Overview",
+      "heading": "Out-convert, don’t outspend.",
+      "paragraphs": [
+        "This client came to us ready to leave Amazon. The product competes in one of the platform’s most crowded niches, where large sellers drive up click costs and dominate the top of search.",
+        "With two-thirds of every ad-driven sale going back to Amazon in ad costs, advertising was costing more than the account could sustain. The goal was to make Amazon worth staying on, and in a niche this competitive, that meant winning on conversion rather than budget."
       ],
-      bullets: ["Clear product messaging", "Strong visual hierarchy", "Simplified navigation", "Reduced decision fatigue"],
-      closing: "No distractions. Just direction.",
+      "bullets": []
     },
-    design: {
-      label: "Conversion Design",
-      bullets: [
-        "Clean product sections with focused messaging",
-        "Clear CTAs at the right moments",
-        "Structured flow from discovery → trust → purchase",
-        "Visual storytelling to support decisions",
+    "approach": {
+      "label": "The Challenges",
+      "heading": "Two-thirds of every sale was lost to ad costs.",
+      "paragraphs": [
+        "Large competitors made it impossible to win by spending more. Every click was expensive, and the listing wasn’t converting enough of them to pay back."
       ],
-      closing: "Everything built around how users actually buy.",
+      "bullets": [
+        "ACOS at 66.8%, well above the client’s 50% target",
+        "TACOS at 37.2%, against a goal of under 25%",
+        "ROAS of just 1.50",
+        "A search page crowded with near-identical competitors, all bidding on the same terms"
+      ]
     },
-    change: {
-      label: "What improved",
-      before: null,
-      after: [
-        "Faster understanding of the product",
-        "Stronger first impression",
-        "Clear path to purchase",
-        "Reduced confusion across pages",
-        "Better alignment between design and user intent",
+    "design": {
+      "label": "Wins",
+      "heading": "The Competitive Niche Turnaround",
+      "bullets": [
+        "After a rollout month to launch the new listing and images, ACOS dropped to 49.1%, under the 50% target",
+        "ROAS up 36%, from 1.50 to 2.04",
+        "Ad sales grew 28.1% on 5.7% less ad spend",
+        "Cost per click down 9.7% and ad cost per order down 11.2%, in a niche where costs usually only rise",
+        "Total sales up 13.7%, with TACOS falling from 37.2% to 30.9%",
+        "35.9% of ad spend saved in the second month compared with onboarding-month efficiency"
       ],
+      "closing": "The goal was simple: you can’t outspend the big sellers, so out-convert them."
     },
-    otherWorks: ["pentagon-games", "harrier-hardware"],
+    "change": {
+      "label": "STRATEGIES",
+      "before": [
+        "Ad costs eating two-thirds of every sale",
+        "A listing competing on generic terms",
+        "A main image lost among near-identical competitors"
+      ],
+      "after": [
+        "ACOS under the 50% target",
+        "Titles, bullets, and backend terms rebuilt around keywords it can win",
+        "A redesigned main image built to stand out and win the click"
+      ]
+    },
+    "otherWorks": [
+      "amazon-account-turnaround",
+      "amazon-scaling-account"
+    ]
   },
-
+  {
+    "slug": "investor-backed-amazon-brand",
+    "route": "/casestudy/amazon-ppc-management-services/investor-backed-amazon-brand",
+    "metaTitle": "Investor-Backed Amazon Brand | Amazon PPC Case Study",
+    "title": "Investor-Backed Amazon Brand",
+    "client": "Amazon Brand (Confidential)",
+    "category": "Amazon PPC",
+    "services": [
+      "Listing SEO",
+      "Main & Secondary Image Revamp",
+      "Pricing Tests",
+      "Amazon PPC Management"
+    ],
+    "subtitle": "Delivering the sales growth investors needed: +62% average monthly revenue and a $121K peak month.",
+    "year": "26",
+    "cardImage": "/images/uploads/investor-amazon-card.jpg",
+    "heroImage": "/images/uploads/investor-amazon-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/investor-amazon-1.jpg", "full": true },
+      { "src": "/images/uploads/investor-amazon-2.jpg", "full": true },
+      { "src": "/images/uploads/investor-amazon-3.jpg", "full": false },
+      { "src": "/images/uploads/investor-amazon-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "Project Overview",
+      "heading": "Growth that funding depends on.",
+      "paragraphs": [
+        "This investor-backed brand needed one thing to secure its next round of funding: sales growth. When we onboarded the account, it was buying its sales at a loss, with ad spend higher than ad sales and only 32% of revenue coming from organic search.",
+        "The product’s strong margins allowed a 70% ACOS ceiling and a 30% TACOS target, but growth still had to stand up to investor scrutiny. We worked on the three things that decide whether a shopper buys: how the listing ranks, how it looks, and what it costs."
+      ],
+      "bullets": []
+    },
+    "approach": {
+      "label": "The Challenges",
+      "heading": "Every ad dollar returned less than a dollar.",
+      "paragraphs": [
+        "The account wasn’t just inefficient, it was losing money on every paid sale. Spending more would only have deepened the loss."
+      ],
+      "bullets": [
+        "ACOS at 101%, with ad spend exceeding ad sales",
+        "TACOS at 68.5%, more than double the 30% target",
+        "Only 32% of revenue coming from organic sales",
+        "A higher-priced product where buyers need confidence before they commit"
+      ]
+    },
+    "design": {
+      "label": "Wins",
+      "heading": "The Investor-Ready Growth Build",
+      "bullets": [
+        "Average monthly sales up 62%, with every managed month above the onboarding baseline and a peak month up 163% to $121K",
+        "ACOS cut from 101% to 53%, under the 70% target every month after onboarding",
+        "TACOS down from 68.5% to 21.1%, under the 30% target for the last three months",
+        "Average monthly organic sales up 173%, with organic share rising from 32% to 60.5% of revenue",
+        "Ad spend down 66% while total sales stayed higher, with ad cost per order cut 71%",
+        "$62.4K in ad spend saved compared with onboarding-month efficiency, plus pricing tests that showed how price drives volume and revenue"
+      ],
+      "closing": "The goal was simple: turn paid sales at a loss into growth built on organic demand."
+    },
+    "change": {
+      "label": "STRATEGIES",
+      "before": [
+        "Buying sales at a loss",
+        "A mostly paid account",
+        "No data on how price affects sales"
+      ],
+      "after": [
+        "Every ad dollar returning $1.81 in ad sales",
+        "A majority-organic account built to keep growing",
+        "Tested price points showing the volume vs. revenue trade-off"
+      ]
+    },
+    "otherWorks": [
+      "amazon-account-turnaround",
+      "amazon-scaling-account"
+    ]
+  },
+  {
+    "slug": "amazon-inventory-constrained-account",
+    "route": "/casestudy/amazon-ppc-management-services/amazon-inventory-constrained-account",
+    "metaTitle": "Amazon Inventory-Constrained Account | Amazon PPC Case Study",
+    "title": "Amazon Inventory-Constrained Account",
+    "client": "Amazon Brand (Confidential)",
+    "category": "Amazon PPC",
+    "services": [
+      "Account Structure Overhaul",
+      "Listing SEO & Consolidation",
+      "Image Revamp",
+      "A+ Premium Content",
+      "Brand Store",
+      "Amazon PPC Management"
+    ],
+    "subtitle": "Growing through inventory constraints: +48% sales and a 5.65 ROAS.",
+    "year": "26",
+    "cardImage": "/images/uploads/amazon-inventory-card.jpg",
+    "heroImage": "/images/uploads/amazon-inventory-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/amazon-inventory-1.jpg", "full": true },
+      { "src": "/images/uploads/amazon-inventory-2.jpg", "full": true },
+      { "src": "/images/uploads/amazon-inventory-3.jpg", "full": false },
+      { "src": "/images/uploads/amazon-inventory-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "Project Overview",
+      "heading": "Making every available unit count.",
+      "paragraphs": [
+        "When we onboarded this Amazon account, advertising was barely working. Ads contributed just 9% of monthly sales, and each ad dollar returned only $1.65. On top of that, the client faced major inventory problems throughout the engagement, which limited how hard campaigns could push and suppressed organic rank whenever products went out of stock.",
+        "With stock unreliable, we rebuilt the account from the foundation up so every available unit had the best chance to sell at an efficient cost."
+      ],
+      "bullets": []
+    },
+    "approach": {
+      "label": "The Challenges",
+      "heading": "Weak ads and unreliable stock.",
+      "paragraphs": [
+        "The campaigns weren’t converting, and inventory gaps made steady growth even harder. Out-of-stock products lost rank, and the account structure couldn’t react quickly enough to shift budget."
+      ],
+      "bullets": [
+        "ACOS at 60.6%, well above the 40% target",
+        "Ads driving only 9% of total sales",
+        "Ongoing stock problems limiting campaign reach and suppressing organic rank",
+        "Fragmented listings splitting reviews, sales history, and ranking strength across duplicate pages"
+      ]
+    },
+    "design": {
+      "label": "Wins",
+      "heading": "The Full Account Rebuild",
+      "bullets": [
+        "ACOS cut from 60.6% to 17.7%, well under the 40% target, and ROAS more than tripled to 5.65",
+        "Total sales up 47.7% and orders up 39.1%, delivering the account’s best month despite inventory constraints",
+        "Ad sales grew 389% on 43% more ad spend, with ads growing from 9% to 30% of revenue",
+        "TACOS held under the 15% target every month, finishing at 5.4%",
+        "Organic sales reached their highest month, up 13.1% from onboarding",
+        "46.7% less ad spend compared with onboarding-month efficiency, and a new A+ Premium and Brand Store experience in place"
+      ],
+      "closing": "The goal was simple: when stock is limited, make every sale count."
+    },
+    "change": {
+      "label": "STRATEGIES",
+      "before": [
+        "A structure that couldn’t react to stock changes",
+        "Duplicate listings splitting ranking strength",
+        "Basic listing content"
+      ],
+      "after": [
+        "Campaigns controlled by product and intent, shifting spend to in-stock products",
+        "Consolidated listings with rebuilt SEO",
+        "Revamped images, A+ Premium content, and a new Brand Store"
+      ]
+    },
+    "otherWorks": [
+      "amazon-account-turnaround",
+      "amazon-scaling-account"
+    ]
+  },
+  {
+    "slug": "amazon-self-managed-account",
+    "route": "/casestudy/amazon-ppc-management-services/amazon-self-managed-account",
+    "metaTitle": "Amazon Self-Managed Account | Amazon PPC Case Study",
+    "title": "Amazon Self-Managed Account",
+    "client": "Amazon Brand (Confidential)",
+    "category": "Amazon PPC",
+    "services": [
+      "Campaign Structure Rebuild",
+      "Listing SEO",
+      "Main Image Testing",
+      "Amazon PPC Management"
+    ],
+    "subtitle": "He said 70% ACOS was the floor. We hit 37% in two months.",
+    "year": "26",
+    "cardImage": "/images/uploads/amazon-selfmanaged-card.jpg",
+    "heroImage": "/images/uploads/amazon-selfmanaged-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/amazon-selfmanaged-1.jpg", "full": true },
+      { "src": "/images/uploads/amazon-selfmanaged-2.jpg", "full": true },
+      { "src": "/images/uploads/amazon-selfmanaged-3.jpg", "full": false },
+      { "src": "/images/uploads/amazon-selfmanaged-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "Project Overview",
+      "heading": "Two years of “tried everything.”",
+      "paragraphs": [
+        "This seller had managed his own Amazon account for two years and came to us with a challenge. His view was firm: his ACOS could not go below 70%, because he had already tried everything.",
+        "More than half of all revenue was going back into advertising, and only 28% of sales were organic. While he had spent two years adjusting bids and budgets, we looked at what sits underneath them: how the campaigns were built, and whether the listing converted the clicks it paid for."
+      ],
+      "bullets": []
+    },
+    "approach": {
+      "label": "The Challenges",
+      "heading": "Paying more than half of revenue for ads.",
+      "paragraphs": [
+        "The account was locked into high costs, and bid changes alone weren’t moving it. Midway through the engagement, a listing deactivation and a stock shortage added a second challenge outside advertising."
+      ],
+      "bullets": [
+        "ACOS at 72.8%, far above the 50% target",
+        "TACOS at 52.2%, against a 25% target",
+        "Only 28% of sales coming from organic search",
+        "The main listing deactivated over a certification issue, while remaining listings ran on very low inventory"
+      ]
+    },
+    "design": {
+      "label": "Wins",
+      "heading": "The 70% Floor Breakthrough",
+      "bullets": [
+        "ACOS cut from 72.8% to 37.2% in two months, nearly half the seller’s supposed floor, and ROAS up 96%",
+        "Total sales up 115% and orders up 109% in the first managed month, the best month of the year",
+        "TACOS cut by more than half, to 25.8%, within one point of target, with organic sales up 106%",
+        "Ad cost per order down 45%",
+        "ACOS stayed under 70% every month, even with the best-selling listing offline",
+        "Once the listing was reinstated, sales rebounded 136% in a single month, and $21.1K in ad spend was saved across six months"
+      ],
+      "closing": "The goal was simple: fix what sits underneath the bids."
+    },
+    "change": {
+      "label": "STRATEGIES",
+      "before": [
+        "Two years of bid and budget tweaks",
+        "Budget flowing to terms that didn’t convert",
+        "A listing that didn’t convert paid clicks"
+      ],
+      "after": [
+        "A rebuilt structure controlled by product and intent",
+        "Proven traffic separated from research and discovery traffic",
+        "Rebuilt SEO and tested main images built to win the click"
+      ]
+    },
+    "otherWorks": [
+      "amazon-account-turnaround",
+      "amazon-scaling-account"
+    ]
+  },
+  {
+    "slug": "amazon-2800-product-catalog",
+    "route": "/casestudy/amazon-ppc-management-services/amazon-2800-product-catalog",
+    "metaTitle": "Amazon 2,800-Product Catalog | Amazon PPC Case Study",
+    "title": "Amazon 2,800-Product Catalog",
+    "client": "Amazon Brand (Confidential)",
+    "category": "Amazon PPC",
+    "services": [
+      "Campaign Restructure",
+      "Catalog-Wide Campaign Build",
+      "Bid & Budget Management",
+      "Amazon PPC Management"
+    ],
+    "subtitle": "Waking up a 2,800-product catalog: +154% ad sales at a stable ACOS.",
+    "year": "26",
+    "cardImage": "/images/uploads/amazon-catalog-card.jpg",
+    "heroImage": "/images/uploads/amazon-catalog-hero.jpg",
+    "gallery": [
+      { "src": "/images/uploads/amazon-catalog-1.jpg", "full": true },
+      { "src": "/images/uploads/amazon-catalog-2.jpg", "full": true },
+      { "src": "/images/uploads/amazon-catalog-3.jpg", "full": false },
+      { "src": "/images/uploads/amazon-catalog-4.jpg", "full": false }
+    ],
+    "challenge": {
+      "label": "Project Overview",
+      "heading": "One campaign, 2,800 products.",
+      "paragraphs": [
+        "This Amazon brand sells a large catalog of about 2,800 low-priced products, with average sales per order item under $10, and was doing more than $339,000 a month. Its advertising ran on a single catch-all campaign that was profitable but couldn’t scale.",
+        "The brief had two parts: grow sales, and do it without letting ACOS rise, since margins this thin leave little room. We replaced the catch-all setup with a structured account built to reach the wider catalog."
+      ],
+      "bullets": []
+    },
+    "approach": {
+      "label": "The Challenges",
+      "heading": "Profitable, but stuck.",
+      "paragraphs": [
+        "The single campaign kept ACOS low, but most of the catalog never got a chance to sell. With 2,800 products competing for one budget, spend piled onto a small group of winners."
+      ],
+      "bullets": [
+        "One catch-all campaign managing 2,800 products",
+        "Spend concentrated on a handful of ASINs while most of the catalog sat idle",
+        "Ad sales flat at about $19,400 a month, just 5.7% of revenue",
+        "Thin margins that left no room for ACOS to rise as the account scaled"
+      ]
+    },
+    "design": {
+      "label": "Wins",
+      "heading": "The Catalog Activation Build",
+      "bullets": [
+        "Ad sales up 154% at peak and still 80% higher by the fourth month",
+        "$77.7K in additional ad sales over four months compared with the onboarding run rate",
+        "ACOS held stable at 14.1% blended (vs. 13.9% before), reaching a low of 12.0%",
+        "TACOS under the 2% target every month",
+        "Clicks up 135% as new campaigns reached products the old setup never touched",
+        "ROAS up 16% to 8.36, with ad sales per click up 12.5%"
+      ],
+      "closing": "The goal was simple: grow the catalog without growing the cost of each sale."
+    },
+    "change": {
+      "label": "STRATEGIES",
+      "before": [
+        "One catch-all campaign",
+        "Spend stuck on a few winners",
+        "Most of the catalog invisible"
+      ],
+      "after": [
+        "A structured account with separate products, keywords, and budgets",
+        "Dedicated budgets and bid control for proven products",
+        "New campaigns giving visibility to the wider catalog"
+      ]
+    },
+    "otherWorks": [
+      "amazon-account-turnaround",
+      "amazon-scaling-account"
+    ]
+  },
   // =========================================================================
   // 2. META ADS (Test Data)
   // =========================================================================

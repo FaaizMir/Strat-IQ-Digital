@@ -149,7 +149,7 @@ export const projectServices = [
     description:
       "We manage, optimize, and grow your Amazon advertising for maximum return.",
     image: "/images/uploads/Amazon PPC.webp",
-    projects: ["pentagon-games", "raysz", "harrier-hardware", "cleverman"],
+    projects: ["amazon-account-turnaround", "amazon-scaling-account", "amazon-off-season-account", "amazon-competitive-niche-account", "investor-backed-amazon-brand", "amazon-inventory-constrained-account", "amazon-self-managed-account", "amazon-2800-product-catalog",],
   },
   {
     slug: "meta-instagram-ads-services",
