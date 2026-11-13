@@ -20,7 +20,7 @@ export default function Footer() {
           {/* Eyebrow Label */}
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "16px" }}>
             <span style={{ fontSize: "12px", letterSpacing: "2px", color: "#a1a1aa", fontFamily: "monospace", textTransform: "uppercase" }}>
-              // GET STARTED
+              GET STARTED
             </span>
           </div>
 
