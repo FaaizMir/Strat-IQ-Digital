@@ -2660,9 +2660,10 @@ blockquote {
 .nav-menu.first {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-  flex-flow: row;
+  /* flex-flow: row; */
+  gap: 80px;
   order: -1;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   width: 100%;
 }
@@ -5061,8 +5062,8 @@ blockquote {
 }
 
 .logo-image {
-  width: 115px;
-  height: 100%;
+  width: 150px;
+  height: 110%;
 }
 
 .logo-image._01 {

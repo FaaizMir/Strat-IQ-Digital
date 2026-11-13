@@ -20,13 +20,13 @@ export const projects = [
     ],
     "subtitle": "From 54% to 34% ACOS: turning a declining Amazon account around in five months.",
     "year": "26",
-    "cardImage": "/images/uploads/amazon-turnaround-card.jpg",
-    "heroImage": "/images/uploads/amazon-turnaround-hero.jpg",
+    "cardImage": "/images/uploads/amazingdogtreatsimg/2nd.webp",
+    // "heroImage": "/images/uploads/amazon-turnaround-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/amazon-turnaround-1.jpg", "full": true },
-      { "src": "/images/uploads/amazon-turnaround-2.jpg", "full": true },
-      { "src": "/images/uploads/amazon-turnaround-3.jpg", "full": false },
-      { "src": "/images/uploads/amazon-turnaround-4.jpg", "full": false }
+      { "src": "/images/uploads/amazingdogtreatsimg/2nd.webp", "full": true },
+      { "src": "/images/uploads/amazingdogtreatsimg/6th.webp", "full": true },
+      { "src": "/images/uploads/amazingdogtreatsimg/1st-before.webp", "full": false },
+      { "src": "/images/uploads/amazingdogtreatsimg/1st-after.webp", "full": false }
     ],
     "challenge": {
       "label": "Project Overview",
@@ -97,13 +97,13 @@ export const projects = [
     ],
     "subtitle": "Scale with profitability: 32% more ad sales in two months, inside every margin target.",
     "year": "26",
-    "cardImage": "/images/uploads/amazon-scaling-card.jpg",
-    "heroImage": "/images/uploads/amazon-scaling-hero.jpg",
+    "cardImage": "/images/uploads/amazingjaliaimages/6th image.webp",
+    // "heroImage": "/images/uploads/amazon-scaling-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/amazon-scaling-1.jpg", "full": true },
-      { "src": "/images/uploads/amazon-scaling-2.jpg", "full": true },
-      { "src": "/images/uploads/amazon-scaling-3.jpg", "full": false },
-      { "src": "/images/uploads/amazon-scaling-4.jpg", "full": false }
+      { "src": "/images/uploads/amazingjaliaimages/6th image.webp", "full": true },
+      { "src": "/images/uploads/amazingjaliaimages/6th image.webp", "full": true },
+      { "src": "/images/uploads/amazingjaliaimages/1st before.webp", "full": false },
+      { "src": "/images/uploads/amazingjaliaimages/1st after.webp", "full": false }
     ],
     "challenge": {
       "label": "Project Overview",
@@ -174,13 +174,13 @@ export const projects = [
     ],
     "subtitle": "Same budget, better returns: cutting ACOS 27% in the off-season.",
     "year": "26",
-    "cardImage": "/images/uploads/amazon-offseason-card.jpg",
-    "heroImage": "/images/uploads/amazon-offseason-hero.jpg",
+    "cardImage": "/images/uploads/amazonharrierhardwareimages/5th (1).webp",
+    // "heroImage": "/images/uploads/amazon-offseason-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/amazon-offseason-1.jpg", "full": true },
-      { "src": "/images/uploads/amazon-offseason-2.jpg", "full": true },
-      { "src": "/images/uploads/amazon-offseason-3.jpg", "full": false },
-      { "src": "/images/uploads/amazon-offseason-4.jpg", "full": false }
+      { "src": "/images/uploads/amazonharrierhardwareimages/5th (1).webp", "full": true },
+      { "src": "images/uploads/amazonharrierhardwareimages/4th (1).webp", "full": true },
+      { "src": "/images/uploads/amazonharrierhardwareimages/1st before.webp", "full": false },
+      { "src": "/images/uploads/amazonharrierhardwareimages/1st after.webp", "full": false }
     ],
     "challenge": {
       "label": "Project Overview",
@@ -250,13 +250,13 @@ export const projects = [
     ],
     "subtitle": "From ready to quit Amazon to target ACOS in a hyper-competitive niche.",
     "year": "26",
-    "cardImage": "/images/uploads/amazon-competitive-card.jpg",
-    "heroImage": "/images/uploads/amazon-competitive-hero.jpg",
+    "cardImage": "/images/uploads/amazonikonicalimages/5th (2).webp",
+    // "heroImage": "/images/uploads/amazon-competitive-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/amazon-competitive-1.jpg", "full": true },
-      { "src": "/images/uploads/amazon-competitive-2.jpg", "full": true },
-      { "src": "/images/uploads/amazon-competitive-3.jpg", "full": false },
-      { "src": "/images/uploads/amazon-competitive-4.jpg", "full": false }
+      { "src": "/images/uploads/amazonikonicalimages/5th (2).webp", "full": true },
+      { "src": "/uploads/amazonikonicalimages/3rd (1).webp", "full": true },
+      { "src": "/images/uploads/amazonikonicalimages/1st before.webp", "full": false },
+      { "src": "/images/uploads/amazonikonicalimages/1st after.webp", "full": false }
     ],
     "challenge": {
       "label": "Project Overview",

@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { getGsapWithPlugins, SplitText } from "@/lib/gsap";
 import { services } from "@/data/services";
+import Image from "next/image";
 
 const bySlug = (slug) => services.find((s) => s.slug === slug)?.href || "#";
 
@@ -106,7 +107,7 @@ export default function Hero() {
                   </div>
                 ))}
               </div>
-              <h1
+              {/* <h1
                 id="w-node-_1ab594ed-ade0-24e2-823b-f8077e784ccd-86e38a65"
                 ref={headingRef}
                 className="h1 funnel-bold"
@@ -130,6 +131,31 @@ export default function Hero() {
                 >
                   Digital
                 </span>
+              </h1> */}
+              <h1
+                id="w-node-_1ab594ed-ade0-24e2-823b-f8077e784ccd-86e38a65"
+                ref={headingRef}
+                className="h1 funnel-bold"
+                style={{
+                  fontSize: "clamp(3.2rem, 8vw, 6rem)", // Reduced font size scale
+                  lineHeight: 0.95,
+                  marginTop: "1.2rem",
+                  maxWidth: "min(90vw, 55rem)",
+                }}
+              >
+                Strat IQ
+                <br />
+                <span
+                  style={{
+                    display: "block",
+                    fontSize: "inherit",
+                    marginTop: "0.1em",
+                    fontFamily: "'Funnel Display', sans-serif",
+                    fontWeight: 700,
+                  }}
+                >
+                  Digital
+                </span>
               </h1>
             </div>
           </div>
@@ -138,7 +164,7 @@ export default function Hero() {
           <div className="logo-hero">
             <div id="w-node-b86aa070-378b-63ce-6c96-4a4e55445ce8-86e38a65" className="service-flex-small _01">
               <a id="w-node-cfa6b7f9-4425-9fa6-b4f3-9f335bef16b7-5bef16b7" href="/contact" className="contact-team w-inline-block">
-                <div className="team-photo">
+                {/* <div className="team-photo">
                   <img
                     loading="lazy"
                     // src="/images/webflow/69a026dc6f23dbb1eca11356_team-2.png"
@@ -146,13 +172,30 @@ export default function Hero() {
                     alt=""
                     className="img-team"
                   />
-                </div>
+                </div> */}
                 <div className="founder-flex">
                   <div className="founder-overflow">
                     <div className="smaller-text _01">Let &apos;s Talk</div>
                   </div>
                   <div className="small-flex">
-                    <div>Nouman Rao</div>
+                    <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                      <span>Nouman Rao</span>
+                      <a
+                        href="https://ca.linkedin.com/in/rao-nouman-zahid-8980648a"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Nouman Rao LinkedIn Profile"
+                        style={{ display: "inline-flex", alignItems: "center" }}
+                      >
+                        <Image
+                          width={14}
+                          height={14}
+                          alt="LinkedIn"
+                          src="/images/webflow/69a04f1a7e0ba6af281734f3_li.webp"
+                          className="social-image"
+                        />
+                      </a>
+                    </div>
                     <div className="smaller-text">StratIQ CEO</div>
                   </div>
                 </div>

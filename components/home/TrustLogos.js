@@ -228,7 +228,7 @@ export default function TrustLogos() {
     if (item.type === "logo") {
       return (
         <div key={index} className="logo-content marquee-item">
-          <div className="logo-wrapper-card">
+          <div>
             <img
               src={item.src}
               loading="lazy"
@@ -243,7 +243,7 @@ export default function TrustLogos() {
 
     return (
       <div key={index} className="logo-content marquee-item">
-        <div className="logo-wrapper-card">
+        <div>
           <div className="testimonials-card hide-mobile">
             <div className="testimonials-top">
               <div className="top-text small-tessti">&quot;{item.quote}&quot;</div>
@@ -264,9 +264,9 @@ export default function TrustLogos() {
               </div>
             </div>
           </div>
-          <div className="absolute-bottom">
+          {/* <div className="absolute-bottom">
             <div className="clients-small-blog">Success Stories</div>
-          </div>
+          </div> */}
           <img
             src={item.logoSrc}
             loading="lazy"

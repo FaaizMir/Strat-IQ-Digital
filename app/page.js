@@ -19,14 +19,15 @@ export default function Home() {
         <TrustLogos />
         {/* <AboutSplit /> */}
       </div>
+      <Services />
       <CaseStudies />
       {/* <FeaturedWork /> */}
-      <AboutSplit />
-      <Services />
+      {/* <AboutSplit /> */}
+
       <Testimonials />
       <VideoShowreel />
       <WhyStratIQ />
-      <Pricing />
+      {/* <Pricing /> */}
       <BlogInsights />
       {/* <IntroLoader /> */}
     </>

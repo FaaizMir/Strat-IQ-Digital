@@ -36,7 +36,7 @@ export default function VideoShowreel() {
             </div>
             <div>
               <a
-                href="https://www.youtube.com/watch?v=677IU_NErto"
+                // href="https://www.youtube.com/watch?v=677IU_NErto"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="video-link w-inline-block"
