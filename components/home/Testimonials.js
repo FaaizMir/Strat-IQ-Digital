@@ -365,7 +365,7 @@ export default function Testimonials() {
             }
           }
         `}</style>
-        <div ref={metricsRef} className="stiq-metrics-wrapper">
+        {/* <div ref={metricsRef} className="stiq-metrics-wrapper">
           <div className="stiq-metrics-row">
             {metricsData.map((m) => (
               <div key={m.label}>
@@ -392,7 +392,7 @@ export default function Testimonials() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

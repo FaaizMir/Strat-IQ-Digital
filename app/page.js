@@ -10,19 +10,23 @@ import Pricing from "@/components/home/Pricing";
 import BlogInsights from "@/components/home/BlogInsights";
 // import IntroLoader from "@/components/home/IntroLoader";
 import CaseStudies from "@/components/CaseStudies/CaseStudies";
+import MetricsCounter from "@/components/home/MetricsCounter";
 
 export default function Home() {
   return (
     <>
       <div className="main-content">
         <Hero />
-        <TrustLogos />
+        <AboutSplit />
+        <MetricsCounter />
+
         {/* <AboutSplit /> */}
       </div>
       <Services />
-      <CaseStudies />
+      <TrustLogos />
+
       {/* <FeaturedWork /> */}
-      {/* <AboutSplit /> */}
+
 
       <Testimonials />
       <VideoShowreel />

@@ -326,13 +326,13 @@ export const projects = [
     ],
     "subtitle": "Delivering the sales growth investors needed: +62% average monthly revenue and a $121K peak month.",
     "year": "26",
-    "cardImage": "/images/uploads/investor-amazon-card.jpg",
-    "heroImage": "/images/uploads/investor-amazon-hero.jpg",
+    "cardImage": "/images/uploads/amazonclearlice/5th (5).webp",
+    // "heroImage": "/images/uploads/investor-amazon-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/investor-amazon-1.jpg", "full": true },
-      { "src": "/images/uploads/investor-amazon-2.jpg", "full": true },
-      { "src": "/images/uploads/investor-amazon-3.jpg", "full": false },
-      { "src": "/images/uploads/investor-amazon-4.jpg", "full": false }
+      { "src": "/images/uploads/amazonclearlice/5th (5).webp", "full": true },
+      { "src": "/images/uploads/amazonclearlice/7th.webp", "full": true },
+      { "src": "/images/uploads/amazonclearlice/1st before.webp", "full": false },
+      { "src": "/images/uploads/amazonclearlice/1st after.webp", "full": false }
     ],
     "challenge": {
       "label": "Project Overview",
@@ -404,13 +404,13 @@ export const projects = [
     ],
     "subtitle": "Growing through inventory constraints: +48% sales and a 5.65 ROAS.",
     "year": "26",
-    "cardImage": "/images/uploads/amazon-inventory-card.jpg",
-    "heroImage": "/images/uploads/amazon-inventory-hero.jpg",
+    "cardImage": "/images/uploads/amazonescaperoom/7thc.webp",
+    // "heroImage": "/images/uploads/amazon-inventory-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/amazon-inventory-1.jpg", "full": true },
-      { "src": "/images/uploads/amazon-inventory-2.jpg", "full": true },
-      { "src": "/images/uploads/amazon-inventory-3.jpg", "full": false },
-      { "src": "/images/uploads/amazon-inventory-4.jpg", "full": false }
+      { "src": "/images/uploads/amazonescaperoom/7thc.webp", "full": true },
+      { "src": "/images/uploads/amazonescaperoom/3rd-b.webp", "full": true },
+      { "src": "/images/uploads/amazonescaperoom/1st before.webp", "full": false },
+      { "src": "/images/uploads/amazonescaperoom/1st after.webp", "full": false }
     ],
     "challenge": {
       "label": "Project Overview",
@@ -480,13 +480,13 @@ export const projects = [
     ],
     "subtitle": "He said 70% ACOS was the floor. We hit 37% in two months.",
     "year": "26",
-    "cardImage": "/images/uploads/amazon-selfmanaged-card.jpg",
-    "heroImage": "/images/uploads/amazon-selfmanaged-hero.jpg",
+    "cardImage": "/images/uploads/amazonmorfose/5th Image.webp",
+    // "heroImage": "/images/uploads/amazon-selfmanaged-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/amazon-selfmanaged-1.jpg", "full": true },
-      { "src": "/images/uploads/amazon-selfmanaged-2.jpg", "full": true },
-      { "src": "/images/uploads/amazon-selfmanaged-3.jpg", "full": false },
-      { "src": "/images/uploads/amazon-selfmanaged-4.jpg", "full": false }
+      { "src": "/images/uploads/amazonmorfose/5th Image.webp", "full": true },
+      { "src": "/images/uploads/amazonmorfose/2nd (3).webp", "full": true },
+      { "src": "/images/uploads/amazonmorfose/1st before.webp", "full": false },
+      { "src": "/images/uploads/amazonmorfose/1st after.webp", "full": false }
     ],
     "challenge": {
       "label": "Project Overview",
@@ -556,13 +556,13 @@ export const projects = [
     ],
     "subtitle": "Waking up a 2,800-product catalog: +154% ad sales at a stable ACOS.",
     "year": "26",
-    "cardImage": "/images/uploads/amazon-catalog-card.jpg",
-    "heroImage": "/images/uploads/amazon-catalog-hero.jpg",
+    "cardImage": "/images/uploads/amazonadvanages/8th.webp",
+    // "heroImage": "/images/uploads/amazon-catalog-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/amazon-catalog-1.jpg", "full": true },
-      { "src": "/images/uploads/amazon-catalog-2.jpg", "full": true },
-      { "src": "/images/uploads/amazon-catalog-3.jpg", "full": false },
-      { "src": "/images/uploads/amazon-catalog-4.jpg", "full": false }
+      { "src": "/images/uploads/amazonadvanages/8th.webp", "full": true },
+      { "src": "/images/uploads/amazonadvanages/5th (3).webp", "full": true },
+      { "src": "/images/uploads/amazonadvanages/1st before.webp", "full": false },
+      { "src": "/images/uploads/amazonadvanages/1st after.webp", "full": false }
     ],
     "challenge": {
       "label": "Project Overview",
