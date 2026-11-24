@@ -1526,13 +1526,13 @@ export const projects = [
     ],
     "subtitle": "Built to be found, and recommended. Positioning a top LA apartment broker at the top of Google Search, Google Maps, and AI tools like ChatGPT.",
     "year": "26",
-    "cardImage": "/images/uploads/max-berger-seo-card.jpg",
-    "heroImage": "/images/uploads/max-berger-seo-hero.jpg",
+    "cardImage": "/images/uploads/SEO Projects/max-berger-feature-image.jpg",
+    // "heroImage": "/images/uploads/max-berger-seo-hero.jpg",
     "gallery": [
       { "src": "/images/uploads/max-berger-seo-1.jpg", "full": true },
-      { "src": "/images/uploads/max-berger-seo-2.jpg", "full": true },
-      { "src": "/images/uploads/max-berger-seo-3.jpg", "full": false },
-      { "src": "/images/uploads/max-berger-seo-4.jpg", "full": false }
+      { "src": "/images/uploads/SEO Projects/max-berger-image-2.jpg", "full": true },
+      { "src": "/images/uploads/SEO Projects/max-berger-image-3.jpg", "full": false },
+      { "src": "/images/uploads/SEO Projects/max-berger-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -1606,13 +1606,13 @@ export const projects = [
     ],
     "subtitle": "Turning a massive powersports catalog with no organic foundation into a site that ranks, earns clicks, and sells.",
     "year": "26",
-    "cardImage": "/images/uploads/perf-moto-seo-card.jpg",
-    "heroImage": "/images/uploads/perf-moto-seo-hero.jpg",
+    "cardImage": "/images/uploads/SEO Projects/per-moto-feature-image.jpg",
+    // "heroImage": "/images/uploads/perf-moto-seo-hero.jpg",
     "gallery": [
       { "src": "/images/uploads/perf-moto-seo-1.jpg", "full": true },
-      { "src": "/images/uploads/perf-moto-seo-2.jpg", "full": true },
-      { "src": "/images/uploads/perf-moto-seo-3.jpg", "full": false },
-      { "src": "/images/uploads/perf-moto-seo-4.jpg", "full": false }
+      { "src": "/images/uploads/SEO Projects/perf-moto-image-2.jpg", "full": true },
+      { "src": "/images/uploads/SEO Projects/perf-moto-image-3.jpg", "full": false },
+      { "src": "/images/uploads/SEO Projects/perf-moto-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -1687,13 +1687,13 @@ export const projects = [
     ],
     "subtitle": "A proven product with no search history on a fresh domain. Executing a seamless platform migration to Shopify while driving a 9.6x increase in organic clicks.",
     "year": "26",
-    "cardImage": "/images/uploads/advanage-seo-card.jpg",
-    "heroImage": "/images/uploads/advanage-seo-hero.jpg",
+    "cardImage": "/images/uploads/SEO Projects/advanage-feature-image.jpg",
+    // "heroImage": "/images/uploads/advanage-seo-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/advanage-seo-1.jpg", "full": true },
-      { "src": "/images/uploads/advanage-seo-2.jpg", "full": true },
-      { "src": "/images/uploads/advanage-seo-3.jpg", "full": false },
-      { "src": "/images/uploads/advanage-seo-4.jpg", "full": false }
+      { "src": "/images/uploads/SEO Projects/advanage-feature-image.jpg", "full": true },
+      { "src": "/images/uploads/SEO Projects/advanage-image-2.jpg", "full": true },
+      { "src": "/images/uploads/SEO Projects/advanage-image-3.jpg", "full": false },
+      { "src": "/images/uploads/SEO Projects/advanage-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
@@ -1768,13 +1768,13 @@ export const projects = [
     ],
     "subtitle": "Years of rankings, one risky move. Protecting search authority through a 23,000+ SKU BigCommerce to Shopify migration and expanding organic revenue.",
     "year": "26",
-    "cardImage": "/images/uploads/lanes-seo-card.jpg",
-    "heroImage": "/images/uploads/lanes-seo-hero.jpg",
+    "cardImage": "/images/uploads/SEO Projects/lanes-car-feature-image.jpg",
+    // "heroImage": "/images/uploads/lanes-seo-hero.jpg",
     "gallery": [
-      { "src": "/images/uploads/lanes-seo-1.jpg", "full": true },
-      { "src": "/images/uploads/lanes-seo-2.jpg", "full": true },
-      { "src": "/images/uploads/lanes-seo-3.jpg", "full": false },
-      { "src": "/images/uploads/lanes-seo-4.jpg", "full": false }
+      { "src": "/images/uploads/SEO Projects/lanes-car-feature-image.jpg", "full": true },
+      { "src": "/images/uploads/SEO Projects/lanes-car-image-3.jpg", "full": true },
+      { "src": "/images/uploads/SEO Projects/lanes-car-image-3.jpg", "full": false },
+      { "src": "/images/uploads/SEO Projects/lanes-car-image-4.jpg", "full": false }
     ],
     "challenge": {
       "label": "The Challenges",
