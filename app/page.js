@@ -23,6 +23,7 @@ export default function Home() {
         {/* <AboutSplit /> */}
       </div>
       <Services />
+      <CaseStudies />
       <TrustLogos />
 
       {/* <FeaturedWork /> */}
